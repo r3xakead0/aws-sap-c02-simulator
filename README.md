@@ -105,6 +105,32 @@ npx wrangler pages project create aws-sap-c02-simulator --production-branch main
 npx wrangler pages deploy . --project-name aws-sap-c02-simulator --commit-dirty=true
 ```
 
+## CI/CD with GitHub Actions
+
+This repository includes an automated deployment pipeline for Cloudflare Pages.
+
+- Workflow file: `.github/workflows/deploy.yml`
+- Trigger: push to `main`
+- Manual trigger: `workflow_dispatch`
+- Deploy command:
+
+```bash
+npx wrangler pages deploy . --project-name aws-sap-c02-simulator
+```
+
+### Required GitHub Secrets
+
+Configure these secrets in your repository settings (`Settings > Secrets and variables > Actions`):
+
+- `CLOUDFLARE_API_TOKEN`
+- `CLOUDFLARE_ACCOUNT_ID`
+
+### Verify the pipeline
+
+1. Push a change to `main`.
+2. Open the `Actions` tab in GitHub and check the `Deploy to Cloudflare Pages` workflow run.
+3. Confirm the updated version is available on your Cloudflare Pages site.
+
 ## Notes
 
 - This repo may contain image/hotspot questions that require additional dataset curation.
