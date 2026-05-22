@@ -617,7 +617,6 @@ async function loadQuestionFile(path) {
 async function loadQuestionsSequentially() {
   const loaded = [];
   const MAX_TOPICS = 50;
-  const MAX_QUESTIONS_PER_TOPIC = 400;
   const LEADING_GAP_LIMIT = 30;
   const TRAILING_GAP_LIMIT = 15;
   let emptyTopicStreak = 0;
@@ -628,7 +627,8 @@ async function loadQuestionsSequentially() {
     let trailingMisses = 0;
     let foundAnyInTopic = false;
 
-    for (let question = 1; question <= MAX_QUESTIONS_PER_TOPIC; question += 1) {
+    let question = 1;
+    while (true) {
       const path = `questions/${topic}-${question}.json`;
       const data = await loadQuestionFile(path);
 
@@ -644,6 +644,7 @@ async function loadQuestionsSequentially() {
             break;
           }
         }
+        question += 1;
         continue;
       }
 
@@ -654,6 +655,7 @@ async function loadQuestionsSequentially() {
       foundAnyInTopic = true;
       trailingMisses = 0;
       loadedInTopic.push(data);
+      question += 1;
     }
 
     if (loadedInTopic.length === 0) {
