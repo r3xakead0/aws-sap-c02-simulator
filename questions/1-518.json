@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/143035-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2024-06-28T23:27:00",
+  "number": 518,
+  "topic": 1,
+  "question": "A company has deployed applications to thousands of Amazon EC2 instances in an AWS account. A security audit discovers that several unencrypted Amazon Elastic Block Store (Amazon EBS) volumes are attached to the EC2 instances. The company’s security policy requires the EBS volumes to be encrypted.\nThe company needs to implement an automated solution to encrypt the EBS volumes. The solution also must prevent development teams from creating unencrypted EBS volumes.\nWhich solution will meet these requirements?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Configure the AWS Config managed rule that identifies unencrypted EBS volumes. Configure an automatic remediation action. Associate an AWS Systems Manager Automation runbook that includes the steps to create a new encrypted EBS volume. Create an AWS Key Management Service (AWS KMS) customer managed key. In the key policy, include a statement to deny the creation of unencrypted EBS volumes."
+    },
+    {
+      "key": "B",
+      "text": "Use AWS Systems Manager Fleet Manager to create a list of unencrypted EBS volumes, Create a Systems Manager Automation runbook that includes the steps to create a new encrypted EBS volume. Create an SCP to deny the creation of unencrypted EBS volumes."
+    },
+    {
+      "key": "C",
+      "text": "Use AWS Systems Manager Fleet Manager to create a list of unencrypted EBS volumes. Create a Systems Manager Automation runbook that includes the steps to create a new encrypted EBS volume. Modify the AWS account setting for EBS encryption to always encrypt new EBS volumes."
+    },
+    {
+      "key": "D",
+      "text": "Configure the AWS Config managed rule that identifies unencrypted EBS volumes. Configure an automatic remediation action. Associate an AWS Systems Manager Automation runbook that includes the steps to create a new encrypted EBS volume. Modify the AWS account setting for EBS encryption to always encrypt new EBS volumes."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "D"
+    ]
+  }
+}

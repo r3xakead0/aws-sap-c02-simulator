@@ -1,0 +1,40 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/143390-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2024-07-06T06:52:00",
+  "number": 520,
+  "topic": 1,
+  "question": "A company has several AWS Lambda functions written in Python. The functions are deployed with the .zip package deployment type. The functions use a Lambda layer that contains common libraries and packages in a .zip file. The Lambda .zip packages and Lambda layer .zip file are stored in an Amazon S3 bucket.\nThe company must implement automatic scanning of the Lambda functions and the Lambda layer to identify CVEs. A subset of the Lambda functions must receive automated code scans to detect potential data leaks and other vulnerabilities. The code scans must occur only for selected Lambda functions, not all the Lambda functions.\nWhich combination of actions will meet these requirements? (Choose three.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "ctivate Amazon Inspector. Start automated CVE scans."
+    },
+    {
+      "key": "B",
+      "text": "Activate Lambda standard scanning and Lambda code scanning in Amazon Inspector."
+    },
+    {
+      "key": "C",
+      "text": "Enable Amazon GuardDuty. Enable the Lambda Protection feature in GuardDuty."
+    },
+    {
+      "key": "D",
+      "text": "Enable scanning in the Monitor settings of the Lambda functions that need code scans."
+    },
+    {
+      "key": "E",
+      "text": "Tag Lambda functions that do not need code scans. In the tag, include a key of InspectorCodeExclusion and a value of LambdaCodeScanning."
+    },
+    {
+      "key": "F",
+      "text": "Use Amazon Inspector to scan the 3 bucket that contains the Lambda .zip packages and the Lambda layer .zip file for code scans."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "B",
+      "E"
+    ]
+  }
+}

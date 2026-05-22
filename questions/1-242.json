@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/112965-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-06-22T18:19:00",
+  "number": 242,
+  "topic": 1,
+  "question": "During an audit, a security team discovered that a development team was putting IAM user secret access keys in their code and then committing it to an AWS CodeCommit repository. The security team wants to automatically find and remediate instances of this security vulnerability.\nWhich solution will ensure that the credentials are appropriately secured automatically?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Run a script nightly using AWS Systems Manager Run Command to search for credentials on the development instances. If found, use AWS Secrets Manager to rotate the credentials"
+    },
+    {
+      "key": "B",
+      "text": "Use a scheduled AWS Lambda function to download and scan the application code from CodeCommit. If credentials are found, generate new credentials and store them in AWS KMS."
+    },
+    {
+      "key": "C",
+      "text": "onfigure Amazon Macie to scan for credentials in CodeCommit repositories. If credentials are found, trigger an AWS Lambda function to disable the credentials and notify the user."
+    },
+    {
+      "key": "D",
+      "text": "Configure a CodeCommit trigger to invoke an AWS Lambda function to scan new code submissions for credentials. If credentials are found, disable them in AWS IAM and notify the user."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "D"
+    ]
+  }
+}

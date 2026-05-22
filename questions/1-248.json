@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/113019-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-06-22T22:30:00",
+  "number": 248,
+  "topic": 1,
+  "question": "An education company is running a web application used by college students around the world. The application runs in an Amazon Elastic Container Service (Amazon ECS) cluster in an Auto Scaling group behind an Application Load Balancer (ALB). A system administrator detects a weekly spike in the number of failed login attempts, which overwhelm the application's authentication service. All the failed login attempts originate from about 500 different IP addresses that change each week. A solutions architect must prevent the failed login attempts from overwhelming the authentication service.\nWhich solution meets these requirements with the MOST operational efficiency?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use AWS Firewall Manager to create a security group and security group policy to deny access from the IP addresses."
+    },
+    {
+      "key": "B",
+      "text": "Create an AWS WAF web ACL with a rate-based rule, and set the rule action to Block. Connect the web ACL to the ALB."
+    },
+    {
+      "key": "C",
+      "text": "Use AWS Firewall Manager to create a security group and security group policy to allow access only to specific CIDR ranges."
+    },
+    {
+      "key": "D",
+      "text": "Create an AWS WAF web ACL with an IP set match rule, and set the rule action to Block. Connect the web ACL to the ALB."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ]
+  }
+}

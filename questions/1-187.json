@@ -1,0 +1,40 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/110389-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-05-27T19:54:00",
+  "number": 187,
+  "topic": 1,
+  "question": "A company has an IoT platform that runs in an on-premises environment. The platform consists of a server that connects to IoT devices by using the MQTT protocol. The platform collects telemetry data from the devices at least once every 5 minutes. The platform also stores device metadata in a MongoDB cluster.\nAn application that is installed on an on-premises machine runs periodic jobs to aggregate and transform the telemetry and device metadata. The application creates reports that users view by using another web application that runs on the same on-premises machine. The periodic jobs take 120-600 seconds to run. However, the web application is always running.\nThe company is moving the platform to AWS and must reduce the operational overhead of the stack.\nWhich combination of steps will meet these requirements with the LEAST operational overhead? (Choose three.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use AWS Lambda functions to connect to the IoT devices"
+    },
+    {
+      "key": "B",
+      "text": "Configure the IoT devices to publish to AWS IoT Core"
+    },
+    {
+      "key": "C",
+      "text": "Write the metadata to a self-managed MongoDB database on an Amazon EC2 instance"
+    },
+    {
+      "key": "D",
+      "text": "Write the metadata to Amazon DocumentDB (with MongoDB compatibility)"
+    },
+    {
+      "key": "E",
+      "text": "Use AWS Step Functions state machines with AWS Lambda tasks to prepare the reports and to write the reports to Amazon S3. Use Amazon CloudFront with an S3 origin to serve the reports"
+    },
+    {
+      "key": "F",
+      "text": "Use an Amazon Elastic Kubernetes Service (Amazon EKS) cluster with Amazon EC2 instances to prepare the reports. Use an ingress controller in the EKS cluster to serve the reports"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B",
+      "D",
+      "E"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/95428-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-01-15T14:46:00",
+  "number": 106,
+  "topic": 1,
+  "question": "A company runs a Java application that has complex dependencies on VMs that are in the company's data center. The application is stable. but the company wants to modernize the technology stack. The company wants to migrate the application to AWS and minimize the administrative overhead to maintain the servers.\nWhich solution will meet these requirements with the LEAST code changes?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Migrate the application to Amazon Elastic Container Service (Amazon ECS) on AWS Fargate by using AWS App2Container. Store container images in Amazon Elastic Container Registry (Amazon ECR). Grant the ECS task execution role permission 10 access the ECR image repository. Configure Amazon ECS to use an Application Load Balancer (ALB). Use the ALB to interact with the application."
+    },
+    {
+      "key": "B",
+      "text": "Migrate the application code to a container that runs in AWS Lambda. Build an Amazon API Gateway REST API with Lambda integration. Use API Gateway to interact with the application."
+    },
+    {
+      "key": "C",
+      "text": "Migrate the application to Amazon Elastic Kubernetes Service (Amazon EKS) on EKS managed node groups by using AWS App2Container. Store container images in Amazon Elastic Container Registry (Amazon ECR). Give the EKS nodes permission to access the ECR image repository. Use Amazon API Gateway to interact with the application."
+    },
+    {
+      "key": "D",
+      "text": "Migrate the application code to a container that runs in AWS Lambda. Configure Lambda to use an Application Load Balancer (ALB). Use the ALB to interact with the application."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ]
+  }
+}

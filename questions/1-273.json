@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/112808-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-06-21T11:29:00",
+  "number": 273,
+  "topic": 1,
+  "question": "A company is using AWS Organizations to manage multiple accounts. Due to regulatory requirements, the company wants to restrict specific member accounts to certain AWS Regions, where they are permitted to deploy resources. The resources in the accounts must be tagged, enforced based on a group standard, and centrally managed with minimal configuration.\nWhat should a solutions architect do to meet these requirements?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create an AWS Config rule in the specific member accounts to limit Regions and apply a tag policy."
+    },
+    {
+      "key": "B",
+      "text": "From the AWS Billing and Cost Management console, in the management account, disable Regions for the specific member accounts and apply a tag policy on the root."
+    },
+    {
+      "key": "C",
+      "text": "Associate the specific member accounts with the root. Apply a tag policy and an SCP using conditions to limit Regions."
+    },
+    {
+      "key": "D",
+      "text": "Associate the specific member accounts with a new OU. Apply a tag policy and an SCP using conditions to limit Regions."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "D"
+    ]
+  }
+}

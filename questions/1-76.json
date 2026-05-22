@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/95297-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-01-14T17:30:00",
+  "number": 76,
+  "topic": 1,
+  "question": "A retail company is hosting an ecommerce website on AWS across multiple AWS Regions. The company wants the website to be operational at all times for online purchases. The website stores data in an Amazon RDS for MySQL DB instance.\nWhich solution will provide the HIGHEST availability for the database?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Configure automated backups on Amazon RDS. In the case of disruption, promote an automated backup to be a standalone DB instance. Direct database traffic to the promoted DB instance. Create a replacement read replica that has the promoted DB instance as its source."
+    },
+    {
+      "key": "B",
+      "text": "Configure global tables and read replicas on Amazon RDS. Activate the cross-Region scope. In the case of disruption, use AWS Lambda to copy the read replicas from one Region to another Region."
+    },
+    {
+      "key": "C",
+      "text": "onfigure global tables and automated backups on Amazon RDS. In the case of disruption, use AWS Lambda to copy the read replicas from one Region to another Region."
+    },
+    {
+      "key": "D",
+      "text": "Configure read replicas on Amazon RDS. In the case of disruption, promote a cross-Region and read replica to be a standalone DB instance. Direct database traffic to the promoted DB instance. Create a replacement read replica that has the promoted DB instance as its source."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "D"
+    ]
+  }
+}

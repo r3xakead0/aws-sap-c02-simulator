@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/143000-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2024-06-27T22:19:00",
+  "number": 506,
+  "topic": 1,
+  "question": "A company creates an Amazon API Gateway API and shares the API with an external development team. The API uses AWS Lambda functions and is deployed to a stage that is named Production.\nThe external development team is the sole consumer of the API. The API experiences sudden increases of usage at specific times, leading to concerns about increased costs. The company needs to limit cost and usage without reworking the Lambda functions.\nWhich solution will meet these requirements MOST cost-effectively?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Configure the API to send requests to Amazon Simple Queue Service (Amazon SQS) queues instead of directly to the Lambda functions. Update the Lambda functions to consume messages from the queues and to process the requests. Set up the queues to invoke the Lambda functions when new messages arrive."
+    },
+    {
+      "key": "B",
+      "text": "Configure provisioned concurrency for each Lambda function. Use AWS Application Auto Scaling to register the Lambda functions as targets. Set up scaling schedules to increase and decrease capacity to match changes in API usage."
+    },
+    {
+      "key": "C",
+      "text": "reate an API Gateway API key and an AWS WAF Regional web ACL. Associate the web ACL with the Production stage. Add a rate-based rule to the web ACL. In the rule, specify the rate limit and a custom request aggregation that uses the X-API-Key header. Share the API key with the external development team."
+    },
+    {
+      "key": "D",
+      "text": "Create an API Gateway API Key and usage plan. Define throttling limits and quotas in the usage plan. Associate the usage plan with the Production stage and the API key. Share the API key with the external development team."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "D"
+    ]
+  }
+}

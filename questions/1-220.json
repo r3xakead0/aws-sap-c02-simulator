@@ -1,0 +1,40 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/112851-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-06-21T19:52:00",
+  "number": 220,
+  "topic": 1,
+  "question": "A company has IoT sensors that monitor traffic patterns throughout a large city. The company wants to read and collect data from the sensors and perform aggregations on the data.\nA solutions architect designs a solution in which the IoT devices are streaming to Amazon Kinesis Data Streams. Several applications are reading from the stream. However, several consumers are experiencing throttling and are periodically encountering a ReadProvisionedThroughputExceeded error.\nWhich actions should the solutions architect take to resolve this issue? (Choose three.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Reshard the stream to increase the number of shards in the stream."
+    },
+    {
+      "key": "B",
+      "text": "Use the Kinesis Producer Library (KPL). Adjust the polling frequency."
+    },
+    {
+      "key": "C",
+      "text": "Use consumers with the enhanced fan-out feature."
+    },
+    {
+      "key": "D",
+      "text": "Reshard the stream to reduce the number of shards in the stream."
+    },
+    {
+      "key": "E",
+      "text": "Use an error retry and exponential backoff mechanism in the consumer logic."
+    },
+    {
+      "key": "F",
+      "text": "Configure the stream to use dynamic partitioning."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "C",
+      "E"
+    ]
+  }
+}

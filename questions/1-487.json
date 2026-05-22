@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/142922-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2024-06-25T19:48:00",
+  "number": 487,
+  "topic": 1,
+  "question": "A company plans to migrate many VMs from an on-premises environment to AWS. The company requires an initial assessment of the on-premises environment before the migration, a visualization of the dependencies between applications that run on the VMs, and a report that provides an assessment of the on-premises environment.\nTo get this information, the company has initiated a Migration Evaluator assessment request. The company has the ability to install collector software in its on-premises environment without any constraints\nWhich solution will provide the company with the required information with the LEAST operational overhead?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Install the AWS Application Discovery Agent on each on-premises VM. After the data collection period ends, use AWS Migration Hub to view the application dependencies. Download the Quick insights assessment report from Migration Hub."
+    },
+    {
+      "key": "B",
+      "text": "Install the Migration Evaluator Collector on each on-premises VM. After the data collection period ends, use Migration Evaluator to view the application dependencies. Download and export the discovered server list from Migration Evaluator. Upload the list to Amazon QuickSight When the QuickSight report is generated, download the Quick Insights assessment report."
+    },
+    {
+      "key": "C",
+      "text": "Setup the AWS Application Discovery Service Agentless Collector in the on-premises environment. After the data collection period ends, use AWS Migration Hub to view the application dependencies. Export the discovered server list from Application Discovery Service. Upload the list to Migration Evaluator. When the Migration Evaluator report is generated, download the Quick Insights assessment."
+    },
+    {
+      "key": "D",
+      "text": "Set up the Migration Evaluator Collector in the on-premises environment. Install the AWS Application Discovery Agent on each VM. After the data collection period ends, use AWS Migration Hub to view the application dependencies. Download the Quick Insights assessment report from Migration Evaluator."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ]
+  }
+}

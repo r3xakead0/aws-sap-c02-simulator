@@ -1,0 +1,40 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/95217-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-01-14T13:04:00",
+  "number": 55,
+  "topic": 1,
+  "question": "A company’s factory and automation applications are running in a single VPC. More than 20 applications run on a combination of Amazon EC2, Amazon Elastic Container Service (Amazon ECS), and Amazon RDS.\nThe company has software engineers spread across three teams. One of the three teams owns each application, and each time is responsible for the cost and performance of all of its applications. Team resources have tags that represent their application and team. The teams use IAM access for daily activities.\nThe company needs to determine which costs on the monthly AWS bill are attributable to each application or team. The company also must be able to create reports to compare costs from the last 12 months and to help forecast costs for the next 12 months. A solutions architect must recommend an AWS Billing and Cost Management solution that provides these cost reports.\nWhich combination of actions will meet these requirements? (Choose three.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "ctivate the user-define cost allocation tags that represent the application and the team."
+    },
+    {
+      "key": "B",
+      "text": "Activate the AWS generated cost allocation tags that represent the application and the team."
+    },
+    {
+      "key": "C",
+      "text": "reate a cost category for each application in Billing and Cost Management."
+    },
+    {
+      "key": "D",
+      "text": "Activate IAM access to Billing and Cost Management."
+    },
+    {
+      "key": "E",
+      "text": "Create a cost budget."
+    },
+    {
+      "key": "F",
+      "text": "Enable Cost Explorer."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "C",
+      "F"
+    ]
+  }
+}

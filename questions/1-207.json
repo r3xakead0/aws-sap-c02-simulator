@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/110298-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-05-26T13:49:00",
+  "number": 207,
+  "topic": 1,
+  "question": "An online retail company is migrating its legacy on-premises .NET application to AWS. The application runs on load-balanced frontend web servers, load-balanced application servers, and a Microsoft SQL Server database.\nThe company wants to use AWS managed services where possible and does not want to rewrite the application. A solutions architect needs to implement a solution to resolve scaling issues and minimize licensing costs as the application scales.\nWhich solution will meet these requirements MOST cost-effectively?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Deploy Amazon EC2 instances in an Auto Scaling group behind an Application Load Balancer for the web tier and for the application tier. Use Amazon Aurora PostgreSQL with Babelfish turned on to replatform the SQL Server database."
+    },
+    {
+      "key": "B",
+      "text": "Create images of all the servers by using AWS Database Migration Service (AWS DMS). Deploy Amazon EC2 instances that are based on the on-premises imports. Deploy the instances in an Auto Scaling group behind a Network Load Balancer for the web tier and for the application tier. Use Amazon DynamoDB as the database tier."
+    },
+    {
+      "key": "C",
+      "text": "ontainerize the web frontend tier and the application tier. Provision an Amazon Elastic Kubernetes Service (Amazon EKS) cluster. Create an Auto Scaling group behind a Network Load Balancer for the web tier and for the application tier. Use Amazon RDS for SQL Server to host the database."
+    },
+    {
+      "key": "D",
+      "text": "Separate the application functions into AWS Lambda functions. Use Amazon API Gateway for the web frontend tier and the application tier. Migrate the data to Amazon S3. Use Amazon Athena to query the data."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ]
+  }
+}

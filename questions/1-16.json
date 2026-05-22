@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/91237-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2022-12-12T17:34:00",
+  "number": 16,
+  "topic": 1,
+  "question": "A company used Amazon EC2 instances to deploy a web fleet to host a blog site. The EC2 instances are behind an Application Load Balancer (ALB) and are configured in an Auto Scaling group. The web application stores all blog content on an Amazon EFS volume.\nThe company recently added a feature for bloggers to add video to their posts, attracting 10 times the previous user traffic. At peak times of day, users report buffering and timeout issues while attempting to reach the site or watch videos.\nWhich is the MOST cost-efficient and scalable deployment that will resolve the issues for users?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Reconfigure Amazon EFS to enable maximum I/O."
+    },
+    {
+      "key": "B",
+      "text": "Update the blog site to use instance store volumes for storage. Copy the site contents to the volumes at launch and to Amazon S3 at shutdown."
+    },
+    {
+      "key": "C",
+      "text": "onfigure an Amazon CloudFront distribution. Point the distribution to an S3 bucket, and migrate the videos from EFS to Amazon S3."
+    },
+    {
+      "key": "D",
+      "text": "Set up an Amazon CloudFront distribution for all site contents, and point the distribution at the ALB."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ]
+  }
+}

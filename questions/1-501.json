@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/142997-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2024-06-27T22:01:00",
+  "number": 501,
+  "topic": 1,
+  "question": "A company runs a web application on a single Amazon EC2 instance. End users experience slow application performance during times of peak usage, when CPU utilization is consistently more than 95%.\nA user data script installs required custom packages on the EC2 instance. The process of launching the instance takes several minutes.\nThe company is creating an Auto Scaling group that has mixed instance groups, varied CPUs, and a maximum capacity limit. The Auto Scaling group will use a launch template for various configuration options. The company needs to decrease application latency when new instances are launched during auto scaling.\nWhich solution will meet these requirements?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use a predictive scaling policy. Use an instance maintenance policy to run the user data script. Set the default instance warmup time to 0 seconds."
+    },
+    {
+      "key": "B",
+      "text": "Use a dynamic scaling policy. Use lifecycle hooks to run the user data script. Set the default instance warmup time to 0 seconds."
+    },
+    {
+      "key": "C",
+      "text": "Use a predictive scaling policy. Enable warm pools for the Auto Scaling group. Use an instance maintenance policy to run the user data script."
+    },
+    {
+      "key": "D",
+      "text": "Use a dynamic scaling policy. Enable warm pools for the Auto Scaling group. Use lifecycle hooks to run the user data script."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "D"
+    ]
+  }
+}

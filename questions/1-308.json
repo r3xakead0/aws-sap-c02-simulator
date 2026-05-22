@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/124807-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-10-28T13:00:00",
+  "number": 308,
+  "topic": 1,
+  "question": "A solutions architect is reviewing a company's process for taking snapshots of Amazon RDS DB instances. The company takes automatic snapshots every day and retains the snapshots for 7 days.\nThe solutions architect needs to recommend a solution that takes snapshots every 6 hours and retains the snapshots for 30 days. The company uses AWS Organizations to manage all of its AWS accounts. The company needs a consolidated view of the health of the RDS snapshots.\nWhich solution will meet these requirements with the LEAST operational overhead?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Turn on the cross-account management feature in AWS Backup. Create a backup plan that specifies the frequency and retention requirements. Add a tag to the DB instances. Apply the backup plan by using tags. Use AWS Backup to monitor the status of the backups."
+    },
+    {
+      "key": "B",
+      "text": "Turn on the cross-account management feature in Amazon RDS. Create a snapshot global policy that specifies the frequency and retention requirements. Use the RDS console in the management account to monitor the status of the backups."
+    },
+    {
+      "key": "C",
+      "text": "Turn on the cross-account management feature in AWS CloudFormation. From the management account, deploy a CloudFormation stack set that contains a backup plan from AWS Backup that specifies the frequency and retention requirements. Create an AWS Lambda function in the management account to monitor the status of the backups. Create an Amazon EventBridge rule in each account to run the Lambda function on a schedule."
+    },
+    {
+      "key": "D",
+      "text": "Configure AWS Backup in each account. Create an Amazon Data Lifecycle Manager lifecycle policy that specifies the frequency and retention requirements. Specify the DB instances as the target resource Use the Amazon Data Lifecycle Manager console in each member account to monitor the status of the backups."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ]
+  }
+}

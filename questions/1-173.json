@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/99152-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-02-14T13:26:00",
+  "number": 173,
+  "topic": 1,
+  "question": "A company needs to audit the security posture of a newly acquired AWS account. The company’s data security team requires a notification only when an Amazon S3 bucket becomes publicly exposed. The company has already established an Amazon Simple Notification Service (Amazon SNS) topic that has the data security team's email address subscribed.\nWhich solution will meet these requirements?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create an S3 event notification on all S3 buckets for the isPublic event. Select the SNS topic as the target for the event notifications."
+    },
+    {
+      "key": "B",
+      "text": "Create an analyzer in AWS Identity and Access Management Access Analyzer. Create an Amazon EventBridge rule for the event type “Access Analyzer Finding” with a filter for “isPublic: true.” Select the SNS topic as the EventBridge rule target."
+    },
+    {
+      "key": "C",
+      "text": "reate an Amazon EventBridge rule for the event type “Bucket-Level API Call via CloudTrail” with a filter for “PutBucketPolicy.” Select the SNS topic as the EventBridge rule target."
+    },
+    {
+      "key": "D",
+      "text": "Activate AWS Config and add the cloudtrail-s3-dataevents-enabled rule. Create an Amazon EventBridge rule for the event type “Config Rules Re-evaluation Status” with a filter for “NON_COMPLIANT.” Select the SNS topic as the EventBridge rule target."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/95531-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-01-16T14:16:00",
+  "number": 122,
+  "topic": 1,
+  "question": "A company has purchased appliances from different vendors. The appliances all have IoT sensors. The sensors send status information in the vendors' proprietary formats to a legacy application that parses the information into JSON. The parsing is simple, but each vendor has a unique format. Once daily, the application parses all the JSON records and stores the records in a relational database for analysis.\nThe company needs to design a new data analysis solution that can deliver faster and optimize costs.\nWhich solution will meet these requirements?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Connect the IoT sensors to AWS IoT Core. Set a rule to invoke an AWS Lambda function to parse the information and save a .csv file to Amazon. S3 Use AWS Glue to catalog the files. Use Amazon Athena and Amazon QuickSight for analysis."
+    },
+    {
+      "key": "B",
+      "text": "Migrate the application server to AWS Fargate, which will receive the information from IoT sensors and parse the information into a relational format. Save the parsed information to Amazon Redshlft for analysis."
+    },
+    {
+      "key": "C",
+      "text": "reate an AWS Transfer for SFTP server. Update the IoT sensor code to send the information as a .csv file through SFTP to the server. Use AWS Glue to catalog the files. Use Amazon Athena for analysis."
+    },
+    {
+      "key": "D",
+      "text": "Use AWS Snowball Edge to collect data from the IoT sensors directly to perform local analysis. Periodically collect the data into Amazon Redshift to perform global analysis."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ]
+  }
+}

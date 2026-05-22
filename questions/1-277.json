@@ -1,0 +1,40 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/112812-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-06-21T11:32:00",
+  "number": 277,
+  "topic": 1,
+  "question": "A company has automated the nightly retraining of its machine learning models by using AWS Step Functions. The workflow consists of multiple steps that use AWS Lambda. Each step can fail for various reasons, and any failure causes a failure of the overall workflow.\nA review reveals that the retraining has failed multiple nights in a row without the company noticing the failure. A solutions architect needs to improve the workflow so that notifications are sent for all types of failures in the retraining process.\nWhich combination of steps should the solutions architect take to meet these requirements? (Choose three.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create an Amazon Simple Notification Service (Amazon SNS) topic with a subscription of type \"Email\" that targets the team's mailing list."
+    },
+    {
+      "key": "B",
+      "text": "Create a task named \"Email\" that forwards the input arguments to the SNS topic."
+    },
+    {
+      "key": "C",
+      "text": "Add a Catch field to all Task, Map, and Parallel states that have a statement of \"ErrorEquals\": [ \"States.ALL\" ] and \"Next”: \"Email\"."
+    },
+    {
+      "key": "D",
+      "text": "Add a new email address to Amazon Simple Email Service (Amazon SES). Verify the email address."
+    },
+    {
+      "key": "E",
+      "text": "Create a task named \"Email\" that forwards the input arguments to the SES email address."
+    },
+    {
+      "key": "F",
+      "text": "Add a Catch field to all Task, Map, and Parallel states that have a statement of \"ErrorEquals\": [ \"States.Runtime\" ] and \"Next\": \"Email\"."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "B",
+      "C"
+    ]
+  }
+}

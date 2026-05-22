@@ -1,0 +1,40 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/112884-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-06-22T03:28:00",
+  "number": 235,
+  "topic": 1,
+  "question": "A company has built a high performance computing (HPC) cluster in AWS for a tightly coupled workload that generates a large number of shared files stored in Amazon EFS. The cluster was performing well when the number of Amazon EC2 instances in the cluster was 100. However, when the company increased the cluster size to 1.000 EC2 instances, overall performance was well below expectations.\nWhich collection of design choices should a solutions architect make to achieve the maximum performance from the HPC cluster? (Choose three.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Ensure the HPC cluster is launched within a single Availability Zone."
+    },
+    {
+      "key": "B",
+      "text": "Launch the EC2 instances and attach elastic network interfaces in multiples of four."
+    },
+    {
+      "key": "C",
+      "text": "Select EC2 instance types with an Elastic Fabric Adapter (EFA) enabled."
+    },
+    {
+      "key": "D",
+      "text": "Ensure the cluster is launched across multiple Availability Zones."
+    },
+    {
+      "key": "E",
+      "text": "Replace Amazon EFS with multiple Amazon EBS volumes in a RAID array."
+    },
+    {
+      "key": "F",
+      "text": "Replace Amazon EFS with Amazon FSx for Lustre."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "C",
+      "F"
+    ]
+  }
+}

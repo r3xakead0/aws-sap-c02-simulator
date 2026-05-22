@@ -1,0 +1,35 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/142926-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2024-06-25T19:59:00",
+  "number": 492,
+  "topic": 1,
+  "question": "A solutions architect is importing a VM from an on-premises environment by using the Amazon EC2 VM Import feature of AWS Import/Export. The solutions architect has created an AMI and has provisioned an Amazon EC2 instance that is based on that AMI. The EC2 instance runs inside a public subnet in a VPC and has a public IP address assigned.\nThe EC2 instance does not appear as a managed instance in the AWS Systems Manager console.\nWhich combination of steps should the solutions architect take to troubleshoot this issue? (Choose two.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Verify that Systems Manager Agent is installed on the instance and is running."
+    },
+    {
+      "key": "B",
+      "text": "Verify that the instance is assigned an appropriate IAM role for Systems Manager."
+    },
+    {
+      "key": "C",
+      "text": "Verify the existence of a VPC endpoint on the VPC."
+    },
+    {
+      "key": "D",
+      "text": "Verity that the AWS Application Discovery Agent is configured."
+    },
+    {
+      "key": "E",
+      "text": "Verify the correct configuration of service-linked roles for Systems Manager."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "B"
+    ]
+  }
+}

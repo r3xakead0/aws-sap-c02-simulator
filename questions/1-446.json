@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/136551-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2024-03-19T05:19:00",
+  "number": 446,
+  "topic": 1,
+  "question": "A company uses AWS Organizations to manage its development environment. Each development team at the company has its own AWS account. Each account has a single VPC and CIDR blocks that do not overlap.\nThe company has an Amazon Aurora DB cluster in a shared services account. All the development teams need to work with live data from the DB cluster.\nWhich solution will provide the required connectivity to the DB cluster with the LEAST operational overhead?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create an AWS Resource Access Manager (AWS RAM) resource share for the DB cluster. Share the DB cluster with all the development accounts."
+    },
+    {
+      "key": "B",
+      "text": "Create a transit gateway in the shared services account. Create an AWS Resource Access Manager (AWS RAM) resource share for the transit gateway. Share the transit gateway with all the development accounts. Instruct the developers to accept the resource share. Configure networking."
+    },
+    {
+      "key": "C",
+      "text": "reate an Application Load Balancer (ALB) that points to the IP address of the DB cluster. Create an AWS PrivateLink endpoint service that uses the ALB. Add permissions to allow each development account to connect to the endpoint service."
+    },
+    {
+      "key": "D",
+      "text": "Create an AWS Site-to-Site VPN connection in the shared services account. Configure networking. Use AWS Marketplace VPN software in each development account to connect to the Site-to-Site VPN connection."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ]
+  }
+}

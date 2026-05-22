@@ -1,0 +1,40 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/112973-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-06-22T19:48:00",
+  "number": 240,
+  "topic": 1,
+  "question": "A solutions architect needs to define a reference architecture for a solution for three-tier applications with web. application, and NoSQL data layers. The reference architecture must meet the following requirements:\n•\tHigh availability within an AWS Region\n•\tAble to fail over in 1 minute to another AWS Region for disaster recovery\n•\tProvide the most efficient solution while minimizing the impact on the user experience\nWhich combination of steps will meet these requirements? (Choose three.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use an Amazon Route 53 weighted routing policy set to 100/0 across the two selected Regions. Set Time to Live (TTL) to 1 hour."
+    },
+    {
+      "key": "B",
+      "text": "Use an Amazon Route 53 failover routing policy for failover from the primary Region to the disaster recovery Region. Set Time to Live (TTL) to 30 seconds."
+    },
+    {
+      "key": "C",
+      "text": "Use a global table within Amazon DynamoDB so data can be accessed in the two selected Regions."
+    },
+    {
+      "key": "D",
+      "text": "Back up data from an Amazon DynamoDB table in the primary Region every 60 minutes and then write the data to Amazon S3. Use S3 cross-Region replication to copy the data from the primary Region to the disaster recovery Region. Have a script import the data into DynamoDB in a disaster recovery scenario."
+    },
+    {
+      "key": "E",
+      "text": "Implement a hot standby model using Auto Scaling groups for the web and application layers across multiple Availability Zones in the Regions. Use zonal Reserved Instances for the minimum number of servers and On-Demand Instances for any additional resources."
+    },
+    {
+      "key": "F",
+      "text": "Use Auto Scaling groups for the web and application layers across multiple Availability Zones in the Regions. Use Spot Instances for the required resources."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B",
+      "C",
+      "E"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/132908-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2024-02-05T19:41:00",
+  "number": 424,
+  "topic": 1,
+  "question": "A company runs a software-as-a-service (SaaS) application on AWS. The application consists of AWS Lambda functions and an Amazon RDS for MySQL Multi-AZ database. During market events, the application has a much higher workload than normal. Users notice slow response times during the peak periods because of many database connections. The company needs to improve the scalable performance and availability of the database.\nWhich solution meets these requirements?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create an Amazon CloudWatch alarm action that triggers a Lambda function to add an Amazon RDS for MySQL read replica when resource utilization hits a threshold."
+    },
+    {
+      "key": "B",
+      "text": "Migrate the database to Amazon Aurora, and add a read replica. Add a database connection pool outside of the Lambda handler function."
+    },
+    {
+      "key": "C",
+      "text": "Migrate the database to Amazon Aurora, and add a read replica. Use Amazon Route 53 weighted records."
+    },
+    {
+      "key": "D",
+      "text": "Migrate the database to Amazon Aurora, and add an Aurora Replica. Configure Amazon RDS Proxy to manage database connection pools."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "D"
+    ]
+  }
+}

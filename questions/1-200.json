@@ -1,0 +1,36 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/110334-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-05-27T01:40:00",
+  "number": 200,
+  "topic": 1,
+  "question": "A solutions architect has implemented a SAML 2.0 federated identity solution with their company's on-premises identity provider (IdP) to authenticate users' access to the AWS environment. When the solutions architect tests authentication through the federated identity web portal, access to the AWS environment is granted. However, when test users attempt to authenticate through the federated identity web portal, they are not able to access the AWS environment.\nWhich items should the solutions architect check to ensure identity federation is properly configured? (Choose three.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "The IAM user's permissions policy has allowed the use of SAML federation for that user."
+    },
+    {
+      "key": "B",
+      "text": "The IAM roles created for the federated users' or federated groups' trust policy have set the SAML provider as the principal. B. Test users are not in the AWSFederatedUsers group in the company's IdP."
+    },
+    {
+      "key": "C",
+      "text": "The web portal calls the AWS STS AssumeRoleWithSAML API with the ARN of the SAML provider, the ARN of the IAM role, and the SAML assertion from IdP."
+    },
+    {
+      "key": "D",
+      "text": "The on-premises IdP's DNS hostname is reachable from the AWS environment VPCs."
+    },
+    {
+      "key": "E",
+      "text": "The company's IdP defines SAML assertions that properly map users or groups. In the company to IAM roles with appropriate permissions."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B",
+      "C",
+      "E"
+    ]
+  }
+}

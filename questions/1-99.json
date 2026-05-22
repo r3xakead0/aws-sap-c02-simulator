@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/95398-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-01-15T10:27:00",
+  "number": 99,
+  "topic": 1,
+  "question": "A company has introduced a new policy that allows employees to work remotely from their homes if they connect by using a VPN. The company is hosting internal applications with VPCs in multiple AWS accounts. Currently, the applications are accessible from the company's on-premises office network through an AWS Site-to-Site VPN connection. The VPC in the company's main AWS account has peering connections established with VPCs in other AWS accounts.\nA solutions architect must design a scalable AWS Client VPN solution for employees to use while they work from home.\nWhat is the MOST cost-effective solution that meets these requirements?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create a Client VPN endpoint in each AWS account. Configure required routing that allows access to internal applications."
+    },
+    {
+      "key": "B",
+      "text": "Create a Client VPN endpoint in the main AWS account. Configure required routing that allows access to internal applications."
+    },
+    {
+      "key": "C",
+      "text": "reate a Client VPN endpoint in the main AWS account. Provision a transit gateway that is connected to each AWS account. Configure required routing that allows access to internal applications."
+    },
+    {
+      "key": "D",
+      "text": "Create a Client VPN endpoint in the main AWS account. Establish connectivity between the Client VPN endpoint and the AWS Site-to-Site VPN."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ]
+  }
+}

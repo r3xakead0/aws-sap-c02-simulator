@@ -1,0 +1,40 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/126933-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-11-22T17:33:00",
+  "number": 373,
+  "topic": 1,
+  "question": "A company is using multiple AWS accounts and has multiple DevOps teams running production and non-production workloads in these accounts. The company would like to centrally-restrict access to some of the AWS services that the DevOps teams do not use. The company decided to use AWS Organizations and successfully invited all AWS accounts into the Organization. They would like to allow access to services that are currently in-use and deny a few specific services. Also they would like to administer multiple accounts together as a single unit.\nWhat combination of steps should the solutions architect take to satisfy these requirements? (Choose three.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use a Deny list strategy."
+    },
+    {
+      "key": "B",
+      "text": "Review the Access Advisor in AWS IAM to determine services recently used"
+    },
+    {
+      "key": "C",
+      "text": "Review the AWS Trusted Advisor report to determine services recently used."
+    },
+    {
+      "key": "D",
+      "text": "Remove the default FullAWSAccess SCP."
+    },
+    {
+      "key": "E",
+      "text": "Define organizational units (OUs) and place the member accounts in the OUs."
+    },
+    {
+      "key": "F",
+      "text": "Remove the default DenyAWSAccess SCP."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "B",
+      "E"
+    ]
+  }
+}

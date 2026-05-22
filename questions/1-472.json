@@ -1,0 +1,35 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/136654-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2024-03-19T16:12:00",
+  "number": 472,
+  "topic": 1,
+  "question": "A solutions architect must implement a multi-Region architecture for an Amazon RDS for PostgreSQL database that supports a web application. The database launches from an AWS CloudFormation template that includes AWS services and features that are present in both the primary and secondary Regions.\nThe database is configured for automated backups, and it has an RTO of 15 minutes and an RPO of 2 hours. The web application is configured to use an Amazon Route 53 record to route traffic to the database.\nWhich combination of steps will result in a highly available architecture that meets all the requirements? (Choose two.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create a cross-Region read replica of the database in the secondary Region. Configure an AWS Lambda function in the secondary Region to promote the read replica during a failover event."
+    },
+    {
+      "key": "B",
+      "text": "In the primary Region, create a health check on the database that will invoke an AWS Lambda function when a failure is detected. Program the Lambda function to recreate the database from the latest database snapshot in the secondary Region and update the Route 53 host records for the database."
+    },
+    {
+      "key": "C",
+      "text": "reate an AWS Lambda function to copy the latest automated backup to the secondary Region every 2 hours."
+    },
+    {
+      "key": "D",
+      "text": "Create a failover routing policy in Route 53 for the database DNS record. Set the primary and secondary endpoints to the endpoints in each Region."
+    },
+    {
+      "key": "E",
+      "text": "Create a hot standby database in the secondary Region. Use an AWS Lambda function to restore the secondary database to the latest RDS automatic backup in the event that the primary database fails."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "D"
+    ]
+  }
+}

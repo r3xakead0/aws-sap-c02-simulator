@@ -1,0 +1,35 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/132992-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2024-02-06T03:42:00",
+  "number": 440,
+  "topic": 1,
+  "question": "A software as a service (SaaS) company provides a media software solution to customers. The solution is hosted on 50 VPCs across various AWS Regions and AWS accounts. One of the VPCs is designated as a management VPC. The compute resources in the VPCs work independently.\nThe company has developed a new feature that requires all 50 VPCs to be able to communicate with each other. The new feature also requires one-way access from each customer's VPC to the company's management VPC. The management VPC hosts a compute resource that validates licenses for the media software solution.\nThe number of VPCs that the company will use to host the solution will continue to increase as the solution grows.\nWhich combination of steps will provide the required VPC connectivity with the LEAST operational overhead? (Choose two.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create a transit gateway. Attach all the company's VPCs and relevant subnets to the transit gateway."
+    },
+    {
+      "key": "B",
+      "text": "Create VPC peering connections between all the company's VPCs."
+    },
+    {
+      "key": "C",
+      "text": "reate a Network Load Balancer (NLB) that points to the compute resource for license validation. Create an AWS PrivateLink endpoint service that is available to each customer's VPAssociate the endpoint service with the NLB."
+    },
+    {
+      "key": "D",
+      "text": "Create a VPN appliance in each customer's VPC. Connect the company's management VPC to each customer's VPC by using AWS Site-to-Site VPN."
+    },
+    {
+      "key": "E",
+      "text": "Create a VPC peering connection between the company's management VPC and each customer's VPC."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "C"
+    ]
+  }
+}

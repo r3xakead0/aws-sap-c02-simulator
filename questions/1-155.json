@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/95605-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-01-16T18:44:00",
+  "number": 155,
+  "topic": 1,
+  "question": "A global media company is planning a multi-Region deployment of an application. Amazon DynamoDB global tables will back the deployment to keep the user experience consistent across the two continents where users are concentrated. Each deployment will have a public Application Load Balancer (ALB). The company manages public DNS internally. The company wants to make the application available through an apex domain.\nWhich solution will meet these requirements with the LEAST effort?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Migrate public DNS to Amazon Route 53. Create CNAME records for the apex domain to point to the ALB. Use a geolocation routing policy to route traffic based on user location."
+    },
+    {
+      "key": "B",
+      "text": "Place a Network Load Balancer (NLB) in front of the ALMigrate public DNS to Amazon Route 53. Create a CNAME record for the apex domain to point to the NLB’s static IP address. Use a geolocation routing policy to route traffic based on user location."
+    },
+    {
+      "key": "C",
+      "text": "reate an AWS Global Accelerator accelerator with multiple endpoint groups that target endpoints in appropriate AWS Regions. Use the accelerator’s static IP address to create a record in public DNS for the apex domain."
+    },
+    {
+      "key": "D",
+      "text": "Create an Amazon API Gateway API that is backed by AWS Lambda in one of the AWS Regions. Configure a Lambda function to route traffic to application deployments by using the round robin method. Create CNAME records for the apex domain to point to the API's URL."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ]
+  }
+}

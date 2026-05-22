@@ -1,0 +1,35 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/95541-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-01-16T14:37:00",
+  "number": 128,
+  "topic": 1,
+  "question": "A software company hosts an application on AWS with resources in multiple AWS accounts and Regions. The application runs on a group of Amazon EC2 instances in an application VPC located in the us-east-1 Region with an IPv4 CIDR block of 10.10.0.0/16. In a different AWS account, a shared services VPC is located in the us-east-2 Region with an IPv4 CIDR block of 10.10.10.0/24. When a cloud engineer uses AWS CloudFormation to attempt to peer the application VPC with the shared services VPC, an error message indicates a peering failure.\nWhich factors could cause this error? (Choose two.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "The IPv4 CIDR ranges of the two VPCs overlap"
+    },
+    {
+      "key": "B",
+      "text": "The VPCs are not in the same Region"
+    },
+    {
+      "key": "C",
+      "text": "One or both accounts do not have access to an Internet gateway"
+    },
+    {
+      "key": "D",
+      "text": "One of the VPCs was not shared through AWS Resource Access Manager"
+    },
+    {
+      "key": "E",
+      "text": "The IAM role in the peer accepter account does not have the correct permissions"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "E"
+    ]
+  }
+}

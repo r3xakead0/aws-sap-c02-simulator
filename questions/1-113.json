@@ -1,0 +1,40 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/95451-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-01-15T16:33:00",
+  "number": 113,
+  "topic": 1,
+  "question": "A company is developing and hosting several projects in the AWS Cloud. The projects are developed across multiple AWS accounts under the same organization in AWS Organizations. The company requires the cost for cloud infrastructure to be allocated to the owning project. The team responsible for all of the AWS accounts has discovered that several Amazon EC2 instances are lacking the Project tag used for cost allocation.\nWhich actions should a solutions architect lake to resolve the problem and prevent it from happening in the future? (Choose three.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create an AWS Config rule in each account to find resources with missing tags."
+    },
+    {
+      "key": "B",
+      "text": "Create an SCP in the organization with a deny action for ec2:RunInstances if the Project tag is missing."
+    },
+    {
+      "key": "C",
+      "text": "Use Amazon Inspector in the organization to find resources with missing tags."
+    },
+    {
+      "key": "D",
+      "text": "Create an IAM policy in each account with a deny action for ec2:RunInstances if the Project tag is missing."
+    },
+    {
+      "key": "E",
+      "text": "Create an AWS Config aggregator for the organization to collect a list of EC2 instances with the missing Project tag."
+    },
+    {
+      "key": "F",
+      "text": "Use AWS Security Hub to aggregate a list of EC2 instances with the missing Project tag."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "B",
+      "E"
+    ]
+  }
+}

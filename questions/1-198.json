@@ -1,0 +1,35 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/110379-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-05-27T17:24:00",
+  "number": 198,
+  "topic": 1,
+  "question": "A company is building a hybrid environment that includes servers in an on-premises data center and in the AWS Cloud. The company has deployed Amazon EC2 instances in three VPCs. Each VPC is in a different AWS Region. The company has established an AWS Direct. Connect connection to the data center from the Region that is closest to the data center.\nThe company needs the servers in the on-premises data center to have access to the EC2 instances in all three VPCs. The servers in the on-premises data center also must have access to AWS public services.\nWhich combination of steps will meet these requirements with the LEAST cost? (Choose two.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create a Direct Connect gateway in the Region that is closest to the data center. Attach the Direct Connect connection to the Direct Connect gateway. Use the Direct Connect gateway to connect the VPCs in the other two Regions."
+    },
+    {
+      "key": "B",
+      "text": "Set up additional Direct Connect connections from the on-premises data center to the other two Regions."
+    },
+    {
+      "key": "C",
+      "text": "reate a private VIF. Establish an AWS Site-to-Site VPN connection over the private VIF to the VPCs in the other two Regions."
+    },
+    {
+      "key": "D",
+      "text": "Create a public VIF. Establish an AWS Site-to-Site VPN connection over the public VIF to the VPCs in the other two Regions."
+    },
+    {
+      "key": "E",
+      "text": "Use VPC peering to establish a connection between the VPCs across the Regions Create a private VIF with the existing Direct Connect connection to connect to the peered VPCs."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "D"
+    ]
+  }
+}

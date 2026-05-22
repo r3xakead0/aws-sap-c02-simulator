@@ -1,0 +1,35 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/136648-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2024-03-19T15:38:00",
+  "number": 469,
+  "topic": 1,
+  "question": "A company wants to establish a dedicated connection between its on-premises infrastructure and AWS. The company is setting up a 1 Gbps AWS Direct Connect connection to its account VPC. The architecture includes a transit gateway and a Direct Connect gateway to connect multiple VPCs and the on-premises infrastructure.\nThe company must connect to VPC resources over a transit VIF by using the Direct Connect connection.\nWhich combination of steps will meet these requirements? (Choose two.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Update the 1 Gbps Direct Connect connection to 10 Gbps."
+    },
+    {
+      "key": "B",
+      "text": "Advertise the on-premises network prefixes over the transit VIF."
+    },
+    {
+      "key": "C",
+      "text": "Advertise the VPC prefixes from the Direct Connect gateway to the on-premises network over the transit VIF."
+    },
+    {
+      "key": "D",
+      "text": "Update the Direct Connect connection's MACsec encryption mode attribute to must_encrypt."
+    },
+    {
+      "key": "E",
+      "text": "Associate a MACsec Connection Key Name/Connectivity Association Key (CKN/CAK) pair with the Direct Connect connection."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B",
+      "C"
+    ]
+  }
+}

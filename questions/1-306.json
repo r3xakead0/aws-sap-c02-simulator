@@ -1,0 +1,35 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/124882-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-10-29T14:24:00",
+  "number": 306,
+  "topic": 1,
+  "question": "A research center is migrating to the AWS Cloud and has moved its on-premises 1 PB object storage to an Amazon S3 bucket. One hundred scientists are using this object storage to store their work-related documents. Each scientist has a personal folder on the object store. All the scientists are members of a single IAM user group.\nThe research center's compliance officer is worried that scientists will be able to access each other's work. The research center has a strict obligation to report on which scientist accesses which documents. The team that is responsible for these reports has little AWS experience and wants a ready-to-use solution that minimizes operational overhead.\nWhich combination of actions should a solutions architect take to meet these requirements? (Choose two.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create an identity policy that grants the user read and write access. Add a condition that specifies that the S3 paths must be prefixed with $(aws:username). Apply the policy on the scientists’ IAM user group."
+    },
+    {
+      "key": "B",
+      "text": "Configure a trail with AWS CloudTrail to capture all object-level events in the S3 bucket. Store the trail output in another S3 bucket. Use Amazon Athena to query the logs and generate reports."
+    },
+    {
+      "key": "C",
+      "text": "Enable S3 server access logging. Configure another S3 bucket as the target for log delivery. Use Amazon Athena to query the logs and generate reports."
+    },
+    {
+      "key": "D",
+      "text": "Create an S3 bucket policy that grants read and write access to users in the scientists’ IAM user group."
+    },
+    {
+      "key": "E",
+      "text": "Configure a trail with AWS CloudTrail to capture all object-level events in the S3 bucket and write the events to Amazon CloudWatch. Use the Amazon Athena CloudWatch connector to query the logs and generate reports."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "B"
+    ]
+  }
+}

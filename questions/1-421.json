@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/132901-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2024-02-05T19:29:00",
+  "number": 421,
+  "topic": 1,
+  "question": "A company has a web application that uses Amazon API Gateway. AWS Lambda, and Amazon DynamoDB. A recent marketing campaign has increased demand. Monitoring software reports that many requests have significantly longer response times than before the marketing campaign.\nA solutions architect enabled Amazon CloudWatch Logs for API Gateway and noticed that errors are occurring on 20% of the requests. In CloudWatch, the Lambda function Throttles metric represents 1% of the requests and the Errors metric represents 10% of the requests. Application logs indicate that, when errors occur, there is a call to DynamoDB.\nWhat change should the solutions architect make to improve the current response times as the web application becomes more popular?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Increase the concurrency limit of the Lambda function."
+    },
+    {
+      "key": "B",
+      "text": "Implement DynamoDB auto scaling on the table."
+    },
+    {
+      "key": "C",
+      "text": "Increase the API Gateway throttle limit."
+    },
+    {
+      "key": "D",
+      "text": "Re-create the DynamoDB table with a better-partitioned primary index."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ]
+  }
+}

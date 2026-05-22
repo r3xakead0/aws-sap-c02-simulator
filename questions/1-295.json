@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/112792-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-06-21T11:11:00",
+  "number": 295,
+  "topic": 1,
+  "question": "An application is deployed on Amazon EC2 instances that run in an Auto Scaling group. The Auto Scaling group configuration uses only one type of instance.\nCPU and memory utilization metrics show that the instances are underutilized. A solutions architect needs to implement a solution to permanently reduce the EC2 cost and increase the utilization.\nWhich solution will meet these requirements with the LEAST number of configuration changes in the future?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "List instance types that have properties that are similar to the properties that the current instances have. Modify the Auto Scaling group's launch template configuration to use multiple instance types from the list."
+    },
+    {
+      "key": "B",
+      "text": "Use the information about the application's CPU and memory utilization to select an instance type that matches the requirements. Modify the Auto Scaling group's configuration by adding the new instance type. Remove the current instance type from the configuration."
+    },
+    {
+      "key": "C",
+      "text": "Use the information about the application's CPU and memory utilization to specify CPU and memory requirements in a new revision of the Auto Scaling group's launch template. Remove the current instance type from the configuration."
+    },
+    {
+      "key": "D",
+      "text": "Create a script that selects the appropriate instance types from the AWS Price List Bulk API. Use the selected instance types to create a new revision of the Auto Scaling group's launch template."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ]
+  }
+}

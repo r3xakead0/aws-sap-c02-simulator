@@ -1,0 +1,40 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/95459-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-01-15T17:04:00",
+  "number": 118,
+  "topic": 1,
+  "question": "A company wants to migrate to AWS. The company wants to use a multi-account structure with centrally managed access to all accounts and applications. The company also wants to keep the traffic on a private network. Multi-factor authentication (MFA) is required at login, and specific roles are assigned to user groups.\nThe company must create separate accounts for development. staging, production, and shared network. The production account and the shared network account must have connectivity to all accounts. The development account and the staging account must have access only to each other.\nWhich combination of steps should a solutions architect take 10 meet these requirements? (Choose three.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Deploy a landing zone environment by using AWS Control Tower. Enroll accounts and invite existing accounts into the resulting organization in AWS Organizations."
+    },
+    {
+      "key": "B",
+      "text": "Enable AWS Security Hub in all accounts to manage cross-account access. Collect findings through AWS CloudTrail to force MFA login."
+    },
+    {
+      "key": "C",
+      "text": "reate transit gateways and transit gateway VPC attachments in each account. Configure appropriate route tables."
+    },
+    {
+      "key": "D",
+      "text": "Set up and enable AWS IAM Identity Center (AWS Single Sign-On). Create appropriate permission sets with required MFA for existing accounts."
+    },
+    {
+      "key": "E",
+      "text": "nable AWS Control Tower in all accounts to manage routing between accounts. Collect findings through AWS CloudTrail to force MFA login."
+    },
+    {
+      "key": "F",
+      "text": "Create IAM users and groups. Configure MFA for all users. Set up Amazon Cognoto user pools and Identity pools to manage access to accounts and between accounts."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "C",
+      "D"
+    ]
+  }
+}

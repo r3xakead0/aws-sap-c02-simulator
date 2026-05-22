@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/110333-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-05-27T01:37:00",
+  "number": 201,
+  "topic": 1,
+  "question": "A solutions architect needs to improve an application that is hosted in the AWS Cloud. The application uses an Amazon Aurora MySQL DB instance that is experiencing overloaded connections. Most of the application’s operations insert records into the database. The application currently stores credentials in a text-based configuration file.\nThe solutions architect needs to implement a solution so that the application can handle the current connection load. The solution must keep the credentials secure and must provide the ability to rotate the credentials automatically on a regular basis.\nWhich solution will meet these requirements?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Deploy an Amazon RDS Proxy layer. In front of the DB instance. Store the connection credentials as a secret in AWS Secrets Manager."
+    },
+    {
+      "key": "B",
+      "text": "Deploy an Amazon RDS Proxy layer in front of the DB instance. Store the connection credentials in AWS Systems Manager Parameter Store"
+    },
+    {
+      "key": "C",
+      "text": "reate an Aurora Replica. Store the connection credentials as a secret in AWS Secrets Manager"
+    },
+    {
+      "key": "D",
+      "text": "Create an Aurora Replica. Store the connection credentials in AWS Systems Manager Parameter Store."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ]
+  }
+}

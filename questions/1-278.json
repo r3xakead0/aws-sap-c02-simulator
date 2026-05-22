@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/112813-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-06-21T11:32:00",
+  "number": 278,
+  "topic": 1,
+  "question": "A company plans to deploy a new private intranet service on Amazon EC2 instances inside a VPC. An AWS Site-to-Site VPN connects the VPC to the company's on-premises network. The new service must communicate with existing on-premises services. The on-premises services are accessible through the use of hostnames that reside in the company.example DNS zone. This DNS zone is wholly hosted on premises and is available only on the company's private network.\nA solutions architect must ensure that the new service can resolve hostnames on the company.example domain to integrate with existing services.\nWhich solution meets these requirements?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create an empty private zone in Amazon Route 53 for company.example. Add an additional NS record to the company's on-premises company.example zone that points to the authoritative name servers for the new private zone in Route 53."
+    },
+    {
+      "key": "B",
+      "text": "Turn on DNS hostnames for the VPC. Configure a new outbound endpoint with Amazon Route 53 Resolver. Create a Resolver rule to forward requests for company.example to the on-premises name servers."
+    },
+    {
+      "key": "C",
+      "text": "Turn on DNS hostnames for the VPConfigure a new inbound resolver endpoint with Amazon Route 53 Resolver. Configur&the on-premises DNS server to forward requests for company.example to the new resolver."
+    },
+    {
+      "key": "D",
+      "text": "Use AWS Systems Manager to configure a run document that will install a hosts file that contains any required hostnames. Use an Amazon EventBridge rule to run the document when an instance is entering the running state."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ]
+  }
+}

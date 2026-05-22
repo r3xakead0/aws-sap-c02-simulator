@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/126820-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-11-22T07:29:00",
+  "number": 351,
+  "topic": 1,
+  "question": "A company has a project that is launching Amazon EC2 instances that are larger than required. The project's account cannot be part of the company's organization in AWS Organizations due to policy restrictions to keep this activity outside of corporate IT. The company wants to allow only the launch of t3.small EC2 instances by developers in the project's account. These EC2 instances must be restricted to the us-east-2 Region.\nWhat should a solutions architect do to meet these requirements?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create a new developer account. Move all EC2 instances, users, and assets into us-east-2. Add the account to the company's organization in AWS Organizations. Enforce a tagging policy that denotes Region affinity."
+    },
+    {
+      "key": "B",
+      "text": "Create an SCP that denies the launch of all EC2 instances except t3.small EC2 instances in us-east-2. Attach the SCP to the project's account."
+    },
+    {
+      "key": "C",
+      "text": "reate and purchase a t3.small EC2 Reserved Instance for each developer in us-east-2. Assign each developer a specific EC2 instance with their name as the tag."
+    },
+    {
+      "key": "D",
+      "text": "Create an IAM policy than allows the launch of only t3.small EC2 instances in us-east-2. Attach the policy to the roles and groups that the developers use in the project's account."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "D"
+    ]
+  }
+}

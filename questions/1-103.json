@@ -1,0 +1,40 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/95421-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-01-15T14:32:00",
+  "number": 103,
+  "topic": 1,
+  "question": "A publishing company's design team updates the icons and other static assets that an ecommerce web application uses. The company serves the icons and assets from an Amazon S3 bucket that is hosted in the company's production account. The company also uses a development account that members of the design team can access.\nAfter the design team tests the static assets in the development account, the design team needs to load the assets into the S3 bucket in the production account. A solutions architect must provide the design team with access to the production account without exposing other parts of the web application to the risk of unwanted changes.\nWhich combination of steps will meet these requirements? (Choose three.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "In the production account, create a new IAM policy that allows read and write access to the S3 bucket."
+    },
+    {
+      "key": "B",
+      "text": "In the development account, create a new IAM policy that allows read and write access to the S3 bucket."
+    },
+    {
+      "key": "C",
+      "text": "In the production account, create a role Attach the new policy to the role. Define the development account as a trusted entity."
+    },
+    {
+      "key": "D",
+      "text": "In the development account, create a role. Attach the new policy to the role Define the production account as a trusted entity."
+    },
+    {
+      "key": "E",
+      "text": "In the development account, create a group that contains all the IAM users of the design team Attach a different IAM policy to the group to allow the sts:AssumeRole action on the role In the production account."
+    },
+    {
+      "key": "F",
+      "text": "In the development account, create a group that contains all the IAM users of the design team Attach a different IAM policy to the group to allow the sts:AssumeRole action on the role in the development account."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "C",
+      "E"
+    ]
+  }
+}

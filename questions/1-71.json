@@ -1,0 +1,35 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/95290-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-01-14T17:14:00",
+  "number": 71,
+  "topic": 1,
+  "question": "A video streaming company recently launched a mobile app for video sharing. The app uploads various files to an Amazon S3 bucket in the us-east-1 Region. The files range in size from 1 GB to 10 GB.\nUsers who access the app from Australia have experienced uploads that take long periods of time. Sometimes the files fail to completely upload for these users. A solutions architect must improve the app’s performance for these uploads.\nWhich solutions will meet these requirements? (Choose two.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Enable S3 Transfer Acceleration on the S3 bucket. Configure the app to use the Transfer Acceleration endpoint for uploads."
+    },
+    {
+      "key": "B",
+      "text": "Configure an S3 bucket in each Region to receive the uploads. Use S3 Cross-Region Replication to copy the files to the distribution S3 bucket."
+    },
+    {
+      "key": "C",
+      "text": "Set up Amazon Route 53 with latency-based routing to route the uploads to the nearest S3 bucket Region."
+    },
+    {
+      "key": "D",
+      "text": "Configure the app to break the video files into chunks. Use a multipart upload to transfer files to Amazon S3."
+    },
+    {
+      "key": "E",
+      "text": "Modify the app to add random prefixes to the files before uploading."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "D"
+    ]
+  }
+}

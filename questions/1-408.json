@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/126964-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-11-22T22:36:00",
+  "number": 408,
+  "topic": 1,
+  "question": "An e-commerce company is revamping its IT infrastructure and is planning to use AWS services. The company’s CIO has asked a solutions architect to design a simple, highly available, and loosely coupled order processing application. The application is responsible for receiving and processing orders before storing them in an Amazon DynamoDB table. The application has a sporadic traffic pattern and should be able to scale during marketing campaigns to process the orders with minimal delays.\nWhich of the following is the MOST reliable approach to meet the requirements?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Receive the orders in an Amazon EC2-hosted database and use EC2 instances to process them."
+    },
+    {
+      "key": "B",
+      "text": "Receive the orders in an Amazon SQS queue and invoke an AWS Lambda function to process them."
+    },
+    {
+      "key": "C",
+      "text": "Receive the orders using the AWS Step Functions program and launch an Amazon ECS container to process them."
+    },
+    {
+      "key": "D",
+      "text": "Receive the orders in Amazon Kinesis Data Streams and use Amazon EC2 instances to process them."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ]
+  }
+}

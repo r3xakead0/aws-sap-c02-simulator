@@ -1,0 +1,35 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/143031-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2024-06-28T22:44:00",
+  "number": 514,
+  "topic": 1,
+  "question": "A company operates a static content distribution platform that serves customers globally. The customers consume content from their own AWS accounts.\nThe company serves its content from an Amazon S3 bucket. The company uploads the content from its on-premises environment to the S3 bucket by using an S3 File Gateway.\nThe company wants to improve the platform’s performance and reliability by serving content from the AWS Region that is geographically closest to customers. The company must route the on-premises data to Amazon S3 with minimal latency and without public internet exposure.\nWhich combination of steps will meet these requirements with the LEAST operational overhead? (Choose two.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Implement S3 Multi-Region Access Points"
+    },
+    {
+      "key": "B",
+      "text": "Use S3 Cross-Region Replication (CRR) to copy content to different Regions"
+    },
+    {
+      "key": "C",
+      "text": "reate an AWS Lambda function that tracks the routing of clients to Regions"
+    },
+    {
+      "key": "D",
+      "text": "Use an AWS Site-to-Site VPN connection to connect to a Multi-Region Access Point."
+    },
+    {
+      "key": "E",
+      "text": "Use AWS PrivateLink and AWS Direct Connect to connect to a Multi-Region Access Point."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "E"
+    ]
+  }
+}

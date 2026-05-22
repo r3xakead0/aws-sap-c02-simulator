@@ -1,0 +1,40 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/112972-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-06-22T19:47:00",
+  "number": 222,
+  "topic": 1,
+  "question": "A company wants to run a custom network analysis software package to inspect traffic as traffic leaves and enters a VPC. The company has deployed the solution by using AWS CloudFormation on three Amazon EC2 instances in an Auto Scaling group. All network routing has been established to direct traffic to the EC2 instances.\nWhenever the analysis software stops working, the Auto Scaling group replaces an instance. The network routes are not updated when the instance replacement occurs.\nWhich combination of steps will resolve this issue? (Choose three.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create alarms based on EC2 status check metrics that will cause the Auto Scaling group to replace the failed instance."
+    },
+    {
+      "key": "B",
+      "text": "Update the CloudFormation template to install the Amazon CloudWatch agent on the EC2 instances. Configure the CloudWatch agent to send process metrics for the application."
+    },
+    {
+      "key": "C",
+      "text": "Update the CloudFormation template to install AWS Systems Manager Agent on the EC2 instances. Configure Systems Manager Agent to send process metrics for the application."
+    },
+    {
+      "key": "D",
+      "text": "Create an alarm for the custom metric in Amazon CloudWatch for the failure scenarios. Configure the alarm to publish a message to an Amazon Simple Notification Service (Amazon SNS) topic."
+    },
+    {
+      "key": "E",
+      "text": "Create an AWS Lambda function that responds to the Amazon Simple Notification Service (Amazon SNS) message to take the instance out of service. Update the network routes to point to the replacement instance."
+    },
+    {
+      "key": "F",
+      "text": "In the CloudFormation template, write a condition that updates the network routes when a replacement instance is launched."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B",
+      "D",
+      "E"
+    ]
+  }
+}

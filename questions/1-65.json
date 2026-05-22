@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/95278-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-01-14T15:24:00",
+  "number": 65,
+  "topic": 1,
+  "question": "A startup company hosts a fleet of Amazon EC2 instances in private subnets using the latest Amazon Linux 2 AMI. The company’s engineers rely heavily on SSH access to the instances for troubleshooting.\nThe company’s existing architecture includes the following:\n•\tA VPC with private and public subnets, and a NAT gateway.\n•\tSite-to-Site VPN for connectivity with the on-premises environment.\n•\tEC2 security groups with direct SSH access from the on-premises environment.\nThe company needs to increase security controls around SSH access and provide auditing of commands run by the engineers.\nWhich strategy should a solutions architect use?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Install and configure EC2 Instance Connect on the fleet of EC2 instances. Remove all security group rules attached to EC2 instances that allow inbound TCP on port 22. Advise the engineers to remotely access the instances by using the EC2 Instance Connect CLI."
+    },
+    {
+      "key": "B",
+      "text": "Update the EC2 security groups to only allow inbound TCP on port 22 to the IP addresses of the engineer’s devices. Install the Amazon CloudWatch agent on all EC2 instances and send operating system audit logs to CloudWatch Logs."
+    },
+    {
+      "key": "C",
+      "text": "Update the EC2 security groups to only allow inbound TCP on port 22 to the IP addresses of the engineer’s devices. Enable AWS Config for EC2 security group resource changes. Enable AWS Firewall Manager and apply a security group policy that automatically remediates changes to rules."
+    },
+    {
+      "key": "D",
+      "text": "Create an IAM role with the AmazonSSMManagedInstanceCore managed policy attached. Attach the IAM role to all the EC2 instances. Remove all security group rules attached to the EC2 instances that allow inbound TCP on port 22. Have the engineers install the AWS Systems Manager Session Manager plugin for their devices and remotely access the instances by using the start-session API call from Systems Manager."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "D"
+    ]
+  }
+}

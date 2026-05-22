@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/132898-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2024-02-05T19:26:00",
+  "number": 420,
+  "topic": 1,
+  "question": "A company that develops consumer electronics with offices in Europe and Asia has 60 TB of software images stored on premises in Europe. The company wants to transfer the images to an Amazon S3 bucket in the ap-northeast-1 Region. New software images are created daily and must be encrypted in transit. The company needs a solution that does not require custom development to automatically transfer all existing and new software images to Amazon S3.\nWhat is the next step in the transfer process?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Deploy an AWS DataSync agent and configure a task to transfer the images to the S3 bucket."
+    },
+    {
+      "key": "B",
+      "text": "Configure Amazon Kinesis Data Firehose to transfer the images using S3 Transfer Acceleration."
+    },
+    {
+      "key": "C",
+      "text": "Use an AWS Snowball device to transfer the images with the S3 bucket as the target."
+    },
+    {
+      "key": "D",
+      "text": "Transfer the images over a Site-to-Site VPN connection using the S3 API with multipart upload."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ]
+  }
+}

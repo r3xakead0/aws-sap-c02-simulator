@@ -1,0 +1,35 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/143123-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2024-07-01T02:25:00",
+  "number": 529,
+  "topic": 1,
+  "question": "An events company runs a ticketing platform on AWS. The company’s customers configure and schedule their events on the platform. The events result in large increases of traffic to the platform. The company knows the date and time of each customer’s events.\nThe company runs the platform on an Amazon Elastic Container Service (Amazon ECS) cluster. The ECS cluster consists of Amazon EC2 On-Demand Instances that are in an Auto Scaling group. The Auto Scaling group uses a predictive scaling policy.\nThe ECS cluster makes frequent requests to an Amazon S3 bucket to download ticket assets. The ECS cluster and the S3 bucket are in the same AWS Region and the same AWS account. Traffic between the ECS cluster and the S3 bucket flows across a NAT gateway.\nThe company needs to optimize the cost of the platform without decreasing the platform's availability.\nWhich combination of steps will meet these requirements? (Choose two.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create a gateway VPC endpoint for the S3 bucket."
+    },
+    {
+      "key": "B",
+      "text": "Add another ECS capacity provider that uses an Auto Scaling group of Spot Instances. Configure the new capacity provider strategy to have the same weight as the existing capacity provider strategy."
+    },
+    {
+      "key": "C",
+      "text": "reate On-Demand Capacity Reservations for the applicable instance type for the time period of the scheduled scaling policies."
+    },
+    {
+      "key": "D",
+      "text": "Enable S3 Transfer Acceleration on the S3 bucket."
+    },
+    {
+      "key": "E",
+      "text": "Replace the predictive scaling policy with scheduled scaling policies for the scheduled events."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "E"
+    ]
+  }
+}

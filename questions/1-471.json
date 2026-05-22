@@ -1,0 +1,40 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/136653-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2024-03-19T16:08:00",
+  "number": 471,
+  "topic": 1,
+  "question": "A company uses AWS Organizations. The company runs two firewall appliances in a centralized networking account. Each firewall appliance runs on a manually configured highly available Amazon EC2 instance. A transit gateway connects the VPC from the centralized networking account to VPCs of member accounts. Each firewall appliance uses a static private IP address that is then used to route traffic from the member accounts to the internet.\nDuring a recent incident, a badly configured script initiated the termination of both firewall appliances. During the rebuild of the firewall appliances, the company wrote a new script to configure the firewall appliances at startup.\nThe company wants to modernize the deployment of the firewall appliances. The firewall appliances need the ability to scale horizontally to handle increased traffic when the network expands. The company must continue to use the firewall appliances to comply with company policy. The provider of the firewall appliances has confirmed that the latest version of the firewall code will work with all AWS services.\nWhich combination of steps should the solutions architect recommend to meet these requirements MOST cost-effectively? (Choose three.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Deploy a Gateway Load Balancer in the centralized networking account. Set up an endpoint service that uses AWS PrivateLink."
+    },
+    {
+      "key": "B",
+      "text": "Deploy a Network Load Balancer in the centralized networking account. Set up an endpoint service that uses AWS PrivateLink."
+    },
+    {
+      "key": "C",
+      "text": "reate an Auto Scaling group and a launch template that uses the new script as user data to configure the firewall appliances. Create a target group that uses the instance target type."
+    },
+    {
+      "key": "D",
+      "text": "Create an Auto Scaling group. Configure an AWS Launch Wizard deployment that uses the new script as user data to configure the firewall appliances. Create a target group that uses the IP target type."
+    },
+    {
+      "key": "E",
+      "text": "Create VPC endpoints in each member account. Update the route tables to point to the VPC endpoints."
+    },
+    {
+      "key": "F",
+      "text": "Create VPC endpoints in the centralized networking account. Update the route tables in each member account to point to the VPC endpoints."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "C",
+      "F"
+    ]
+  }
+}

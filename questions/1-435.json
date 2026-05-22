@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/132987-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2024-02-06T03:06:00",
+  "number": 435,
+  "topic": 1,
+  "question": "A company is running its solution on AWS in a manually created VPC. The company is using AWS CloudFormation to provision other parts of the infrastructure. According to a new requirement, the company must manage all infrastructure in an automatic way.\nWhat should the company do to meet this new requirement with the LEAST effort?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create a new AWS Cloud Development Kit (AWS CDK) stack that strictly provisions the existing VPC resources and configuration. Use AWS CDK to import the VPC into the stack and to manage the VPC."
+    },
+    {
+      "key": "B",
+      "text": "Create a CloudFormation stack set that creates the VPC. Use the stack set to import the VPC into the stack."
+    },
+    {
+      "key": "C",
+      "text": "reate a new CloudFormation template that strictly provisions the existing VPC resources and configuration. From the CloudFormation console, create a new stack by importing the Existing resources."
+    },
+    {
+      "key": "D",
+      "text": "Create a new CloudFormation template that creates the VPC. Use the AWS Serverless Application Model (AWS SAM) CLI to import the VPC."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/91458-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2022-12-13T16:43:00",
+  "number": 30,
+  "topic": 1,
+  "question": "A company has 50 AWS accounts that are members of an organization in AWS Organizations. Each account contains multiple VPCs. The company wants to use AWS Transit Gateway to establish connectivity between the VPCs in each member account. Each time a new member account is created, the company wants to automate the process of creating a new VPC and a transit gateway attachment.\nWhich combination of steps will meet these requirements? (Choose two.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "From the management account, share the transit gateway with member accounts by using AWS Resource Access Manager."
+    },
+    {
+      "key": "B",
+      "text": "From the management account, share the transit gateway with member accounts by using an AWS Organizations SCP."
+    },
+    {
+      "key": "C",
+      "text": "Launch an AWS CloudFormation stack set from the management account that automatically creates a new VPC and a VPC transit gateway attachment in a member account. Associate the attachment with the transit gateway in the management account by using the transit gateway ID."
+    },
+    {
+      "key": "D",
+      "text": "Launch an AWS CloudFormation stack set from the management account that automatically creates a new VPC and a peering transit gateway attachment in a member account. Share the attachment with the transit gateway in the management account by using a transit gateway service-linked role."
+    },
+    {
+      "key": "E",
+      "text": "From the management account, share the transit gateway with member accounts by using AWS Service Catalog."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "C"
+    ]
+  }
+}

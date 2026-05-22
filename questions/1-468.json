@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/136647-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2024-03-19T15:31:00",
+  "number": 468,
+  "topic": 1,
+  "question": "A company deploys workloads in multiple AWS accounts. Each account has a VPC with VPC flow logs published in text log format to a centralized Amazon S3 bucket. Each log file is compressed with gzip compression. The company must retain the log files indefinitely.\nA security engineer occasionally analyzes the logs by using Amazon Athena to query the VPC flow logs. The query performance is degrading over time as the number of ingested logs is growing. A solutions architect must improve the performance of the log analysis and reduce the storage space that the VPC flow logs use.\nWhich solution will meet these requirements with the LARGEST performance improvement?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create an AWS Lambda function to decompress the gzip files and to compress the files with bzip2 compression. Subscribe the Lambda function to an s3:ObjectCreated:Put S3 event notification for the S3 bucket."
+    },
+    {
+      "key": "B",
+      "text": "Enable S3 Transfer Acceleration for the S3 bucket. Create an S3 Lifecycle configuration to move files to the S3 Intelligent-Tiering storage class as soon as the files are uploaded."
+    },
+    {
+      "key": "C",
+      "text": "Update the VPC flow log configuration to store the files in Apache Parquet format. Specify hourly partitions for the log files."
+    },
+    {
+      "key": "D",
+      "text": "Create a new Athena workgroup without data usage control limits. Use Athena engine version 2."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ]
+  }
+}

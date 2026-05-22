@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/95268-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-01-14T14:54:00",
+  "number": 60,
+  "topic": 1,
+  "question": "A company built an application based on AWS Lambda deployed in an AWS CloudFormation stack. The last production release of the web application introduced an issue that resulted in an outage lasting several minutes. A solutions architect must adjust the deployment process to support a canary release.\nWhich solution will meet these requirements?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create an alias for every new deployed version of the Lambda function. Use the AWS CLI update-alias command with the routing-config parameter to distribute the load."
+    },
+    {
+      "key": "B",
+      "text": "Deploy the application into a new CloudFormation stack. Use an Amazon Route 53 weighted routing policy to distribute the load."
+    },
+    {
+      "key": "C",
+      "text": "reate a version for every new deployed Lambda function. Use the AWS CLI update-function-configuration command with the routing-config parameter to distribute the load."
+    },
+    {
+      "key": "D",
+      "text": "Configure AWS CodeDeploy and use CodeDeployDefault.OneAtATime in the Deployment configuration to distribute the load."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ]
+  }
+}

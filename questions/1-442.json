@@ -1,0 +1,35 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/132993-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2024-02-06T03:49:00",
+  "number": 442,
+  "topic": 1,
+  "question": "A solutions architect has deployed a web application that serves users across two AWS Regions under a custom domain. The application uses Amazon Route 53 latency-based routing. The solutions architect has associated weighted record sets with a pair of web servers in separate Availability Zones for each Region.\nThe solutions architect runs a disaster recovery scenario. When all the web servers in one Region are stopped, Route 53 does not automatically redirect users to the other Region.\nWhich of the following are possible root causes of this issue? (Choose two.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "The weight for the Region where the web servers were stopped is higher than the weight for the other Region."
+    },
+    {
+      "key": "B",
+      "text": "One of the web servers in the secondary Region did not pass its HTTP health check."
+    },
+    {
+      "key": "C",
+      "text": "Latency resource record sets cannot be used in combination with weighted resource record sets."
+    },
+    {
+      "key": "D",
+      "text": "The setting to evaluate target health is not turned on for the latency alias resource record set that is associated with the domain in the Region where the web servers were stopped."
+    },
+    {
+      "key": "E",
+      "text": "An HTTP health check has not been set up for one or more of the weighted resource record sets associated with the stopped web servers."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "D",
+      "E"
+    ]
+  }
+}

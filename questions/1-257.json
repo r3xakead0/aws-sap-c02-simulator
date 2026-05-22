@@ -1,0 +1,35 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/113105-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-06-23T16:44:00",
+  "number": 257,
+  "topic": 1,
+  "question": "A media storage application uploads user photos to Amazon S3 for processing by AWS Lambda functions. Application state is stored in Amazon DynamoDB tables. Users are reporting that some uploaded photos are not being processed properly. The application developers trace the logs and find that Lambda is experiencing photo processing issues when thousands of users upload photos simultaneously. The issues are the result of Lambda concurrency limits and the performance of DynamoDB when data is saved.\nWhich combination of actions should a solutions architect take to increase the performance and reliability of the application? (Choose two.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Evaluate and adjust the RCUs for the DynamoDB tables."
+    },
+    {
+      "key": "B",
+      "text": "Evaluate and adjust the WCUs for the DynamoDB tables."
+    },
+    {
+      "key": "C",
+      "text": "Add an Amazon ElastiCache layer to increase the performance of Lambda functions."
+    },
+    {
+      "key": "D",
+      "text": "Add an Amazon Simple Queue Service (Amazon SQS) queue and reprocessing logic between Amazon S3 and the Lambda functions."
+    },
+    {
+      "key": "E",
+      "text": "Use S3 Transfer Acceleration to provide lower latency to users."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B",
+      "D"
+    ]
+  }
+}

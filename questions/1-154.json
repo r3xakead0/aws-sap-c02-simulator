@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/95574-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-01-16T16:47:00",
+  "number": 154,
+  "topic": 1,
+  "question": "A company gives users the ability to upload images from a custom application. The upload process invokes an AWS Lambda function that processes and stores the image in an Amazon S3 bucket. The application invokes the Lambda function by using a specific function version ARN.\nThe Lambda function accepts image processing parameters by using environment variables. The company often adjusts the environment variables of the Lambda function to achieve optimal image processing output. The company tests different parameters and publishes a new function version with the updated environment variables after validating results. This update process also requires frequent changes to the custom application to invoke the new function version ARN. These changes cause interruptions for users.\nA solutions architect needs to simplify this process to minimize disruption to users.\nWhich solution will meet these requirements with the LEAST operational overhead?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Directly modify the environment variables of the published Lambda function version. Use the SLATEST version to test image processing parameters."
+    },
+    {
+      "key": "B",
+      "text": "Create an Amazon DynamoDB table to store the image processing parameters. Modify the Lambda function to retrieve the image processing parameters from the DynamoDB table."
+    },
+    {
+      "key": "C",
+      "text": "Directly code the image processing parameters within the Lambda function and remove the environment variables. Publish a new function version when the company updates the parameters."
+    },
+    {
+      "key": "D",
+      "text": "Create a Lambda function alias. Modify the client application to use the function alias ARN. Reconfigure the Lambda alias to point to new versions of the function when the company finishes testing."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "D"
+    ]
+  }
+}

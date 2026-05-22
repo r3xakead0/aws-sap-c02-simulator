@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/124804-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-10-28T12:23:00",
+  "number": 305,
+  "topic": 1,
+  "question": "A data analytics company has an Amazon Redshift cluster that consists of several reserved nodes. The cluster is experiencing unexpected bursts of usage because a team of employees is compiling a deep audit analysis report. The queries to generate the report are complex read queries and are CPU intensive.\nBusiness requirements dictate that the cluster must be able to service read and write queries at all times. A solutions architect must devise a solution that accommodates the bursts of usage.\nWhich solution meets these requirements MOST cost-effectively?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Provision an Amazon EMR cluster Offload the complex data processing tasks."
+    },
+    {
+      "key": "B",
+      "text": "Deploy an AWS Lambda function to add capacity to the Amazon Redshift cluster by using a classic resize operation when the cluster’s CPU metrics in Amazon CloudWatch reach 80%."
+    },
+    {
+      "key": "C",
+      "text": "Deploy an AWS Lambda function to add capacity to the Amazon Redshift cluster by using an elastic resize operation when the cluster’s CPU metrics in Amazon CloudWatch reach 80%."
+    },
+    {
+      "key": "D",
+      "text": "Turn on the Concurrency Scaling feature for the Amazon Redshift cluster."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "D"
+    ]
+  }
+}

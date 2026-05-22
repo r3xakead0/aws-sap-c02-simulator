@@ -1,0 +1,40 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/142999-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2024-06-27T22:14:00",
+  "number": 505,
+  "topic": 1,
+  "question": "A company is migrating its on-premises IoT platform to AWS. The platform consists of the following components:\n•\tA MongoDB cluster as a data store for all collected and processed IoT data.\n•\tAn application that uses Message Queuing Telemetry Transport (MQTT) to connect to IoT devices every 5 minutes to collect data.\n•\tAn application that runs jobs periodically to generate reports from the IoT data. The jobs take 120-600 seconds to finish running.\n•\tA web application that runs on a web server. End users use the web application to generate reports that are accessible to the general public.\nThe company needs to migrate the platform to AWS to reduce operational overhead while maintaining performance.\nWhich combination of steps will meet these requirements with the LEAST operational overhead? (Choose three.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create AWS Step Functions state machines with AUS Lambda tasks to prepare the reports and to write the reports to Amazon S3. Configure an Amazon CloudFront distribution that has an S3 origin to serve the reports"
+    },
+    {
+      "key": "B",
+      "text": "Create an AWS Lambda function. Program the Lambda function to connect to the IoT devices. process the data, and write the data to the data store. Configure a Lambda layer to temporarily store messages for processing."
+    },
+    {
+      "key": "C",
+      "text": "onfigure an Amazon Elastic Kubernetes Service (Amazon EKS) cluster with Amazon EC2 instances to prepare the reports. Create an ingress controller on the EKS cluster to serve the reports."
+    },
+    {
+      "key": "D",
+      "text": "Connect the IoT devices to AWS IoT Core to publish messages. Create an AWS IoT rule that runs when a message is received. Configure the rule to call an AWS Lambda function. Program the Lambda function to parse, transform, and store device message data to the data store."
+    },
+    {
+      "key": "E",
+      "text": "Migrate the MongoDB cluster to Amazon DocumentDB (with MongoDB compatibility)."
+    },
+    {
+      "key": "F",
+      "text": "Migrate the MongoDB cluster to Amazon EC2 instances."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "D",
+      "E"
+    ]
+  }
+}

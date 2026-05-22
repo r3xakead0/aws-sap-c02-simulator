@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/143050-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2024-06-29T08:34:00",
+  "number": 513,
+  "topic": 1,
+  "question": "A company needs to optimize the cost of an AWS environment that contains multiple accounts in an organization in AWS Organizations. The company conducted cost optimization activities 3 years ago and purchased Amazon EC2 Standard Reserved Instances that recently expired.\nThe company needs EC2 instances for 3 more years. Additionally, the company has deployed a new serverless workload.\nWhich strategy will provide the company with the MOST cost savings?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Purchase the same Reserved Instances for an additional 3-year term with All Upfront payment. Purchase a 3-year Compute Savings Plan with All Upfront payment in the management account to cover any additional compute costs"
+    },
+    {
+      "key": "B",
+      "text": "Purchase a 1-year Compute Savings Plan with No Upfront payment in each member account. Use the Savings Plans recommendations in the AWS Cost Management console to choose the Compute Savings Plan."
+    },
+    {
+      "key": "C",
+      "text": "Purchase a 3-year EC2 Instance Savings Plan with No Upfront payment in the management account to cover EC2 costs in each AWS Region. Purchase a 3-year Compute Savings Plan with No Upfront payment in the management account to cover any additional compute costs."
+    },
+    {
+      "key": "D",
+      "text": "Purchase a 3-year EC2 Instance Savings Plan with All Upfront payment in each member account. Use the Savings Plans recommendations in the AWS Cost Management console to choose the EC2 Instance Savings Plan."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ]
+  }
+}

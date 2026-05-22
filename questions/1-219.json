@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/112850-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-06-21T19:37:00",
+  "number": 219,
+  "topic": 1,
+  "question": "A company has set up its entire infrastructure on AWS. The company uses Amazon EC2 instances to host its ecommerce website and uses Amazon S3 to store static data. Three engineers at the company handle the cloud administration and development through one AWS account. Occasionally, an engineer alters an EC2 security group configuration of another engineer and causes noncompliance issues in the environment.\nA solutions architect must set up a system that tracks changes that the engineers make. The system must send alerts when the engineers make noncompliant changes to the security settings for the EC2 instances.\nWhat is the FASTEST way for the solutions architect to meet these requirements?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Set up AWS Organizations for the company. Apply SCPs to govern and track noncompliant security group changes that are made to the AWS account."
+    },
+    {
+      "key": "B",
+      "text": "Enable AWS CloudTrail to capture the changes to EC2 security groups. Enable Amazon CloudWatch rules to provide alerts when noncompliant security settings are detected."
+    },
+    {
+      "key": "C",
+      "text": "Enable SCPs on the AWS account to provide alerts when noncompliant security group changes are made to the environment."
+    },
+    {
+      "key": "D",
+      "text": "Enable AWS Config on the EC2 security groups to track any noncompliant changes. Send the changes as alerts through an Amazon Simple Notification Service (Amazon SNS) topic."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "D"
+    ]
+  }
+}

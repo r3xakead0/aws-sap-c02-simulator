@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/138594-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2024-04-13T12:38:00",
+  "number": 478,
+  "topic": 1,
+  "question": "A company is deploying a new application on AWS. The application consists of an Amazon Elastic Kubernetes Service (Amazon EKS) cluster and an Amazon Elastic Container Registry (Amazon ECR) repository. The EKS cluster has an AWS managed node group.\nThe company's security guidelines state that all resources on AWS must be continuously scanned for security vulnerabilities.\nWhich solution will meet this requirement with the LEAST operational overhead?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "ctivate AWS Security Hub. Configure Security Hub to scan the EKS nodes and the ECR repository."
+    },
+    {
+      "key": "B",
+      "text": "Activate Amazon Inspector to scan the EKS nodes and the ECR repository."
+    },
+    {
+      "key": "C",
+      "text": "Launch a new Amazon EC2 instance and install a vulnerability scanning tool from AWS Marketplace. Configure the EC2 instance to scan the EKS nodes. Configure Amazon ECR to perform a basic scan on push."
+    },
+    {
+      "key": "D",
+      "text": "Install the Amazon CloudWatch agent on the EKS nodes. Configure the CloudWatch agent to scan continuously. Configure Amazon ECR to perform a basic scan on push."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ]
+  }
+}

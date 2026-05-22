@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/127001-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-11-23T12:45:00",
+  "number": 358,
+  "topic": 1,
+  "question": "A company is deploying a distributed in-memory database on a fleet of Amazon EC2 instances. The fleet consists of a primary node and eight worker nodes. The primary node is responsible for monitoring cluster health, accepting user requests, distributing user requests to worker nodes, and sending an aggregate response back to a client. Worker nodes communicate with each other to replicate data partitions.\nThe company requires the lowest possible networking latency to achieve maximum performance.\nWhich solution will meet these requirements?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Launch memory optimized EC2 instances in a partition placement group."
+    },
+    {
+      "key": "B",
+      "text": "Launch compute optimized EC2 instances in a partition placement group."
+    },
+    {
+      "key": "C",
+      "text": "Launch memory optimized EC2 instances in a cluster placement group."
+    },
+    {
+      "key": "D",
+      "text": "Launch compute optimized EC2 instances in a spread placement group."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ]
+  }
+}

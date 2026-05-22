@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/99155-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-02-14T14:02:00",
+  "number": 176,
+  "topic": 1,
+  "question": "A company runs a customer service center that accepts calls and automatically sends all customers a managed, interactive, two-way experience survey by text message. The applications that support the customer service center run on machines that the company hosts in an on-premises data center. The hardware that the company uses is old, and the company is experiencing downtime with the system. The company wants to migrate the system to AWS to improve reliability.\nWhich solution will meet these requirements with the LEAST ongoing operational overhead?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use Amazon Connect to replace the old call center hardware. Use Amazon Pinpoint to send text message surveys to customers."
+    },
+    {
+      "key": "B",
+      "text": "Use Amazon Connect to replace the old call center hardware. Use Amazon Simple Notification Service (Amazon SNS) to send text message surveys to customers."
+    },
+    {
+      "key": "C",
+      "text": "Migrate the call center software to Amazon EC2 instances that are in an Auto Scaling group. Use the EC2 instances to send text message surveys to customers."
+    },
+    {
+      "key": "D",
+      "text": "Use Amazon Pinpoint to replace the old call center hardware and to send text message surveys to customers."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ]
+  }
+}

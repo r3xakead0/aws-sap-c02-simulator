@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/113184-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-06-24T15:29:00",
+  "number": 260,
+  "topic": 1,
+  "question": "A company runs an unauthenticated static website (www.example.com) that includes a registration form for users. The website uses Amazon S3 for hosting and uses Amazon CloudFront as the content delivery network with AWS WAF configured. When the registration form is submitted, the website calls an Amazon API Gateway API endpoint that invokes an AWS Lambda function to process the payload and forward the payload to an external API call.\nDuring testing, a solutions architect encounters a cross-origin resource sharing (CORS) error. The solutions architect confirms that the CloudFront distribution origin has the Access-Control-Allow-Origin header set to www.example.com.\nWhat should the solutions architect do to resolve the error?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Change the CORS configuration on the S3 bucket. Add rules for CORS to the AllowedOrigin element for www.example.com."
+    },
+    {
+      "key": "B",
+      "text": "Enable the CORS setting in AWS WAF. Create a web ACL rule in which the Access-Control-Allow-Origin header is set to www.example.com."
+    },
+    {
+      "key": "C",
+      "text": "Enable the CORS setting on the API Gateway API endpoint. Ensure that the API endpoint is configured to return all responses that have the Access-Control-Allow-Origin header set to www.example.com."
+    },
+    {
+      "key": "D",
+      "text": "Enable the CORS setting on the Lambda function. Ensure that the return code of the function has the Access-Control-Allow-Origin header set to www.example.com."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ]
+  }
+}

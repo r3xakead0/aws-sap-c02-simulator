@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/136650-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2024-03-19T15:46:00",
+  "number": 470,
+  "topic": 1,
+  "question": "A company wants to use Amazon WorkSpaces in combination with thin client devices to replace aging desktops. Employees use the desktops to access applications that work with Clinical trial data. Corporate security policy states that access to the applications must be restricted to only company branch office locations. The company is considering adding an additional branch office in the next 6 months.\nWhich solution meets these requirements with the MOST operational efficiency?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create an IP access control group rule with the list of public addresses from the branch offices. Associate the IP access control group with the WorkSpaces directory."
+    },
+    {
+      "key": "B",
+      "text": "Use AWS Firewall Manager to create a web ACL rule with an IPSet with the list of public addresses from the branch office locations. Associate the web ACL with the WorkSpaces directory."
+    },
+    {
+      "key": "C",
+      "text": "Use AWS Certificate Manager (ACM) to issue trusted device certificates to the machines deployed in the branch office locations. Enable restricted access on the WorkSpaces directory."
+    },
+    {
+      "key": "D",
+      "text": "Create a custom WorkSpace image with Windows Firewall configured to restrict access to the public addresses of the branch offices. Use the image to deploy the WorkSpaces."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ]
+  }
+}

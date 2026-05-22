@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/95380-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-01-15T09:24:00",
+  "number": 86,
+  "topic": 1,
+  "question": "A company plans to refactor a monolithic application into a modern application design deployed on AWS. The CI/CD pipeline needs to be upgraded to support the modern design for the application with the following requirements:\n•\tIt should allow changes to be released several times every hour.\n•\tIt should be able to roll back the changes as quickly as possible.\nWhich design will meet these requirements?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Deploy a CI/CD pipeline that incorporates AMIs to contain the application and their configurations. Deploy the application by replacing Amazon EC2 instances."
+    },
+    {
+      "key": "B",
+      "text": "Specify AWS Elastic Beanstalk to stage in a secondary environment as the deployment target for the CI/CD pipeline of the application. To deploy, swap the staging and production environment URLs."
+    },
+    {
+      "key": "C",
+      "text": "Use AWS Systems Manager to re-provision the infrastructure for each deployment. Update the Amazon EC2 user data to pull the latest code artifact from Amazon S3 and use Amazon Route 53 weighted routing to point to the new environment."
+    },
+    {
+      "key": "D",
+      "text": "Roll out the application updates as part of an Auto Scaling event using prebuilt AMIs. Use new versions of the AMIs to add instances. and phase out all instances that use the previous AMI version with the configured termination policy during a deployment event."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ]
+  }
+}

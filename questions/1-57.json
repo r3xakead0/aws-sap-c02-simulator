@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/95227-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-01-14T13:18:00",
+  "number": 57,
+  "topic": 1,
+  "question": "A company with several AWS accounts is using AWS Organizations and service control policies (SCPs). An administrator created the following SCP and has attached it to an organizational unit (OU) that contains AWS account 1111-1111-1111:\n[Imagen]: 57_assets/img_001.png\nDevelopers working in account 1111-1111-1111 complain that they cannot create Amazon S3 buckets. How should the administrator address this problem?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "dd s3:CreateBucket with “Allow” effect to the SCP."
+    },
+    {
+      "key": "B",
+      "text": "Remove the account from the OU, and attach the SCP directly to account 1111-1111-1111."
+    },
+    {
+      "key": "C",
+      "text": "Instruct the developers to add Amazon S3 permissions to their IAM entities."
+    },
+    {
+      "key": "D",
+      "text": "Remove the SCP from account 1111-1111-1111."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ]
+  }
+}

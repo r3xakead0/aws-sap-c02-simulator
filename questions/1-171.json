@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/99150-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-02-14T13:19:00",
+  "number": 171,
+  "topic": 1,
+  "question": "A company uses an AWS CodeCommit repository. The company must store a backup copy of the data that is in the repository in a second AWS Region.\nWhich solution will meet these requirements?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Configure AWS Elastic Disaster Recovery to replicate the CodeCommit repository data to the second Region."
+    },
+    {
+      "key": "B",
+      "text": "Use AWS Backup to back up the CodeCommit repository on an hourly schedule. Create a cross-Region copy in the second Region."
+    },
+    {
+      "key": "C",
+      "text": "reate an Amazon EventBridge rule to invoke AWS CodeBuild when the company pushes code to the repository. Use CodeBuild to clone the repository. Create a .zip file of the content. Copy the file to an S3 bucket in the second Region."
+    },
+    {
+      "key": "D",
+      "text": "Create an AWS Step Functions workflow on an hourly schedule to take a snapshot of the CodeCommit repository. Configure the workflow to copy the snapshot to an S3 bucket in the second Region"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ]
+  }
+}

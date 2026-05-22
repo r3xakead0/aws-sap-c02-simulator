@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/112807-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-06-21T11:27:00",
+  "number": 272,
+  "topic": 1,
+  "question": "A company hosts a web application on AWS in the us-east-1 Region. The application servers are distributed across three Availability Zones behind an Application Load Balancer. The database is hosted in a MySQL database on an Amazon EC2 instance. A solutions architect needs to design a cross-Region data recovery solution using AWS services with an RTO of less than 5 minutes and an RPO of less than 1 minute. The solutions architect is deploying application servers in us-west-2, and has configured Amazon Route 53 health checks and DNS failover to us-west-2.\nWhich additional step should the solutions architect take?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Migrate the database to an Amazon RDS for MySQL instance with a cross-Region read replica in us-west-2."
+    },
+    {
+      "key": "B",
+      "text": "Migrate the database to an Amazon Aurora global database with the primary in us-east-1 and the secondary in us-west-2."
+    },
+    {
+      "key": "C",
+      "text": "Migrate the database to an Amazon RDS for MySQL instance with a Multi-AZ deployment."
+    },
+    {
+      "key": "D",
+      "text": "Create a MySQL standby database on an Amazon EC2 instance in us-west-2."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ]
+  }
+}

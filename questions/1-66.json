@@ -1,0 +1,40 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/95284-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-01-14T16:35:00",
+  "number": 66,
+  "topic": 1,
+  "question": "A company that uses AWS Organizations allows developers to experiment on AWS. As part of the landing zone that the company has deployed, developers use their company email address to request an account. The company wants to ensure that developers are not launching costly services or running services unnecessarily. The company must give developers a fixed monthly budget to limit their AWS costs.\nWhich combination of steps will meet these requirements? (Choose three.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create an SCP to set a fixed monthly account usage limit. Apply the SCP to the developer accounts."
+    },
+    {
+      "key": "B",
+      "text": "Use AWS Budgets to create a fixed monthly budget for each developer’s account as part of the account creation process."
+    },
+    {
+      "key": "C",
+      "text": "reate an SCP to deny access to costly services and components. Apply the SCP to the developer accounts."
+    },
+    {
+      "key": "D",
+      "text": "Create an IAM policy to deny access to costly services and components. Apply the IAM policy to the developer accounts."
+    },
+    {
+      "key": "E",
+      "text": "Create an AWS Budgets alert action to terminate services when the budgeted amount is reached. Configure the action to terminate all services."
+    },
+    {
+      "key": "F",
+      "text": "Create an AWS Budgets alert action to send an Amazon Simple Notification Service (Amazon SNS) notification when the budgeted amount is reached. Invoke an AWS Lambda function to terminate all services."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B",
+      "C",
+      "F"
+    ]
+  }
+}

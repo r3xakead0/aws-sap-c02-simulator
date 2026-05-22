@@ -1,0 +1,40 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/126838-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-11-22T07:50:00",
+  "number": 375,
+  "topic": 1,
+  "question": "A company runs an intranet application on premises. The company wants to configure a cloud backup of the application. The company has selected AWS Elastic Disaster Recovery for this solution.\nThe company requires that replication traffic does not travel through the public internet. The application also must not be accessible from the internet. The company does not want this solution to consume all available network bandwidth because other applications require bandwidth.\nWhich combination of steps will meet these requirements? (Choose three.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create a VPC that has at least two private subnets, two NAT gateways, and a virtual private gateway."
+    },
+    {
+      "key": "B",
+      "text": "Create a VPC that has at least two public subnets, a virtual private gateway, and an internet gateway."
+    },
+    {
+      "key": "C",
+      "text": "reate an AWS Site-to-Site VPN connection between the on-premises network and the target AWS network."
+    },
+    {
+      "key": "D",
+      "text": "Create an AWS Direct Connect connection and a Direct Connect gateway between the on-premises network and the target AWS network."
+    },
+    {
+      "key": "E",
+      "text": "During configuration of the replication servers, select the option to use private IP addresses for data replication."
+    },
+    {
+      "key": "F",
+      "text": "During configuration of the launch settings for the target servers, select the option to ensure that the Recovery instance’s private IP address matches the source server's private IP address."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "D",
+      "E"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/91008-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2022-12-11T14:12:00",
+  "number": 15,
+  "topic": 1,
+  "question": "A company is using multiple AWS accounts. The DNS records are stored in a private hosted zone for Amazon Route 53 in Account A. The company’s applications and databases are running in Account B.\nA solutions architect will deploy a two-tier application in a new VPC. To simplify the configuration, the db.example.com CNAME record set for the Amazon RDS endpoint was created in a private hosted zone for Amazon Route 53.\nDuring deployment, the application failed to start. Troubleshooting revealed that db.example.com is not resolvable on the Amazon EC2 instance. The solutions architect confirmed that the record set was created correctly in Route 53.\nWhich combination of steps should the solutions architect take to resolve this issue? (Choose two.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Deploy the database on a separate EC2 instance in the new VPC. Create a record set for the instance’s private IP in the private hosted zone."
+    },
+    {
+      "key": "B",
+      "text": "Use SSH to connect to the application tier EC2 instance. Add an RDS endpoint IP address to the /etc/resolv.conf file."
+    },
+    {
+      "key": "C",
+      "text": "reate an authorization to associate the private hosted zone in Account A with the new VPC in Account B."
+    },
+    {
+      "key": "D",
+      "text": "Create a private hosted zone for the example com domain in Account B. Configure Route 53 replication between AWS accounts."
+    },
+    {
+      "key": "E",
+      "text": "Associate a new VPC in Account B with a hosted zone in Account A. Delete the association authorization in Account A."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C",
+      "E"
+    ]
+  }
+}

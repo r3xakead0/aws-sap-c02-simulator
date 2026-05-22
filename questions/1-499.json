@@ -1,0 +1,35 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/142933-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2024-06-25T20:31:00",
+  "number": 499,
+  "topic": 1,
+  "question": "A company has an application that stores user-uploaded videos in an Amazon S3 bucket that uses S3 Standard storage. Users access the videos frequently in the first 180 days after the videos are uploaded. Access after 180 days is rare. Named users and anonymous users access the videos.\nMost of the videos are more than 100 MB in size. Users often have poor internet connectivity when they upload videos, resulting in failed uploads. The company uses multipart uploads for the videos.\nA solutions architect needs to optimize the S3 costs of the application.\nWhich combination of actions will meet these requirements? (Choose two.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Configure the S3 bucket to be a Requester Pays bucket."
+    },
+    {
+      "key": "B",
+      "text": "Use S3 Transfer Acceleration to upload the videos to the S3 bucket."
+    },
+    {
+      "key": "C",
+      "text": "reate an S3 Lifecycle configuration o expire incomplete multipart uploads 7 days after initiation."
+    },
+    {
+      "key": "D",
+      "text": "Create an S3 Lifecycle configuration to transition objects to S3 Glacier Instant Retrieval after 1 day."
+    },
+    {
+      "key": "E",
+      "text": "Create an S3 Lifecycle configuration to transition objects to S3 Standard-infrequent Access (S3 Standard- IA) after 180 days."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C",
+      "E"
+    ]
+  }
+}

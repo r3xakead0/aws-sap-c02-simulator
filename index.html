@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SAP-C02 Exam Simulator | AWS Certification Practice Questions</title>
+    <meta
+      name="description"
+      content="Practice for the AWS SAP-C02 exam with realistic question flow, instant answer reveal, progress tracking, and final score review."
+    />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="application-name" content="SAP-C02 Exam Simulator" />
+    <meta name="theme-color" content="#0067b8" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:title" content="SAP-C02 Exam Simulator | AWS Certification Practice Questions" />
+    <meta
+      property="og:description"
+      content="Prepare for SAP-C02 with a focused simulator: long-form question reading, answer reveal mode, and results-based review."
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="SAP-C02 Exam Simulator | AWS Certification Practice Questions" />
+    <meta
+      name="twitter:description"
+      content="Train for SAP-C02 using a lightweight simulator with progress memory and exam-style navigation."
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "SAP-C02 Exam Simulator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Web Browser",
+        "inLanguage": "en",
+        "description": "A browser-based simulator to practice AWS SAP-C02 questions with answer reveal and score review.",
+        "isAccessibleForFree": true
+      }
+    </script>
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">AWS Certification</p>
+          <h1 id="examTitle">Loading exam...</h1>
+        </div>
+      </header>
+
+      <section class="card" id="startView">
+        <h2>Welcome</h2>
+        <p id="startDescription">Preparing exam content...</p>
+        <ul class="instruction-list">
+          <li>Read each prompt and choose the best answer.</li>
+          <li>You can move between questions and update answers before submitting.</li>
+          <li>Your progress is saved locally so you can continue after a reload.</li>
+        </ul>
+        <div class="actions">
+          <button id="startBtn" class="btn primary" disabled>Start exam</button>
+          <button id="resumeBtn" class="btn" hidden>Resume</button>
+          <button id="restartBtn" class="btn ghost" hidden>Start over</button>
+        </div>
+      </section>
+
+      <section class="card hidden" id="examView">
+        <div class="exam-header">
+          <span id="questionCounter">Question 0 of 0</span>
+          <span id="progressSummary" class="progress-summary">Answered 0 of 0</span>
+          <button id="submitBtn" class="btn primary" type="button">Finish exam</button>
+        </div>
+        <h2 id="questionText"></h2>
+        <div id="questionMedia" class="question-media"></div>
+        <form id="optionsForm" class="options"></form>
+        <div id="answerReveal" class="answer-reveal hidden"></div>
+
+        <div class="actions answer-actions">
+          <button id="viewAnswerBtn" class="btn ghost" type="button">View answer</button>
+        </div>
+
+        <nav class="pager" aria-label="Question navigation">
+          <button id="firstBtn" class="btn" type="button">First</button>
+          <button id="prevBtn" class="btn" type="button">Previous</button>
+          <div id="pageNumbers" class="page-numbers"></div>
+          <button id="nextNavBtn" class="btn" type="button">Next</button>
+          <button id="lastBtn" class="btn" type="button">Last</button>
+        </nav>
+      </section>
+
+      <section class="card hidden" id="resultView">
+        <h2>Results</h2>
+        <p id="scoreSummary"></p>
+        <div id="resultList" class="result-list"></div>
+        <div class="actions">
+          <button id="newAttemptBtn" class="btn primary">New attempt</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="assets/app.js"></script>
+  </body>
+</html>

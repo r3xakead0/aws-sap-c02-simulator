@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/126932-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-11-22T17:28:00",
+  "number": 372,
+  "topic": 1,
+  "question": "A company has a website that serves many visitors. The company deploys a backend service for the website in a primary AWS Region and a disaster recovery (DR) Region.\nA single Amazon CloudFront distribution is deployed for the website. The company creates an Amazon Route 53 record set with health checks and a failover routing policy for the primary Region’s backend service. The company configures the Route 53 record set as an origin for the CloudFront distribution. The company configures another record set that points to the backend service's endpoint in the DR Region as a secondary failover record type. The TTL for both record sets is 60 seconds.\nCurrently, failover takes more than 1 minute. A solutions architect must design a solution that will provide the fastest failover time.\nWhich solution will achieve this goal?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Deploy an additional CloudFront distribution. Create a new Route 53 failover record set with health checks for both CloudFront distributions."
+    },
+    {
+      "key": "B",
+      "text": "Set the TTL to 4 second for the existing Route 53 record sets that are used for the backend service in each Region."
+    },
+    {
+      "key": "C",
+      "text": "reate new record sets for the backend services by using a latency routing policy. Use the record sets as an origin in the CloudFront distribution."
+    },
+    {
+      "key": "D",
+      "text": "Create a CloudFront origin group that includes two origins, one for each backend service Region. Configure origin failover as a cache behavior for the CloudFront distribution."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "D"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/112782-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-06-21T11:03:00",
+  "number": 284,
+  "topic": 1,
+  "question": "A company operates quick-service restaurants. The restaurants follow a predictable model with high sales traffic for 4 hours daily. Sales traffic is lower outside of those peak hours.\nThe point of sale and management platform is deployed in the AWS Cloud and has a backend that is based on Amazon DynamoDB. The database table uses provisioned throughput mode with 100,000 RCUs and 80,000 WCUs to match known peak resource consumption.\nThe company wants to reduce its DynamoDB cost and minimize the operational overhead for the IT staff.\nWhich solution meets these requirements MOST cost-effectively?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Reduce the provisioned RCUs and WCUs."
+    },
+    {
+      "key": "B",
+      "text": "Change the DynamoDB table to use on-demand capacity."
+    },
+    {
+      "key": "C",
+      "text": "Enable Dynamo DB auto scaling for the table."
+    },
+    {
+      "key": "D",
+      "text": "Purchase 1-year reserved capacity that is sufficient to cover the peak load for 4 hours each day."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ]
+  }
+}

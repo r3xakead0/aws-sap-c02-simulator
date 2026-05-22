@@ -1,0 +1,35 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/95570-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-01-16T16:28:00",
+  "number": 151,
+  "topic": 1,
+  "question": "A company has migrated an application from on premises to AWS. The application frontend is a static website that runs on two Amazon EC2 instances behind an Application Load Balancer (ALB). The application backend is a Python application that runs on three EC2 instances behind another ALB. The EC2 instances are large, general purpose On-Demand Instances that were sized to meet the on-premises specifications for peak usage of the application.\nThe application averages hundreds of thousands of requests each month. However, the application is used mainly during lunchtime and receives minimal traffic during the rest of the day.\nA solutions architect needs to optimize the infrastructure cost of the application without negatively affecting the application availability.\nWhich combination of steps will meet these requirements? (Choose two.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Change all the EC2 instances to compute optimized instances that have the same number of cores as the existing EC2 instances."
+    },
+    {
+      "key": "B",
+      "text": "Move the application frontend to a static website that is hosted on Amazon S3."
+    },
+    {
+      "key": "C",
+      "text": "Deploy the application frontend by using AWS Elastic Beanstalk. Use the same instance type for the nodes."
+    },
+    {
+      "key": "D",
+      "text": "Change all the backend EC2 instances to Spot Instances."
+    },
+    {
+      "key": "E",
+      "text": "Deploy the backend Python application to general purpose burstable EC2 instances that have the same number of cores as the existing EC2 instances."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B",
+      "E"
+    ]
+  }
+}

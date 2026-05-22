@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/91464-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2022-12-13T17:03:00",
+  "number": 35,
+  "topic": 1,
+  "question": "A company is storing data on premises on a Windows file server. The company produces 5 GB of new data daily.\nThe company migrated part of its Windows-based workload to AWS and needs the data to be available on a file system in the cloud. The company already has established an AWS Direct Connect connection between the on-premises network and AWS.\nWhich data migration strategy should the company use?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use the file gateway option in AWS Storage Gateway to replace the existing Windows file server, and point the existing file share to the new file gateway."
+    },
+    {
+      "key": "B",
+      "text": "Use AWS DataSync to schedule a daily task to replicate data between the on-premises Windows file server and Amazon FSx."
+    },
+    {
+      "key": "C",
+      "text": "Use AWS Data Pipeline to schedule a daily task to replicate data between the on-premises Windows file server and Amazon Elastic File System (Amazon EFS)."
+    },
+    {
+      "key": "D",
+      "text": "Use AWS DataSync to schedule a daily task to replicate data between the on-premises Windows file server and Amazon Elastic File System (Amazon EFS)."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ]
+  }
+}

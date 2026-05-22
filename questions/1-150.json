@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/95602-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-01-16T18:35:00",
+  "number": 150,
+  "topic": 1,
+  "question": "A company has a latency-sensitive trading platform that uses Amazon DynamoDB as a storage backend. The company configured the DynamoDB table to use on-demand capacity mode. A solutions architect needs to design a solution to improve the performance of the trading platform. The new solution must ensure high availability for the trading platform.\nWhich solution will meet these requirements with the LEAST latency?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create a two-node DynamoDB Accelerator (DAX) cluster. Configure an application to read and write data by using DAX."
+    },
+    {
+      "key": "B",
+      "text": "Create a three-node DynamoDB Accelerator (DAX) cluster. Configure an application to read data by using DAX and to write data directly to the DynamoDB table."
+    },
+    {
+      "key": "C",
+      "text": "reate a three-node DynamoDB Accelerator (DAX) cluster. Configure an application to read data directly from the DynamoDB table and to write data by using DAX."
+    },
+    {
+      "key": "D",
+      "text": "Create a single-node DynamoDB Accelerator (DAX) cluster. Configure an application to read data by using DAX and to write data directly to the DynamoDB table."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/110372-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-05-27T15:39:00",
+  "number": 199,
+  "topic": 1,
+  "question": "A company is using an organization in AWS Organizations to manage hundreds of AWS accounts. A solutions architect is working on a solution to provide baseline protection for the Open Web Application Security Project (OWASP) top 10 web application vulnerabilities. The solutions architect is using AWS WAF for all existing and new Amazon CloudFront distributions that are deployed within the organization.\nWhich combination of steps should the solutions architect take to provide the baseline protection? (Choose three.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Enable AWS Config in all accounts"
+    },
+    {
+      "key": "B",
+      "text": "Enable Amazon GuardDuty in all accounts"
+    },
+    {
+      "key": "C",
+      "text": "Enable all features for the organization"
+    },
+    {
+      "key": "D",
+      "text": "Use AWS Firewall Manager to deploy AWS WAF rules in all accounts for all CloudFront distributions"
+    },
+    {
+      "key": "E",
+      "text": "Use AWS Shield Advanced to deploy AWS WAF rules in all accounts for all CloudFront distributions"
+    },
+    {
+      "key": "F",
+      "text": "Use AWS Security Hub to deploy AWS WAF rules in all accounts for all CloudFront distributions"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "C",
+      "D"
+    ]
+  }
+}

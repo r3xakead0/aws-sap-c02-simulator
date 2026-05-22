@@ -1,0 +1,35 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/99148-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-02-14T13:13:00",
+  "number": 170,
+  "topic": 1,
+  "question": "A solutions architect wants to cost-optimize and appropriately size Amazon EC2 instances in a single AWS account. The solutions architect wants to ensure that the instances are optimized based on CPU, memory, and network metrics.\nWhich combination of steps should the solutions architect take to meet these requirements? (Choose two.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Purchase AWS Business Support or AWS Enterprise Support for the account."
+    },
+    {
+      "key": "B",
+      "text": "Turn on AWS Trusted Advisor and review any “Low Utilization Amazon EC2 Instances” recommendations."
+    },
+    {
+      "key": "C",
+      "text": "Install the Amazon CloudWatch agent and configure memory metric collection on the EC2 instances."
+    },
+    {
+      "key": "D",
+      "text": "Configure AWS Compute Optimizer in the AWS account to receive findings and optimization recommendations."
+    },
+    {
+      "key": "E",
+      "text": "Create an EC2 Instance Savings Plan for the AWS Regions, instance families, and operating systems of interest."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C",
+      "D"
+    ]
+  }
+}

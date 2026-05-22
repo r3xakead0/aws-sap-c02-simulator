@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/142925-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2024-06-25T19:57:00",
+  "number": 491,
+  "topic": 1,
+  "question": "A company is developing a latency-sensitive application. Part of the application includes several AWS Lambda functions that need to initialize as quickly as possible. The Lambda functions are written in Java and contain initialization code outside the handlers to load libraries, initialize classes, and generate unique IDs.\nWhich solution will meet the startup performance requirement MOST cost-effectively?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Move all the initialization code to the handlers for each Lambda function. Activate Lambda SnapStart for each Lambda function. Configure SnapStart to reference the $LATEST version of each Lambda function."
+    },
+    {
+      "key": "B",
+      "text": "Publish a version of each Lambda function. Create an alias for each Lambda function. Configure each alias to point to its corresponding version. Set up a provisioned concurrency configuration for each Lambda function to point to the corresponding alias."
+    },
+    {
+      "key": "C",
+      "text": "Publish a version of each Lambda function. Set up a provisioned concurrency configuration for each Lambda function to point to the corresponding version. Activate Lambda SnapStar for the published versions of the Lambda functions."
+    },
+    {
+      "key": "D",
+      "text": "Update the Lambda functions to add a pre-snapshot hook. Move the code that generates unique IDs into the handlers. Publish a version of each Lambda function. Activate Lambda SnapStart for the published versions of the Lambda functions."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "D"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/124903-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-10-29T19:21:00",
+  "number": 320,
+  "topic": 1,
+  "question": "A company's compliance audit reveals that some Amazon Elastic Block Store (Amazon EBS) volumes that were created in an AWS account were not encrypted. A solutions architect must implement a solution to encrypt all new EBS volumes at rest.\nWhich solution will meet this requirement with the LEAST effort?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create an Amazon EventBridge rule to detect the creation of unencrypted EBS volumes. Invoke an AWS Lambda function to delete noncompliant volumes."
+    },
+    {
+      "key": "B",
+      "text": "Use AWS Audit Manager with data encryption."
+    },
+    {
+      "key": "C",
+      "text": "reate an AWS Config rule to detect the creation of a new EBS volume. Encrypt the volume by using AWS Systems Manager Automation."
+    },
+    {
+      "key": "D",
+      "text": "Turn on EBS encryption by default in all AWS Regions."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "D"
+    ]
+  }
+}

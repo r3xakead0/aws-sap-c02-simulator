@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/95379-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-01-15T09:20:00",
+  "number": 85,
+  "topic": 1,
+  "question": "A company has its cloud infrastructure on AWS. A solutions architect needs to define the infrastructure as code. The infrastructure is currently deployed in one AWS Region. The company’s business expansion plan includes deployments in multiple Regions across multiple AWS accounts.\nWhat should the solutions architect do to meet these requirements?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use AWS CloudFormation templates. Add IAM policies to control the various accounts, Deploy the templates across the multiple Regions."
+    },
+    {
+      "key": "B",
+      "text": "Use AWS Organizations. Deploy AWS CloudFormation templates from the management account Use AWS Control Tower to manage deployments across accounts."
+    },
+    {
+      "key": "C",
+      "text": "Use AWS Organizations and AWS CloudFormation StackSets. Deploy a Cloud Formation template from an account that has the necessary IAM permissions."
+    },
+    {
+      "key": "D",
+      "text": "Use nested stacks with AWS CloudFormation templates. Change the Region by using nested stacks."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ]
+  }
+}

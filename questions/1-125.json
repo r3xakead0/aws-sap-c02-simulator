@@ -1,0 +1,40 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/95534-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-01-16T14:26:00",
+  "number": 125,
+  "topic": 1,
+  "question": "A company is running a critical application that uses an Amazon RDS for MySQL database to store data. The RDS DB instance is deployed in Multi-AZ mode.\nA recent RDS database failover test caused a 40-second outage to the application. A solutions architect needs to design a solution to reduce the outage time to less than 20 seconds.\nWhich combination of steps should the solutions architect take to meet these requirements? (Choose three.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use Amazon ElastiCache for Memcached in front of the database"
+    },
+    {
+      "key": "B",
+      "text": "Use Amazon ElastiCache for Redis in front of the database"
+    },
+    {
+      "key": "C",
+      "text": "Use RDS Proxy in front of the database."
+    },
+    {
+      "key": "D",
+      "text": "Migrate the database to Amazon Aurora MySQL."
+    },
+    {
+      "key": "E",
+      "text": "Create an Amazon Aurora Replica."
+    },
+    {
+      "key": "F",
+      "text": "Create an RDS for MySQL read replica"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C",
+      "D",
+      "E"
+    ]
+  }
+}

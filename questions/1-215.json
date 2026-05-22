@@ -1,0 +1,35 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/112767-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-06-21T08:17:00",
+  "number": 215,
+  "topic": 1,
+  "question": "A solutions architect is designing an AWS account structure for a company that consists of multiple teams. All the teams will work in the same AWS Region. The company needs a VPC that is connected to the on-premises network. The company expects less than 50 Mbps of total traffic to and from the on-premises network.\nWhich combination of steps will meet these requirements MOST cost-effectively? (Choose two.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create an AWS CloudFormation template that provisions a VPC and the required subnets. Deploy the template to each AWS account."
+    },
+    {
+      "key": "B",
+      "text": "Create an AWS CloudFormation template that provisions a VPC and the required subnets. Deploy the template to a shared services account. Share the subnets by using AWS Resource Access Manager."
+    },
+    {
+      "key": "C",
+      "text": "Use AWS Transit Gateway along with an AWS Site-to-Site VPN for connectivity to the on-premises network. Share the transit gateway by using AWS Resource Access Manager."
+    },
+    {
+      "key": "D",
+      "text": "Use AWS Site-to-Site VPN for connectivity to the on-premises network."
+    },
+    {
+      "key": "E",
+      "text": "Use AWS Direct Connect for connectivity to the on-premises network."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B",
+      "D"
+    ]
+  }
+}

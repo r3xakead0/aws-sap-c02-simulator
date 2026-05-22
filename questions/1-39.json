@@ -1,0 +1,40 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/95087-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-01-13T21:58:00",
+  "number": 39,
+  "topic": 1,
+  "question": "A company wants to migrate its workloads from on premises to AWS. The workloads run on Linux and Windows. The company has a large on-premises infrastructure that consists of physical machines and VMs that host numerous applications.\nThe company must capture details about the system configuration, system performance, running processes, and network connections of its on-premises workloads. The company also must divide the on-premises applications into groups for AWS migrations. The company needs recommendations for Amazon EC2 instance types so that the company can run its workloads on AWS in the most cost-effective manner.\nWhich combination of steps should a solutions architect take to meet these requirements? (Choose three.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "ssess the existing applications by installing AWS Application Discovery Agent on the physical machines and VMs."
+    },
+    {
+      "key": "B",
+      "text": "Assess the existing applications by installing AWS Systems Manager Agent on the physical machines and VMs."
+    },
+    {
+      "key": "C",
+      "text": "Group servers into applications for migration by using AWS Systems Manager Application Manager."
+    },
+    {
+      "key": "D",
+      "text": "Group servers into applications for migration by using AWS Migration Hub."
+    },
+    {
+      "key": "E",
+      "text": "Generate recommended instance types and associated costs by using AWS Migration Hub."
+    },
+    {
+      "key": "F",
+      "text": "Import data about server sizes into AWS Trusted Advisor. Follow the recommendations for cost optimization."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "D",
+      "E"
+    ]
+  }
+}

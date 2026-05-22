@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/126755-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-11-21T20:28:00",
+  "number": 327,
+  "topic": 1,
+  "question": "A company wants to migrate its on-premises application to AWS. The database for the application stores structured product data and temporary user session data. The company needs to decouple the product data from the user session data. The company also needs to implement replication in another AWS Region for disaster recovery.\nWhich solution will meet these requirements with the HIGHEST performance?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create an Amazon RDS DB instance with separate schemas to host the product data and the user session data. Configure a read replica for the DB instance in another Region."
+    },
+    {
+      "key": "B",
+      "text": "Create an Amazon RDS DB instance to host the product data. Configure a read replica for the DB instance in another Region. Create a global datastore in Amazon ElastiCache for Memcached to host the user session data."
+    },
+    {
+      "key": "C",
+      "text": "reate two Amazon DynamoDB global tables. Use one global table to host the product data. Use the other global table to host the user session data. Use DynamoDB Accelerator (DAX) for caching."
+    },
+    {
+      "key": "D",
+      "text": "Create an Amazon RDS DB instance to host the product data. Configure a read replica for the DB instance in another Region. Create an Amazon DynamoDB global table to host the user session data."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "D"
+    ]
+  }
+}

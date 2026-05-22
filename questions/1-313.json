@@ -1,0 +1,40 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/124813-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-10-28T13:47:00",
+  "number": 313,
+  "topic": 1,
+  "question": "A company is deploying a third-party firewall appliance solution from AWS Marketplace to monitor and protect traffic that leaves the company's AWS environments. The company wants to deploy this appliance into a shared services VPC and route all outbound internet-bound traffic through the appliances.\nA solutions architect needs to recommend a deployment method that prioritizes reliability and minimizes failover time between firewall appliances within a single AWS Region. The company has set up routing from the shared services VPC to other VPCs.\nWhich steps should the solutions architect recommend to meet these requirements? (Choose three.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Deploy two firewall appliances into the shared services VPC, each in a separate Availability Zone."
+    },
+    {
+      "key": "B",
+      "text": "Create a new Network Load Balancer in the shared services VPC. Create a new target group, and attach it to the new Network Load Balancer. Add each of the firewall appliance instances to the target group."
+    },
+    {
+      "key": "C",
+      "text": "reate a new Gateway Load Balancer in the shared services VPCreate a new target group, and attach it to the new Gateway Load Balancer Add each of the firewall appliance instances to the target group."
+    },
+    {
+      "key": "D",
+      "text": "Create a VPC interface endpoint. Add a route to the route table in the shared services VPC. Designate the new endpoint as the next hop for traffic that enters the shared services VPC from other VPCs."
+    },
+    {
+      "key": "E",
+      "text": "Deploy two firewall appliances into the shared services VPC, each in the same Availability Zone."
+    },
+    {
+      "key": "F",
+      "text": "Create a VPC Gateway Load Balancer endpoint. Add a route to the route table in the shared services VPC. Designate the new endpoint as the next hop for traffic that enters the shared services VPC from other VPCs."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "C",
+      "F"
+    ]
+  }
+}

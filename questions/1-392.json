@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/126849-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-11-22T08:06:00",
+  "number": 392,
+  "topic": 1,
+  "question": "A car rental company has built a serverless REST API to provide data to its mobile app. The app consists of an Amazon API Gateway API with a Regional endpoint, AWS Lambda functions, and an Amazon Aurora MySQL Serverless DB cluster. The company recently opened the API to mobile apps of partners. A significant increase in the number of requests resulted, causing sporadic database memory errors.\nAnalysis of the API traffic indicates that clients are making multiple HTTP GET requests for the same queries in a short period of time. Traffic is concentrated during business hours, with spikes around holidays and other events.\nThe company needs to improve its ability to support the additional usage while minimizing the increase in costs associated with the solution.\nWhich strategy meets these requirements?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Convert the API Gateway Regional endpoint to an edge-optimized endpoint. Enable caching in the production stage."
+    },
+    {
+      "key": "B",
+      "text": "Implement an Amazon ElastiCache for Redis cache to store the results of the database calls. Modify the Lambda functions to use the cache."
+    },
+    {
+      "key": "C",
+      "text": "Modify the Aurora Serverless DB cluster configuration to increase the maximum amount of available memory."
+    },
+    {
+      "key": "D",
+      "text": "Enable throttling in the API Gateway production stage. Set the rate and burst values to limit the incoming calls."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ]
+  }
+}

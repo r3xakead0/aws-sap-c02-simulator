@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/112811-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-06-21T11:31:00",
+  "number": 276,
+  "topic": 1,
+  "question": "A company has implemented an ordering system using an event-driven architecture. During initial testing, the system stopped processing orders. Further log analysis revealed that one order message in an Amazon Simple Queue Service (Amazon SQS) standard queue was causing an error on the backend and blocking all subsequent order messages. The visibility timeout of the queue is set to 30 seconds, and the backend processing timeout is set to 10 seconds. A solutions architect needs to analyze faulty order messages and ensure that the system continues to process subsequent messages.\nWhich step should the solutions architect take to meet these requirements?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Increase the backend processing timeout to 30 seconds to match the visibility timeout."
+    },
+    {
+      "key": "B",
+      "text": "Reduce the visibility timeout of the queue to automatically remove the faulty message."
+    },
+    {
+      "key": "C",
+      "text": "onfigure a new SQS FIFO queue as a dead-letter queue to isolate the faulty messages."
+    },
+    {
+      "key": "D",
+      "text": "Configure a new SQS standard queue as a dead-letter queue to isolate the faulty messages."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "D"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/126764-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-11-21T21:59:00",
+  "number": 337,
+  "topic": 1,
+  "question": "A company runs applications in hundreds of production AWS accounts. The company uses AWS Organizations with all features enabled and has a centralized backup operation that uses AWS Backup.\nThe company is concerned about ransomware attacks. To address this concern, the company has created a new policy that all backups must be resilient to breaches of privileged-user credentials in any production account.\nWhich combination of steps will meet this new requirement? (Choose three.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Implement cross-account backup with AWS Backup vaults in designated non-production accounts."
+    },
+    {
+      "key": "B",
+      "text": "Add an SCP that restricts the modification of AWS Backup vaults."
+    },
+    {
+      "key": "C",
+      "text": "Implement AWS Backup Vault Lock in compliance mode. C. Implement least privilege access for the IAM service role that is assigned to AWS Backup."
+    },
+    {
+      "key": "D",
+      "text": "Configure the backup frequency, lifecycle, and retention period to ensure that at least one backup always exists in the cold tier."
+    },
+    {
+      "key": "E",
+      "text": "Configure AWS Backup to write all backups to an Amazon S3 bucket in a designated non-production account. Ensure that the S3 bucket has S3 Object Lock enabled."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "B",
+      "C"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/95392-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-01-15T10:16:00",
+  "number": 96,
+  "topic": 1,
+  "question": "A solutions architect needs to implement a client-side encryption mechanism for objects that will be stored in a new Amazon S3 bucket. The solutions architect created a CMK that is stored in AWS Key Management Service (AWS KMS) for this purpose.\nThe solutions architect created the following IAM policy and attached it to an IAM role:\n[Imagen]: 96_assets/img_001.png\nDuring tests, the solutions architect was able to successfully get existing test objects in the S3 bucket. However, attempts to upload a new object resulted in an error message. The error message stated that the action was forbidden.\nWhich action must the solutions architect add to the IAM policy to meet all the requirements?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "kms:GenerateDataKey"
+    },
+    {
+      "key": "B",
+      "text": "kms:GetKeyPolicy"
+    },
+    {
+      "key": "C",
+      "text": "kms:GetPublicKey"
+    },
+    {
+      "key": "D",
+      "text": "kms:Sign"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ]
+  }
+}

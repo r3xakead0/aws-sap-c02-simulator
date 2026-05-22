@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/97664-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-02-02T15:47:00",
+  "number": 167,
+  "topic": 1,
+  "question": "A company is running a web application in a VPC. The web application runs on a group of Amazon EC2 instances behind an Application Load Balancer (ALB). The ALB is using AWS WAF.\nAn external customer needs to connect to the web application. The company must provide IP addresses to all external customers.\nWhich solution will meet these requirements with the LEAST operational overhead?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Replace the ALB with a Network Load Balancer (NLB). Assign an Elastic IP address to the NLB."
+    },
+    {
+      "key": "B",
+      "text": "Allocate an Elastic IP address. Assign the Elastic IP address to the ALProvide the Elastic IP address to the customer."
+    },
+    {
+      "key": "C",
+      "text": "reate an AWS Global Accelerator standard accelerator. Specify the ALB as the accelerator's endpoint. Provide the accelerator's IP addresses to the customer."
+    },
+    {
+      "key": "D",
+      "text": "Configure an Amazon CloudFront distribution. Set the ALB as the origin. Ping the distribution's DNS name to determine the distribution's public IP address. Provide the IP address to the customer."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/95448-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-01-15T16:21:00",
+  "number": 112,
+  "topic": 1,
+  "question": "A large mobile gaming company has successfully migrated all of its on-premises infrastructure to the AWS Cloud. A solutions architect is reviewing the environment to ensure that it was built according to the design and that it is running in alignment with the Well-Architected Framework.\nWhile reviewing previous monthly costs in Cost Explorer, the solutions architect notices that the creation and subsequent termination of several large instance types account for a high proportion of the costs. The solutions architect finds out that the company’s developers are launching new Amazon EC2 instances as part of their testing and that the developers are not using the appropriate instance types.\nThe solutions architect must implement a control mechanism to limit the instance types that only the developers can launch.\nWhich solution will meet these requirements?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create a desired-instance-type managed rule in AWS Config. Configure the rule with the instance types that are allowed. Attach the rule to an event to run each time a new EC2 instance is launched."
+    },
+    {
+      "key": "B",
+      "text": "In the EC2 console, create a launch template that specifies the instance types that are allowed. Assign the launch template to the developers’ IAM accounts."
+    },
+    {
+      "key": "C",
+      "text": "reate a new IAM policy. Specify the instance types that are allowed. Attach the policy to an IAM group that contains the IAM accounts for the developers"
+    },
+    {
+      "key": "D",
+      "text": "Use EC2 Image Builder to create an image pipeline for the developers and assist them in the creation of a golden image."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ]
+  }
+}

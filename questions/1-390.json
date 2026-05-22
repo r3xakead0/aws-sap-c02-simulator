@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/126955-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-11-22T21:06:00",
+  "number": 390,
+  "topic": 1,
+  "question": "A company is currently in the design phase of an application that will need an RPO of less than 5 minutes and an RTO of less than 10 minutes. The solutions architecture team is forecasting that the database will store approximately 10 TB of data. As part of the design, they are looking for a database solution that will provide the company with the ability to fail over to a secondary Region.\nWhich solution will meet these business requirements at the LOWEST cost?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Deploy an Amazon Aurora DB cluster and take snapshots of the cluster every 5 minutes. Once a snapshot is complete, copy the snapshot to a secondary Region to serve as a backup in the event of a failure."
+    },
+    {
+      "key": "B",
+      "text": "Deploy an Amazon RDS instance with a cross-Region read replica in a secondary Region. In the event of a failure, promote the read replica to become the primary."
+    },
+    {
+      "key": "C",
+      "text": "Deploy an Amazon Aurora DB cluster in the primary Region and another in a secondary Region. Use AWS DMS to keep the secondary Region in sync."
+    },
+    {
+      "key": "D",
+      "text": "eploy an Amazon RDS instance with a read replica in the same Region. In the event of a failure, promote the read replica to become the primary."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ]
+  }
+}

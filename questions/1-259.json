@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/113109-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-06-23T16:58:00",
+  "number": 259,
+  "topic": 1,
+  "question": "A company has an application that is deployed on Amazon EC2 instances behind an Application Load Balancer (ALB). The instances are part of an Auto Scaling group. The application has unpredictable workloads and frequently scales out and in. The company’s development team wants to analyze application logs to find ways to improve the application's performance. However, the logs are no longer available after instances scale in.\nWhich solution will give the development team the ability to view the application logs after a scale-in event?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Enable access logs for the ALB. Store the logs in an Amazon S3 bucket."
+    },
+    {
+      "key": "B",
+      "text": "Configure the EC2 instances to publish logs to Amazon CloudWatch Logs by using the unified CloudWatch agent."
+    },
+    {
+      "key": "C",
+      "text": "Modify the Auto Scaling group to use a step scaling policy."
+    },
+    {
+      "key": "D",
+      "text": "Instrument the application with AWS X-Ray tracing."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ]
+  }
+}

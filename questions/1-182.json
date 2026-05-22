@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/110410-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-05-28T05:46:00",
+  "number": 182,
+  "topic": 1,
+  "question": "A company is migrating an application to AWS. It wants to use fully managed services as much as possible during the migration. The company needs to store large important documents within the application with the following requirements:\n1. The data must be highly durable and available\n2. The data must always be encrypted at rest and in transit\n3. The encryption key must be managed by the company and rotated periodically\nWhich of the following solutions should the solutions architect recommend?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Deploy the storage gateway to AWS in file gateway mode. Use Amazon EBS volume encryption using an AWS KMS key to encrypt the storage gateway volumes."
+    },
+    {
+      "key": "B",
+      "text": "Use Amazon S3 with a bucket policy to enforce HTTPS for connections to the bucket and to enforce server-side encryption and AWS KMS for object encryption."
+    },
+    {
+      "key": "C",
+      "text": "Use Amazon DynamoDB with SSL to connect to DynamoDB. Use an AWS KMS key to encrypt DynamoDB objects at rest."
+    },
+    {
+      "key": "D",
+      "text": "eploy instances with Amazon EBS volumes attached to store this data. Use EBS volume encryption using an AWS KMS key to encrypt the data."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ]
+  }
+}

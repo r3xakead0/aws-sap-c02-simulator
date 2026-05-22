@@ -1,0 +1,35 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/95100-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-01-13T22:32:00",
+  "number": 48,
+  "topic": 1,
+  "question": "A solutions architect has developed a web application that uses an Amazon API Gateway Regional endpoint and an AWS Lambda function. The consumers of the web application are all close to the AWS Region where the application will be deployed. The Lambda function only queries an Amazon Aurora MySQL database. The solutions architect has configured the database to have three read replicas.\nDuring testing, the application does not meet performance requirements. Under high load, the application opens a large number of database connections. The solutions architect must improve the application’s performance.\nWhich actions should the solutions architect take to meet these requirements? (Choose two.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use the cluster endpoint of the Aurora database."
+    },
+    {
+      "key": "B",
+      "text": "Use RDS Proxy to set up a connection pool to the reader endpoint of the Aurora database."
+    },
+    {
+      "key": "C",
+      "text": "Use the Lambda Provisioned Concurrency feature."
+    },
+    {
+      "key": "D",
+      "text": "Move the code for opening the database connection in the Lambda function outside of the event handler."
+    },
+    {
+      "key": "E",
+      "text": "Change the API Gateway endpoint to an edge-optimized endpoint."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B",
+      "D"
+    ]
+  }
+}

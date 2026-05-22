@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/97670-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-02-02T17:02:00",
+  "number": 158,
+  "topic": 1,
+  "question": "A solutions architect must create a business case for migration of a company's on-premises data center to the AWS Cloud. The solutions architect will use a configuration management database (CMDB) export of all the company's servers to create the case.\nWhich solution will meet these requirements MOST cost-effectively?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use AWS Well-Architected Tool to import the CMDB data to perform an analysis and generate recommendations."
+    },
+    {
+      "key": "B",
+      "text": "Use Migration Evaluator to perform an analysis. Use the data import template to upload the data from the CMDB export."
+    },
+    {
+      "key": "C",
+      "text": "Implement resource matching rules. Use the CMDB export and the AWS Price List Bulk API to query CMDB data against AWS services in bulk."
+    },
+    {
+      "key": "D",
+      "text": "Use AWS Application Discovery Service to import the CMDB data to perform an analysis."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ]
+  }
+}

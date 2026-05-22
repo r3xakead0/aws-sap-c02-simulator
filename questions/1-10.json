@@ -1,0 +1,35 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/90945-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2022-12-10T19:07:00",
+  "number": 10,
+  "topic": 1,
+  "question": "A retail company is operating its ecommerce application on AWS. The application runs on Amazon EC2 instances behind an Application Load Balancer (ALB). The company uses an Amazon RDS DB instance as the database backend. Amazon CloudFront is configured with one origin that points to the ALB. Static content is cached. Amazon Route 53 is used to host all public zones.\nAfter an update of the application, the ALB occasionally returns a 502 status code (Bad Gateway) error. The root cause is malformed HTTP headers that are returned to the ALB. The webpage returns successfully when a solutions architect reloads the webpage immediately after the error occurs.\nWhile the company is working on the problem, the solutions architect needs to provide a custom error page instead of the standard ALB error page to visitors.\nWhich combination of steps will meet this requirement with the LEAST amount of operational overhead? (Choose two.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create an Amazon S3 bucket. Configure the S3 bucket to host a static webpage. Upload the custom error pages to Amazon S3."
+    },
+    {
+      "key": "B",
+      "text": "Create an Amazon CloudWatch alarm to invoke an AWS Lambda function if the ALB health check response Target.FailedHealthChecks is greater than 0. Configure the Lambda function to modify the forwarding rule at the ALB to point to a publicly accessible web server."
+    },
+    {
+      "key": "C",
+      "text": "Modify the existing Amazon Route 53 records by adding health checks. Configure a fallback target if the health check fails. Modify DNS records to point to a publicly accessible webpage."
+    },
+    {
+      "key": "D",
+      "text": "Create an Amazon CloudWatch alarm to invoke an AWS Lambda function if the ALB health check response Elb.InternalError is greater than 0. Configure the Lambda function to modify the forwarding rule at the ALB to point to a public accessible web server."
+    },
+    {
+      "key": "E",
+      "text": "Add a custom error response by configuring a CloudFront custom error page. Modify DNS records to point to a publicly accessible web page."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "E"
+    ]
+  }
+}

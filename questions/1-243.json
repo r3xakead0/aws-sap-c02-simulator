@@ -1,0 +1,35 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/113133-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-06-23T21:00:00",
+  "number": 243,
+  "topic": 1,
+  "question": "A company has a data lake in Amazon S3 that needs to be accessed by hundreds of applications across many AWS accounts. The company's information security policy states that the S3 bucket must not be accessed over the public internet and that each application should have the minimum permissions necessary to function.\nTo meet these requirements, a solutions architect plans to use an S3 access point that is restricted to specific VPCs for each application.\nWhich combination of steps should the solutions architect take to implement this solution? (Choose two.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create an S3 access point for each application in the AWS account that owns the S3 bucket. Configure each access point to be accessible only from the application’s VPC. Update the bucket policy to require access from an access point."
+    },
+    {
+      "key": "B",
+      "text": "Create an interface endpoint for Amazon S3 in each application's VPC. Configure the endpoint policy to allow access to an S3 access point. Create a VPC gateway attachment for the S3 endpoint."
+    },
+    {
+      "key": "C",
+      "text": "reate a gateway endpoint for Amazon S3 in each application's VPConfigure the endpoint policy to allow access to an S3 access point. Specify the route table that is used to access the access point."
+    },
+    {
+      "key": "D",
+      "text": "Create an S3 access point for each application in each AWS account and attach the access points to the S3 bucket. Configure each access point to be accessible only from the application's VPC. Update the bucket policy to require access from an access point."
+    },
+    {
+      "key": "E",
+      "text": "Create a gateway endpoint for Amazon S3 in the data lake's VPC. Attach an endpoint policy to allow access to the S3 bucket. Specify the route table that is used to access the bucket."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "C"
+    ]
+  }
+}

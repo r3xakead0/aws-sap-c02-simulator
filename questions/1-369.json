@@ -1,0 +1,35 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/126835-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-11-22T07:45:00",
+  "number": 369,
+  "topic": 1,
+  "question": "A company hosts a VPN in an on-premises data center. Employees currently connect to the VPN to access files in their Windows home directories. Recently, there has been a large growth in the number of employees who work remotely. As a result, bandwidth usage for connections into the data center has begun to reach 100% during business hours.\nThe company must design a solution on AWS that will support the growth of the company's remote workforce, reduce the bandwidth usage for connections into the data center, and reduce operational overhead.\nWhich combination of steps will meet these requirements with the LEAST operational overhead? (Choose two.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create an AWS Storage Gateway Volume Gateway. Mount a volume from the Volume Gateway to the on-premises file server."
+    },
+    {
+      "key": "B",
+      "text": "Migrate the home directories to Amazon FSx for Windows File Server."
+    },
+    {
+      "key": "C",
+      "text": "Migrate the home directories to Amazon FSx for Lustre."
+    },
+    {
+      "key": "D",
+      "text": "Migrate remote users to AWS Client VPN."
+    },
+    {
+      "key": "E",
+      "text": "Create an AWS Direct Connect connection from the on-premises data center to AWS."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B",
+      "D"
+    ]
+  }
+}

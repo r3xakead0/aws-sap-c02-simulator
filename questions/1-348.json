@@ -1,0 +1,35 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/126817-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-11-22T07:24:00",
+  "number": 348,
+  "topic": 1,
+  "question": "A company has used infrastructure as code (IaC) to provision a set of two Amazon EC2 instances. The instances have remained the same for several years.\nThe company's business has grown rapidly in the past few months. In response, the company’s operations team has implemented an Auto Scaling group to manage the sudden increases in traffic. Company policy requires a monthly installation of security updates on all operating systems that are running.\nThe most recent security update required a reboot. As a result, the Auto Scaling group terminated the instances and replaced them with new, unpatched instances.\nWhich combination of steps should a solutions architect recommend to avoid a recurrence of this issue? (Choose two.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Modify the Auto Scaling group by setting the Update policy to target the oldest launch configuration for replacement."
+    },
+    {
+      "key": "B",
+      "text": "Create a new Auto Scaling group before the next patch maintenance. During the maintenance window, patch both groups and reboot the instances."
+    },
+    {
+      "key": "C",
+      "text": "reate an Elastic Load Balancer in front of the Auto Scaling group. Configure monitoring to ensure that target group health checks return healthy after the Auto Scaling group replaces the terminated instances."
+    },
+    {
+      "key": "D",
+      "text": "Create automation scripts to patch an AMI, update the launch configuration, and invoke an Auto Scaling instance refresh."
+    },
+    {
+      "key": "E",
+      "text": "Create an Elastic Load Balancer in front of the Auto Scaling group. Configure termination protection on the instances."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C",
+      "D"
+    ]
+  }
+}

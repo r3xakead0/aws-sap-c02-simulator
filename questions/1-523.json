@@ -1,0 +1,35 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/143190-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2024-07-02T14:12:00",
+  "number": 523,
+  "topic": 1,
+  "question": "A travel company built a web application that uses Amazon Simple Email Service (Amazon SES) to send email notifications to users. The company needs to enable logging to help troubleshoot email delivery issues. The company also needs the ability to do searches that are based on recipient, subject, and time sent.\nWhich combination of steps should a solutions architect take to meet these requirements? (Choose two.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create an Amazon SES configuration set with Amazon Data Firehose as the destination. Choose to send logs to an Amazon S3 bucket."
+    },
+    {
+      "key": "B",
+      "text": "Enable AWS CloudTrail logging. Specify an Amazon S3 bucket as the destination for the logs."
+    },
+    {
+      "key": "C",
+      "text": "Use Amazon Athena to query the logs in the Amazon S3 bucket for recipient, subject, and time sent."
+    },
+    {
+      "key": "D",
+      "text": "Create an Amazon CloudWatch log group. Configure Amazon SES to send logs to the log group."
+    },
+    {
+      "key": "E",
+      "text": "Use Amazon Athena to query the logs in Amazon CloudWatch for recipient, subject, and time sent."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "C"
+    ]
+  }
+}

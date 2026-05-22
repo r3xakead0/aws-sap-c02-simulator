@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/112882-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-06-22T03:18:00",
+  "number": 233,
+  "topic": 1,
+  "question": "A company is migrating its development and production workloads to a new organization in AWS Organizations. The company has created a separate member account for development and a separate member account for production. Consolidated billing is linked to the management account. In the management account, a solutions architect needs to create an IAM user that can stop or terminate resources in both member accounts.\nWhich solution will meet this requirement?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create an IAM user and a cross-account role in the management account. Configure the cross-account role with least privilege access to the member accounts."
+    },
+    {
+      "key": "B",
+      "text": "Create an IAM user in each member account. In the management account, create a cross-account role that has least privilege access. Grant the IAM users access to the cross-account role by using a trust policy."
+    },
+    {
+      "key": "C",
+      "text": "reate an IAM user in the management account. In the member accounts, create an IAM group that has least privilege access. Add the IAM user from the management account to each IAM group in the member accounts."
+    },
+    {
+      "key": "D",
+      "text": "Create an IAM user in the management account. In the member accounts, create cross-account roles that have least privilege access. Grant the IAM user access to the roles by using a trust policy."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "D"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/132873-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2024-02-05T17:19:00",
+  "number": 412,
+  "topic": 1,
+  "question": "A solutions architect is preparing to deploy a new security tool into several previously unused AWS Regions. The solutions architect will deploy the tool by using an AWS CloudFormation stack set. The stack set's template contains an IAM role that has a custom name. Upon creation of the stack set, no stack instances are created successfully.\nWhat should the solutions architect do to deploy the stacks successfully?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Enable the new Regions in all relevant accounts. Specify the CAPABILITY_NAMED_IAM capability during the creation of the stack set."
+    },
+    {
+      "key": "B",
+      "text": "Use the Service Quotas console to request a quota increase for the number of CloudFormation stacks in each new Region in all relevant accounts. Specify the CAPABILITY_IAM capability during the creation of the stack set."
+    },
+    {
+      "key": "C",
+      "text": "Specify the CAPABILITY_NAMED_IAM capability and the SELF_MANAGED permissions model during the creation of the stack set."
+    },
+    {
+      "key": "D",
+      "text": "Specify an administration role ARN and the CAPABILITY_IAM capability during the creation of the stack set."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ]
+  }
+}

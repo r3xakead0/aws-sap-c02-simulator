@@ -1,0 +1,35 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/95533-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-01-16T14:19:00",
+  "number": 124,
+  "topic": 1,
+  "question": "A company has hundreds of AWS accounts. The company recently implemented a centralized internal process for purchasing new Reserved Instances and modifying existing Reserved Instances. This process requires all business units that want to purchase or modify Reserved Instances to submit requests to a dedicated team for procurement. Previously, business units directly purchased or modified Reserved Instances in their own respective AWS accounts autonomously.\nA solutions architect needs to enforce the new process in the most secure way possible.\nWhich combination of steps should the solutions architect take to meet these requirements? (Choose two.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Ensure that all AWS accounts are part of an organization in AWS Organizations with all features enabled."
+    },
+    {
+      "key": "B",
+      "text": "Use AWS Config to report on the attachment of an IAM policy that denies access to the ec2:PurchaseReservedInstancesOffering action and the ec2:ModifyReservedInstances action."
+    },
+    {
+      "key": "C",
+      "text": "In each AWS account, create an IAM policy that denies the ec2:PurchaseReservedInstancesOffering action and the ec2:ModifyReservedInstances action."
+    },
+    {
+      "key": "D",
+      "text": "Create an SCP that denies the ec2:PurchaseReservedInstancesOffering action and the ec2:ModifyReservedInstances action. Attach the SCP to each OU of the organization."
+    },
+    {
+      "key": "E",
+      "text": "nsure that all AWS accounts are part of an organization in AWS Organizations that uses the consolidated billing feature."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "D"
+    ]
+  }
+}

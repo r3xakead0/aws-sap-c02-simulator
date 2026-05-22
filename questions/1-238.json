@@ -1,0 +1,40 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/112887-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-06-22T03:46:00",
+  "number": 238,
+  "topic": 1,
+  "question": "A company recently started hosting new application workloads in the AWS Cloud. The company is using Amazon EC2 instances. Amazon Elastic File System (Amazon EFS) file systems, and Amazon RDS DB instances.\nTo meet regulatory and business requirements, the company must make the following changes for data backups:\n•\tBackups must be retained based on custom daily, weekly, and monthly requirements.\n•\tBackups must be replicated to at least one other AWS Region immediately after capture.\n•\tThe backup solution must provide a single source of backup status across the AWS environment.\n•\tThe backup solution must send immediate notifications upon failure of any resource backup.\nWhich combination of steps will meet these requirements with the LEAST amount of operational overhead? (Choose three.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create an AWS Backup plan with a backup rule for each of the retention requirements."
+    },
+    {
+      "key": "B",
+      "text": "Configure an AWS Backup plan to copy backups to another Region."
+    },
+    {
+      "key": "C",
+      "text": "reate an AWS Lambda function to replicate backups to another Region and send notification if a failure occurs."
+    },
+    {
+      "key": "D",
+      "text": "Add an Amazon Simple Notification Service (Amazon SNS) topic to the backup plan to send a notification for finished jobs that have any status except BACKUP_JOB_COMPLETED."
+    },
+    {
+      "key": "E",
+      "text": "Create an Amazon Data Lifecycle Manager (Amazon DLM) snapshot lifecycle policy for each of the retention requirements."
+    },
+    {
+      "key": "F",
+      "text": "Set up RDS snapshots on each database."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "B",
+      "D"
+    ]
+  }
+}

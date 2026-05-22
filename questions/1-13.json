@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/91096-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2022-12-12T02:38:00",
+  "number": 13,
+  "topic": 1,
+  "question": "A company needs to implement a patching process for its servers. The on-premises servers and Amazon EC2 instances use a variety of tools to perform patching. Management requires a single report showing the patch status of all the servers and instances.\nWhich set of actions should a solutions architect take to meet these requirements?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use AWS Systems Manager to manage patches on the on-premises servers and EC2 instances. Use Systems Manager to generate patch compliance reports."
+    },
+    {
+      "key": "B",
+      "text": "Use AWS OpsWorks to manage patches on the on-premises servers and EC2 instances. Use Amazon QuickSight integration with OpsWorks to generate patch compliance reports."
+    },
+    {
+      "key": "C",
+      "text": "Use an Amazon EventBridge rule to apply patches by scheduling an AWS Systems Manager patch remediation job. Use Amazon Inspector to generate patch compliance reports."
+    },
+    {
+      "key": "D",
+      "text": "Use AWS OpsWorks to manage patches on the on-premises servers and EC2 instances. Use AWS X-Ray to post the patch status to AWS Systems Manager OpsCenter to generate patch compliance reports."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ]
+  }
+}

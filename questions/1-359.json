@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/126921-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-11-22T15:31:00",
+  "number": 359,
+  "topic": 1,
+  "question": "A company maintains information on premises in approximately 1 million.csv files that are hosted on a VM. The data initially is 10 TB in size and grows at a rate of 1 TB each week. The company needs to automate backups of the data to the AWS Cloud.\nBackups of the data must occur daily. The company needs a solution that applies custom filters to back up only a subset of the data that is located in designated source directories. The company has set up an AWS Direct Connect connection.\nWhich solution will meet the backup requirements with the LEAST operational overhead?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use the Amazon S3 CopyObject API operation with multipart upload to copy the existing data to Amazon S3. Use the CopyObject API operation to replicate new data to Amazon S3 daily."
+    },
+    {
+      "key": "B",
+      "text": "Create a backup plan in AWS Backup to back up the data to Amazon S3. Schedule the backup plan to run daily."
+    },
+    {
+      "key": "C",
+      "text": "Install the AWS DataSync agent as a VM that runs on the on-premises hypervisor. Configure a DataSync task to replicate the data to Amazon S3 daily."
+    },
+    {
+      "key": "D",
+      "text": "Use an AWS Snowball Edge device for the initial backup. Use AWS DataSync for incremental backups to Amazon S3 daily."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ]
+  }
+}

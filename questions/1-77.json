@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/95298-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-01-14T17:34:00",
+  "number": 77,
+  "topic": 1,
+  "question": "Example Corp. has an on-premises data center and a VPC named VPC A in the Example Corp. AWS account. The on-premises network connects to VPC A through an AWS Site-To-Site VPN. The on-premises servers can properly access VPC A. Example Corp. just acquired AnyCompany, which has a VPC named VPC B. There is no IP address overlap among these networks. Example Corp. has peered VPC A and VPC B.\nExample Corp. wants to connect from its on-premise servers to VPC B. Example Corp. has properly set up the network ACL and security groups.\nWhich solution will meet this requirement with the LEAST operational effort?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create a transit gateway. Attach the Site-to-Site VPN, VPC A, and VPC B to the transit gateway. Update the transit gateway route tables for all networks to add IP range routes for all other networks."
+    },
+    {
+      "key": "B",
+      "text": "Create a transit gateway. Create a Site-to-Site VPN connection between the on-premises network and VPC B, and connect the VPN connection to the transit gateway. Add a route to direct traffic to the peered VPCs, and add an authorization rule to give clients access to the VPCs A and B."
+    },
+    {
+      "key": "C",
+      "text": "Update the route tables for the Site-to-Site VPN and both VPCs for all three networks. Configure BGP propagation for all three networks. Wait for up to 5 minutes for BGP propagation to finish."
+    },
+    {
+      "key": "D",
+      "text": "Modify the Site-to-Site VPN’s virtual private gateway definition to include VPC A and VPC B. Split the two routers of the virtual private getaway between the two VPCs."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ]
+  }
+}

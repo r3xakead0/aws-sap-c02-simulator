@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/126940-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-11-22T18:41:00",
+  "number": 387,
+  "topic": 1,
+  "question": "A company deploys a new web application. As part of the setup, the company configures AWS WAF to log to Amazon S3 through Amazon Kinesis Data Firehose. The company develops an Amazon Athena query that runs once daily to return AWS WAF log data from the previous 24 hours. The volume of daily logs is constant. However, over time, the same query is taking more time to run.\nA solutions architect needs to design a solution to prevent the query time from continuing to increase. The solution must minimize operational overhead.\nWhich solution will meet these requirements?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create an AWS Lambda function that consolidates each day's AWS WAF logs into one log file."
+    },
+    {
+      "key": "B",
+      "text": "Reduce the amount of data scanned by configuring AWS WAF to send logs to a different S3 bucket each day."
+    },
+    {
+      "key": "C",
+      "text": "Update the Kinesis Data Firehose configuration to partition the data in Amazon S3 by date and time. Create external tables for Amazon Redshift. Configure Amazon Redshift Spectrum to query the data source."
+    },
+    {
+      "key": "D",
+      "text": "Modify the Kinesis Data Firehose configuration and Athena table definition to partition the data by date and time. Change the Athena query to view the relevant partitions."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "D"
+    ]
+  }
+}

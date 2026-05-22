@@ -1,0 +1,35 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/113152-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-06-24T06:45:00",
+  "number": 255,
+  "topic": 1,
+  "question": "A company is creating a centralized logging service running on Amazon EC2 that will receive and analyze logs from hundreds of AWS accounts. AWS PrivateLink is being used to provide connectivity between the client services and the logging service.\nIn each AWS account with a client, an interface endpoint has been created for the logging service and is available. The logging service running on EC2 instances with a Network Load Balancer (NLB) are deployed in different subnets. The clients are unable to submit logs using the VPC endpoint.\nWhich combination of steps should a solutions architect take to resolve this issue? (Choose two.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Check that the NACL is attached to the logging service subnet to allow communications to and from the NLB subnets. Check that the NACL is attached to the NLB subnet to allow communications to and from the logging service subnets running on EC2 instances."
+    },
+    {
+      "key": "B",
+      "text": "Check that the NACL is attached to the logging service subnets to allow communications to and from the interface endpoint subnets. Check that the NACL is attached to the interface endpoint subnet to allow communications to and from the logging service subnets running on EC2 instances."
+    },
+    {
+      "key": "C",
+      "text": "heck the security group for the logging service running on the EC2 instances to ensure it allows ingress from the NLB subnets."
+    },
+    {
+      "key": "D",
+      "text": "Check the security group for the logging service running on EC2 instances to ensure it allows ingress from the clients."
+    },
+    {
+      "key": "E",
+      "text": "Check the security group for the NLB to ensure it allows ingress from the interface endpoint subnets."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "C"
+    ]
+  }
+}

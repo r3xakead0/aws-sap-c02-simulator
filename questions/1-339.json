@@ -1,0 +1,35 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/126766-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-11-21T22:05:00",
+  "number": 339,
+  "topic": 1,
+  "question": "A company is migrating a legacy application from an on-premises data center to AWS. The application consists of a single application server and a Microsoft SQL Server database server. Each server is deployed on a VMware VM that consumes 500 TB of data across multiple attached volumes.\nThe company has established a 10 Gbps AWS Direct Connect connection from the closest AWS Region to its on-premises data center. The Direct Connect connection is not currently in use by other services.\nWhich combination of steps should a solutions architect take to migrate the application with the LEAST amount of downtime? (Choose two.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use an AWS Server Migration Service (AWS SMS) replication job to migrate the database server VM to AWS."
+    },
+    {
+      "key": "B",
+      "text": "Use VM Import/Export to import the application server VM."
+    },
+    {
+      "key": "C",
+      "text": "Export the VM images to an AWS Snowball Edge Storage Optimized device."
+    },
+    {
+      "key": "D",
+      "text": "Use an AWS Server Migration Service (AWS SMS) replication job to migrate the application server VM to AWS."
+    },
+    {
+      "key": "E",
+      "text": "Use an AWS Database Migration Service (AWS DMS) replication instance to migrate the database to an Amazon RDS DB instance."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "D",
+      "E"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/126822-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-11-22T07:30:00",
+  "number": 353,
+  "topic": 1,
+  "question": "A company wants to migrate its on-premises data center to the AWS Cloud. This includes thousands of virtualized Linux and Microsoft Windows servers, SAN storage, Java and PHP applications with MySQL, and Oracle databases. There are many dependent services hosted either in the same data center or externally. The technical documentation is incomplete and outdated. A solutions architect needs to understand the current environment and estimate the cloud resource costs after the migration.\nWhich tools or services should the solutions architect use to plan the cloud migration? (Choose three.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "WS Application Discovery Service"
+    },
+    {
+      "key": "B",
+      "text": "AWS SMS"
+    },
+    {
+      "key": "C",
+      "text": "AWS X-Ray"
+    },
+    {
+      "key": "D",
+      "text": "AWS Cloud Adoption Readiness Tool (CART)"
+    },
+    {
+      "key": "E",
+      "text": "Amazon Inspector"
+    },
+    {
+      "key": "F",
+      "text": "AWS Migration Hub"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "D",
+      "F"
+    ]
+  }
+}

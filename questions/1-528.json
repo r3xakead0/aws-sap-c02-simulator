@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/143130-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2024-07-01T14:15:00",
+  "number": 528,
+  "topic": 1,
+  "question": "A company wants to migrate its website to AWS. The website uses containers that are deployed in an on-premises, self-managed Kubernetes cluster. All data for the website is stored in an on-premises PostgreSQL database.\nThe company has decided to migrate the on-premises Kubernetes cluster to an Amazon Elastic Kubernetes Service (Amazon EKS) cluster. The EKS cluster will use EKS managed node groups with a static number of nodes. The company will also migrate the on-premises database to an Amazon RDS for PostgreSQL database.\nA solutions architect needs to estimate the total cost of ownership (TCO) for this workload before the migration.\nWhich solution will provide the required TCO information?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Request access to Migration Evaluator. Run the Migration Evaluator Collector and import the data. Configure a scenario. Export a Quick Insights report from Migration Evaluator."
+    },
+    {
+      "key": "B",
+      "text": "Launch AWS Database Migration Service (AWS DMS) for the on-premises database. Generate an assessment report. Create an estimate in AWS Pricing Calculator for the costs of the EKS migration."
+    },
+    {
+      "key": "C",
+      "text": "Initialize AWS Application Migration Service. Add the on-premises servers as source servers. Launch a test instance. Output a TCO report from Application Migration Service."
+    },
+    {
+      "key": "D",
+      "text": "Access the AWS Cloud Economics Center webpage to assess the AWS Cloud Value Framework. Create an AWS Cost and Usage report from the Cloud Value Framework."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ]
+  }
+}

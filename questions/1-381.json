@@ -1,0 +1,40 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/126843-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-11-22T08:00:00",
+  "number": 381,
+  "topic": 1,
+  "question": "A company built an ecommerce website on AWS using a three-tier web architecture. The application is Java-based and composed of an Amazon CloudFront distribution, an Apache web server layer of Amazon EC2 instances in an Auto Scaling group, and a backend Amazon Aurora MySQL database.\nLast month, during a promotional sales event, users reported errors and timeouts while adding items to their shopping carts. The operations team recovered the logs created by the web servers and reviewed Aurora DB cluster performance metrics. Some of the web servers were terminated before logs could be collected and the Aurora metrics were not sufficient for query performance analysis.\nWhich combination of steps must the solutions architect take to improve application performance visibility during peak traffic events? (Choose three.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Configure the Aurora MySQL DB cluster to publish slow query and error logs to Amazon CloudWatch Logs."
+    },
+    {
+      "key": "B",
+      "text": "Implement the AWS X-Ray SDK to trace incoming HTTP requests on the EC2 instances and implement tracing of SQL queries with the X-Ray SDK for Java."
+    },
+    {
+      "key": "C",
+      "text": "onfigure the Aurora MySQL DB cluster to stream slow query and error logs to Amazon Kinesis."
+    },
+    {
+      "key": "D",
+      "text": "Install and configure an Amazon CloudWatch Logs agent on the EC2 instances to send the Apache logs to CloudWatch Logs."
+    },
+    {
+      "key": "E",
+      "text": "nable and configure AWS CloudTrail to collect and analyze application activity from Amazon EC2 and Aurora"
+    },
+    {
+      "key": "F",
+      "text": "Enable Aurora MySQL DB cluster performance benchmarking and publish the stream to AWS X-Ray."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "B",
+      "D"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/126848-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-11-22T08:05:00",
+  "number": 391,
+  "topic": 1,
+  "question": "A financial company needs to create a separate AWS account for a new digital wallet application. The company uses AWS Organizations to manage its accounts. A solutions architect uses the IAM user Support1 from the management account to create a new member account withas the email address.\nWhat should the solutions architect do to create IAM users in the new member account?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Sign in to the AWS Management Console with AWS account root user credentials by using the 64-character password from the initial AWS Organizations email sent to [email protected] . Set up the IAM users as required."
+    },
+    {
+      "key": "B",
+      "text": "From the management account, switch roles to assume the OrganizationAccountAccessRole role with the account ID of the new member account. Set up the IAM users as required."
+    },
+    {
+      "key": "C",
+      "text": "Go to the AWS Management Console sign-in page. Choose “Sign in using root account credentials.” Sign in in by using the email address finance [email protected] and the management account's root password. Set up the IAM users as required."
+    },
+    {
+      "key": "D",
+      "text": "Go to the AWS Management Console sign-in page. Sign in by using the account ID of the new member account and the Support1 IAM credentials. Set up the IAM users as required."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/126833-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-11-22T07:43:00",
+  "number": 367,
+  "topic": 1,
+  "question": "A large payroll company recently merged with a small staffing company. The unified company now has multiple business units, each with its own existing AWS account.\nA solutions architect must ensure that the company can centrally manage the billing and access policies for all the AWS accounts. The solutions architect configures AWS Organizations by sending an invitation to all member accounts of the company from a centralized management account.\nWhat should the solutions architect do next to meet these requirements?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create the OrganizationAccountAccess IAM group in each member account. Include the necessary IAM roles for each administrator."
+    },
+    {
+      "key": "B",
+      "text": "Create the OrganizationAccountAccessPolicy IAM policy in each member account. Connect the member accounts to the management account by using cross-account access."
+    },
+    {
+      "key": "C",
+      "text": "reate the OrganizationAccountAccessRole IAM role in each member account. Grant permission to the management account to assume the IAM role."
+    },
+    {
+      "key": "D",
+      "text": "Create the OrganizationAccountAccessRole IAM role in the management account. Attach the AdministratorAccess AWS managed policy to the IAM role. Assign the IAM role to the administrators in each member account."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ]
+  }
+}

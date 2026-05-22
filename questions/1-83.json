@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/95377-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-01-15T09:16:00",
+  "number": 83,
+  "topic": 1,
+  "question": "A company uses Amazon S3 to store files and images in a variety of storage classes. The company's S3 costs have increased substantially during the past year.\nA solutions architect needs to review data trends for the past 12 months and identity the appropriate storage class for the objects.\nWhich solution will meet these requirements?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Download AWS Cost and Usage Reports for the last 12 months of S3 usage. Review AWS Trusted Advisor recommendations for cost savings."
+    },
+    {
+      "key": "B",
+      "text": "Use S3 storage class analysis. Import data trends into an Amazon QuickSight dashboard to analyze storage trends."
+    },
+    {
+      "key": "C",
+      "text": "Use Amazon S3 Storage Lens. Upgrade the default dashboard to include advanced metrics for storage trends."
+    },
+    {
+      "key": "D",
+      "text": "Use Access Analyzer for S3. Download the Access Analyzer for S3 report for the last 12 months. Import the .csv file to an Amazon QuickSight dashboard."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ]
+  }
+}

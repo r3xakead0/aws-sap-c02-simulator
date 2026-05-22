@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/91103-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2022-12-12T02:51:00",
+  "number": 32,
+  "topic": 1,
+  "question": "A company is in the process of implementing AWS Organizations to constrain its developers to use only Amazon EC2, Amazon S3, and Amazon DynamoDB. The developers account resides in a dedicated organizational unit (OU). The solutions architect has implemented the following SCP on the developers account:\n[Imagen]: 32_assets/img_001.png\nWhen this policy is deployed, IAM users in the developers account are still able to use AWS services that are not listed in the policy.\nWhat should the solutions architect do to eliminate the developers’ ability to use services outside the scope of this policy?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create an explicit deny statement for each AWS service that should be constrained."
+    },
+    {
+      "key": "B",
+      "text": "Remove the FullAWSAccess SCP from the developers account’s OU."
+    },
+    {
+      "key": "C",
+      "text": "Modify the FullAWSAccess SCP to explicitly deny all services."
+    },
+    {
+      "key": "D",
+      "text": "Add an explicit deny statement using a wildcard to the end of the SCP."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ]
+  }
+}

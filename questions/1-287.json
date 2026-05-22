@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/112785-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-06-21T11:06:00",
+  "number": 287,
+  "topic": 1,
+  "question": "A solutions architect must update an application environment within AWS Elastic Beanstalk using a blue/green deployment methodology. The solutions architect creates an environment that is identical to the existing application environment and deploys the application to the new environment.\nWhat should be done next to complete the update?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Redirect to the new environment using Amazon Route 53."
+    },
+    {
+      "key": "B",
+      "text": "Select the Swap Environment URLs option."
+    },
+    {
+      "key": "C",
+      "text": "Replace the Auto Scaling launch configuration."
+    },
+    {
+      "key": "D",
+      "text": "Update the DNS records to point to the green environment."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ]
+  }
+}

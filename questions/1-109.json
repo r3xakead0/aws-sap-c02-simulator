@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/95443-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-01-15T16:12:00",
+  "number": 109,
+  "topic": 1,
+  "question": "A large company is running a popular web application. The application runs on several Amazon EC2 Linux instances in an Auto Scaling group in a private subnet. An Application Load Balancer is targeting the instances in the Auto Scaling group in the private subnet. AWS Systems Manager Session Manager is configured, and AWS Systems Manager Agent is running on all the EC2 instances.\nThe company recently released a new version of the application. Some EC2 instances are now being marked as unhealthy and are being terminated. As a result, the application is running at reduced capacity. A solutions architect tries to determine the root cause by analyzing Amazon CloudWatch logs that are collected from the application, but the logs are inconclusive.\nHow should the solutions architect gain access to an EC2 instance to troubleshoot the issue?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Suspend the Auto Scaling group’s HealthCheck scaling process. Use Session Manager to log in to an instance that is marked as unhealthy."
+    },
+    {
+      "key": "B",
+      "text": "Enable EC2 instance termination protection. Use Session Manager to log in to an instance that is marked as unhealthy."
+    },
+    {
+      "key": "C",
+      "text": "Set the termination policy to OldestInstance on the Auto Scaling group. Use Session Manager to log in to an instance that is marked an unhealthy."
+    },
+    {
+      "key": "D",
+      "text": "Suspend the Auto Scaling group’s Terminate process. Use Session Manager to log in to an instance that is marked as unhealthy."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "D"
+    ]
+  }
+}

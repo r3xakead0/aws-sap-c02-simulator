@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/132985-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2024-02-06T03:02:00",
+  "number": 432,
+  "topic": 1,
+  "question": "A company wants to migrate its website to AWS. The website uses microservices and runs on containers that are deployed in an on-premises, self-managed Kubernetes cluster. All the manifests that define the deployments for the containers in the Kubernetes deployment are in source control.\nAll data for the website is stored in a PostgreSQL database. An open source container image repository runs alongside the on-premises environment.\nA solutions architect needs to determine the architecture that the company will use for the website on AWS.\nWhich solution will meet these requirements with the LEAST effort to migrate?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create an AWS App Runner service. Connect the App Runner service to the open source container image repository. Deploy the manifests from on premises to the App Runner service. Create an Amazon RDS for PostgreSQL database."
+    },
+    {
+      "key": "B",
+      "text": "Create an Amazon Elastic Kubernetes Service (Amazon EKS) cluster that has managed node groups. Copy the application containers to a new Amazon Elastic Container Registry (Amazon ECR) repository. Deploy the manifests from on premises to the EKS cluster. Create an Amazon Aurora PostgreSQL DB cluster."
+    },
+    {
+      "key": "C",
+      "text": "reate an Amazon Elastic Container Service (Amazon ECS) cluster that has an Amazon EC2 capacity pool. Copy the application containers to a new Amazon Elastic Container Registry (Amazon ECR) repository. Register each container image as a new task definition. Configure ECS services for each task definition to match the original Kubernetes deployments. Create an Amazon Aurora PostgreSQL DB cluster."
+    },
+    {
+      "key": "D",
+      "text": "Rebuild the on-premises Kubernetes cluster by hosting the cluster on Amazon EC2 instances. Migrate the open source container image repository to the EC2 instances. Deploy the manifests from on premises to the new cluster on AWS. Deploy an open source PostgreSQL database on the new cluster."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ]
+  }
+}

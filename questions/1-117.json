@@ -1,0 +1,40 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/95458-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-01-15T16:56:00",
+  "number": 117,
+  "topic": 1,
+  "question": "A company is running an application in the AWS Cloud. The company's security team must approve the creation of all new IAM users. When a new IAM user is created, all access for the user must be removed automatically. The security team must then receive a notification to approve the user. The company has a multi-Region AWS CloudTrail trail in the AWS account.\nWhich combination of steps will meet these requirements? (Choose three.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create an Amazon EventBridge (Amazon CloudWatch Events) rule. Define a pattern with the detail-type value set to AWS API Call via CloudTrail and an eventName of CreateUser."
+    },
+    {
+      "key": "B",
+      "text": "Configure CloudTrail to send a notification for the CreateUser event to an Amazon Simple Notification Service (Amazon SNS) topic."
+    },
+    {
+      "key": "C",
+      "text": "Invoke a container that runs in Amazon Elastic Container Service (Amazon ECS) with AWS Fargate technology to remove access."
+    },
+    {
+      "key": "D",
+      "text": "Invoke an AWS Step Functions state machine to remove access."
+    },
+    {
+      "key": "E",
+      "text": "Use Amazon Simple Notification Service (Amazon SNS) to notify the security team."
+    },
+    {
+      "key": "F",
+      "text": "Use Amazon Pinpoint to notify the security team."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "D",
+      "E"
+    ]
+  }
+}

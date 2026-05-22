@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/124867-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-10-29T03:57:00",
+  "number": 322,
+  "topic": 1,
+  "question": "A company is migrating mobile banking applications to run on Amazon EC2 instances in a VPC. Backend service applications run in an on-premises data center. The data center has an AWS Direct Connect connection into AWS. The applications that run in the VPC need to resolve DNS requests to an on-premises Active Directory domain that runs in the data center.\nWhich solution will meet these requirements with the LEAST administrative overhead?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Provision a set of EC2 instances across two Availability Zones in the VPC as caching DNS servers to resolve DNS queries from the application servers within the VPC."
+    },
+    {
+      "key": "B",
+      "text": "Provision an Amazon Route 53 private hosted zone. Configure NS records that point to on-premises DNS servers."
+    },
+    {
+      "key": "C",
+      "text": "reate DNS endpoints by using Amazon Route 53 Resolver. Add conditional forwarding rules to resolve DNS namespaces between the on-premises data center and the VPC."
+    },
+    {
+      "key": "D",
+      "text": "Provision a new Active Directory domain controller in the VPC with a bidirectional trust between this new domain and the on-premises Active Directory domain."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ]
+  }
+}

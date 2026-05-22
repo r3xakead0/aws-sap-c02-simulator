@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/95559-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-01-16T15:45:00",
+  "number": 141,
+  "topic": 1,
+  "question": "A company is processing videos in the AWS Cloud by Using Amazon EC2 instances in an Auto Scaling group. It takes 30 minutes to process a video Several EC2 instances scale in and out depending on the number of videos in an Amazon Simple Queue Service (Amazon SQS) queue.\nThe company has configured the SQS queue with a redrive policy that specifies a target dead-letter queue and a maxReceiveCount of 1. The company has set the visibility timeout for the SQS queue to 1 hour. The company has set up an Amazon CloudWatch alarm to notify the development team when there are messages in the dead-letter queue.\nSeveral times during the day. the development team receives notification that messages are in the dead-letter queue and that videos have not been processed property. An investigation finds no errors m the application logs.\nHow can the company solve this problem?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Turn on termination protection tor the EC2 Instances"
+    },
+    {
+      "key": "B",
+      "text": "Update the visibility timeout for the SQS queue to 3 hours"
+    },
+    {
+      "key": "C",
+      "text": "onfigure scale-in protection for the instances during processing"
+    },
+    {
+      "key": "D",
+      "text": "Update the redrive policy and set maxReceiveCount to 0."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ]
+  }
+}

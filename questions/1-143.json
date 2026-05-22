@@ -1,0 +1,35 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/95562-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-01-16T15:55:00",
+  "number": 143,
+  "topic": 1,
+  "question": "A weather service provides high-resolution weather maps from a web application hosted on AWS in the eu-west-1 Region. The weather maps are updated frequently and stored in Amazon S3 along with static HTML content. The web application is fronted by Amazon CloudFront.\nThe company recently expanded to serve users in the us-east-1 Region, and these new users report that viewing their respective weather maps is slow from time to time.\nWhich combination of steps will resolve the us-east-1 performance issues? (Choose two.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Configure the AWS Global Accelerator endpoint for the S3 bucket in eu-west-1. Configure endpoint groups for TCP ports 80 and 443 in us-east-1."
+    },
+    {
+      "key": "B",
+      "text": "Create a new S3 bucket in us-east-1. Configure S3 cross-Region replication to synchronize from the S3 bucket in eu-west-1."
+    },
+    {
+      "key": "C",
+      "text": "Use Lambda@Edge to modify requests from North America to use the S3 Transfer Acceleration endpoint in us-east-1."
+    },
+    {
+      "key": "D",
+      "text": "Use Lambda@Edge to modify requests from North America to use the S3 bucket in us-east-1."
+    },
+    {
+      "key": "E",
+      "text": "Configure the AWS Global Accelerator endpoint for us-east-1 as an origin on the CloudFront distribution. Use Lambda@Edge to modify requests from North America to use the new origin."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B",
+      "D"
+    ]
+  }
+}

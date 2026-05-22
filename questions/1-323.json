@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/126753-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-11-21T20:25:00",
+  "number": 323,
+  "topic": 1,
+  "question": "A company processes environmental data. The company has set up sensors to provide a continuous stream of data from different areas in a city. The data is available in JSON format.\nThe company wants to use an AWS solution to send the data to a database that does not require fixed schemas for storage. The data must be sent in real time.\nWhich solution will meet these requirements?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use Amazon Kinesis Data Firehose to send the data to Amazon Redshift."
+    },
+    {
+      "key": "B",
+      "text": "Use Amazon Kinesis Data Streams to send the data to Amazon DynamoDB."
+    },
+    {
+      "key": "C",
+      "text": "Use Amazon Managed Streaming for Apache Kafka (Amazon MSK) to send the data to Amazon Aurora."
+    },
+    {
+      "key": "D",
+      "text": "Use Amazon Kinesis Data Firehose to send the data to Amazon Keyspaces (for Apache Cassandra)."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ]
+  }
+}

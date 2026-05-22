@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/97934-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-02-04T11:11:00",
+  "number": 162,
+  "topic": 1,
+  "question": "A company runs an application on a fleet of Amazon EC2 instances that are in private subnets behind an internet-facing Application Load Balancer (ALB). The ALB is the origin for an Amazon CloudFront distribution. An AWS WAF web ACL that contains various AWS managed rules is associated with the CloudFront distribution.\nThe company needs a solution that will prevent internet traffic from directly accessing the ALB.\nWhich solution will meet these requirements with the LEAST operational overhead?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create a new web ACL that contains the same rules that the existing web ACL contains. Associate the new web ACL with the ALB."
+    },
+    {
+      "key": "B",
+      "text": "Associate the existing web ACL with the ALB."
+    },
+    {
+      "key": "C",
+      "text": "Add a security group rule to the ALB to allow traffic from the AWS managed prefix list for CloudFront only."
+    },
+    {
+      "key": "D",
+      "text": "Add a security group rule to the ALB to allow only the various CloudFront IP address ranges."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ]
+  }
+}

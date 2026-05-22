@@ -1,0 +1,35 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/143132-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2024-07-01T14:51:00",
+  "number": 527,
+  "topic": 1,
+  "question": "A company is collecting data from a large set of IoT devices. The data is stored in an Amazon S3 data lake. Data scientists perform analytics on Amazon EC2 instances that run in two public subnets in a VPC in a separate AWS account.\nThe data scientists need access to the data lake from the EC2 instances. The EC2 instances already have an assigned role with permissions to access Amazon S3.\nAccording to company policies, only authorized networks are allowed to have access to the IoT data.\nWhich combination of steps should a solutions architect take to meet these requirements? (Choose two.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create a gateway VPC endpoint for Amazon S3 in the data scientists’ VPC."
+    },
+    {
+      "key": "B",
+      "text": "Create an S3 access point in the data scientists' AWS account for the data lake."
+    },
+    {
+      "key": "C",
+      "text": "Update the EC2 instance role. Add a policy with a condition that allows the s3:GetObject action when the value for the s3:DataAccessPointArn condition key is a valid access point ARN."
+    },
+    {
+      "key": "D",
+      "text": "Update the VPC route table to route S3 traffic to an S3 access point."
+    },
+    {
+      "key": "E",
+      "text": "Add an S3 bucket policy with a condition that allows the s3:GetObject action when the value for the s3:DataAccessPointArn condition key is a valid access point ARN."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "E"
+    ]
+  }
+}

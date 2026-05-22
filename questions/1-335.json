@@ -1,0 +1,35 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/126811-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-11-22T07:06:00",
+  "number": 335,
+  "topic": 1,
+  "question": "An online magazine will launch its latest edition this month. This edition will be the first to be distributed globally. The magazine's dynamic website currently uses an Application Load Balancer in front of the web tier, a fleet of Amazon EC2 instances for web and application servers, and Amazon Aurora MySQL. Portions of the website include static content and almost all traffic is read-only.\nThe magazine is expecting a significant spike in internet traffic when the new edition is launched. Optimal performance is a top priority for the week following the launch.\nWhich combination of steps should a solutions architect take to reduce system response times for a global audience? (Choose two.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use logical cross-Region replication to replicate the Aurora MySQL database to a secondary Region. Replace the web servers with Amazon S3. Deploy S3 buckets in cross-Region replication mode."
+    },
+    {
+      "key": "B",
+      "text": "Ensure the web and application tiers are each in Auto Scaling groups. Introduce an AWS Direct Connect connection. Deploy the web and application tiers in Regions across the world."
+    },
+    {
+      "key": "C",
+      "text": "Migrate the database from Amazon Aurora to Amazon RDS for MySQL. Ensure all three of the application tiers – web, application, and database – are in private subnets."
+    },
+    {
+      "key": "D",
+      "text": "Use an Aurora global database for physical cross-Region replication. Use Amazon S3 with cross-Region replication for static content and resources. Deploy the web and application tiers in Regions across the world."
+    },
+    {
+      "key": "E",
+      "text": "Introduce Amazon Route 53 with latency-based routing and Amazon CloudFront distributions. Ensure the web and application tiers are each in Auto Scaling groups."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "D",
+      "E"
+    ]
+  }
+}

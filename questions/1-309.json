@@ -1,0 +1,40 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/124808-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-10-28T13:06:00",
+  "number": 309,
+  "topic": 1,
+  "question": "A company is using AWS Organizations with a multi-account architecture. The company's current security configuration for the account architecture includes SCPs, resource-based policies, identity-based policies, trust policies, and session policies.\nA solutions architect needs to allow an IAM user in Account A to assume a role in Account B.\nWhich combination of steps must the solutions architect take to meet this requirement? (Choose three.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Configure the SCP for Account A to allow the action."
+    },
+    {
+      "key": "B",
+      "text": "Configure the resource-based policies to allow the action."
+    },
+    {
+      "key": "C",
+      "text": "onfigure the identity-based policy on the user in Account A to allow the action."
+    },
+    {
+      "key": "D",
+      "text": "Configure the identity-based policy on the user in Account B to allow the action."
+    },
+    {
+      "key": "E",
+      "text": "Configure the trust policy on the target role in Account B to allow the action."
+    },
+    {
+      "key": "F",
+      "text": "Configure the session policy to allow the action and to be passed programmatically by the GetSessionToken API operation."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "C",
+      "E"
+    ]
+  }
+}

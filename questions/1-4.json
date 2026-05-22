@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/90976-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2022-12-11T04:19:00",
+  "number": 4,
+  "topic": 1,
+  "question": "A company is running a two-tier web-based application in an on-premises data center. The application layer consists of a single server running a stateful application. The application connects to a PostgreSQL database running on a separate server. The application’s user base is expected to grow significantly, so the company is migrating the application and database to AWS. The solution will use Amazon Aurora PostgreSQL, Amazon EC2 Auto Scaling, and Elastic Load Balancing.\nWhich solution will provide a consistent user experience that will allow the application and database tiers to scale?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Enable Aurora Auto Scaling for Aurora Replicas. Use a Network Load Balancer with the least outstanding requests routing algorithm and sticky sessions enabled."
+    },
+    {
+      "key": "B",
+      "text": "Enable Aurora Auto Scaling for Aurora writers. Use an Application Load Balancer with the round robin routing algorithm and sticky sessions enabled."
+    },
+    {
+      "key": "C",
+      "text": "Enable Aurora Auto Scaling for Aurora Replicas. Use an Application Load Balancer with the round robin routing and sticky sessions enabled."
+    },
+    {
+      "key": "D",
+      "text": "Enable Aurora Scaling for Aurora writers. Use a Network Load Balancer with the least outstanding requests routing algorithm and sticky sessions enabled."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ]
+  }
+}

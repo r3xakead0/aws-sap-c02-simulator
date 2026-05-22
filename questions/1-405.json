@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/126963-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-11-22T22:28:00",
+  "number": 405,
+  "topic": 1,
+  "question": "A company is preparing to deploy an Amazon Elastic Kubernetes Service (Amazon EKS) cluster for a workload. The company expects the cluster to support an unpredictable number of stateless pods. Many of the pods will be created during a short time period as the workload automatically scales the number of replicas that the workload uses.\nWhich solution will MAXIMIZE node resilience?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use a separate launch template to deploy the EKS control plane into a second cluster that is separate from the workload node groups."
+    },
+    {
+      "key": "B",
+      "text": "Update the workload node groups. Use a smaller number of node groups and larger instances in the node groups."
+    },
+    {
+      "key": "C",
+      "text": "onfigure the Kubernetes Cluster Autoscaler to ensure that the compute capacity of the workload node groups stays underprovisioned."
+    },
+    {
+      "key": "D",
+      "text": "Configure the workload to use topology spread constraints that are based on Availability Zone."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "D"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/91216-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2022-12-12T15:22:00",
+  "number": 26,
+  "topic": 1,
+  "question": "A security engineer determined that an existing application retrieves credentials to an Amazon RDS for MySQL database from an encrypted file in Amazon S3. For the next version of the application, the security engineer wants to implement the following application design changes to improve security:\nThe database must use strong, randomly generated passwords stored in a secure AWS managed service.\nThe application resources must be deployed through AWS CloudFormation.\nThe application must rotate credentials for the database every 90 days.\nA solutions architect will generate a CloudFormation template to deploy the application.\nWhich resources specified in the CloudFormation template will meet the security engineer’s requirements with the LEAST amount of operational overhead?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Generate the database password as a secret resource using AWS Secrets Manager. Create an AWS Lambda function resource to rotate the database password. Specify a Secrets Manager RotationSchedule resource to rotate the database password every 90 days."
+    },
+    {
+      "key": "B",
+      "text": "Generate the database password as a SecureString parameter type using AWS Systems Manager Parameter Store. Create an AWS Lambda function resource to rotate the database password. Specify a Parameter Store RotationSchedule resource to rotate the database password every 90 days."
+    },
+    {
+      "key": "C",
+      "text": "Generate the database password as a secret resource using AWS Secrets Manager. Create an AWS Lambda function resource to rotate the database password. Create an Amazon EventBridge scheduled rule resource to trigger the Lambda function password rotation every 90 days."
+    },
+    {
+      "key": "D",
+      "text": "Generate the database password as a SecureString parameter type using AWS Systems Manager Parameter Store. Specify an AWS AppSync DataSource resource to automatically rotate the database password every 90 days."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ]
+  }
+}

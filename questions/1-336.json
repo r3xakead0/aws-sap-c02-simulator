@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/126812-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-11-22T07:07:00",
+  "number": 336,
+  "topic": 1,
+  "question": "An online gaming company needs to optimize the cost of its workloads on AWS. The company uses a dedicated account to host the production environment for its online gaming application and an analytics application.\nAmazon EC2 instances host the gaming application and must always be available. The EC2 instances run all year. The analytics application uses data that is stored in Amazon S3. The analytics application can be interrupted and resumed without issue.\nWhich solution will meet these requirements MOST cost-effectively?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Purchase an EC2 Instance Savings Plan for the online gaming application instances. Use On-Demand Instances for the analytics application."
+    },
+    {
+      "key": "B",
+      "text": "Purchase an EC2 Instance Savings Plan for the online gaming application instances. Use Spot Instances for the analytics application."
+    },
+    {
+      "key": "C",
+      "text": "Use Spot Instances for the online gaming application and the analytics application. Set up a catalog in AWS Service Catalog to provision services at a discount."
+    },
+    {
+      "key": "D",
+      "text": "Use On-Demand Instances for the online gaming application. Use Spot Instances for the analytics application. Set up a catalog in AWS Service Catalog to provision services at a discount."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/126845-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-11-22T08:02:00",
+  "number": 383,
+  "topic": 1,
+  "question": "A company is migrating to the cloud. It wants to evaluate the configurations of virtual machines in its existing data center environment to ensure that it can size new Amazon EC2 instances accurately. The company wants to collect metrics, such as CPU, memory, and disk utilization, and it needs an inventory of what processes are running on each instance. The company would also like to monitor network connections to map communications between servers.\nWhich would enable the collection of this data MOST cost effectively?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use AWS Application Discovery Service and deploy the data collection agent to each virtual machine in the data center."
+    },
+    {
+      "key": "B",
+      "text": "Configure the Amazon CloudWatch agent on all servers within the local environment and publish metrics to Amazon CloudWatch Logs."
+    },
+    {
+      "key": "C",
+      "text": "Use AWS Application Discovery Service and enable agentless discovery in the existing virtualization environment."
+    },
+    {
+      "key": "D",
+      "text": "Enable AWS Application Discovery Service in the AWS Management Console and configure the corporate firewall to allow scans over a VPN."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ]
+  }
+}

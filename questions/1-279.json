@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/112814-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-06-21T11:33:00",
+  "number": 279,
+  "topic": 1,
+  "question": "A company uses AWS CloudFormation to deploy applications within multiple VPCs that are all attached to a transit gateway. Each VPC that sends traffic to the public internet must send the traffic through a shared services VPC. Each subnet within a VPC uses the default VPC route table, and the traffic is routed to the transit gateway. The transit gateway uses its default route table for any VPC attachment.\nA security audit reveals that an Amazon EC2 instance that is deployed within a VPC can communicate with an EC2 instance that is deployed in any of the company's other VPCs. A solutions architect needs to limit the traffic between the VPCs. Each VPC must be able to communicate only with a predefined, limited set of authorized VPCs.\nWhat should the solutions architect do to meet these requirements?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Update the network ACL of each subnet within a VPC to allow outbound traffic only to the authorized VPCs. Remove all deny rules except the default deny rule."
+    },
+    {
+      "key": "B",
+      "text": "Update all the security groups that are used within a VPC to deny outbound traffic to security groups that are used within the unauthorized VPCs."
+    },
+    {
+      "key": "C",
+      "text": "reate a dedicated transit gateway route table for each VPC attachment. Route traffic only to the authorized VPCs."
+    },
+    {
+      "key": "D",
+      "text": "Update the main route table of each VPC to route traffic only to the authorized VPCs through the transit gateway."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/136589-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2024-03-19T12:09:00",
+  "number": 453,
+  "topic": 1,
+  "question": "A company stores and manages documents in an Amazon Elastic File System (Amazon EFS) file system. The file system is encrypted with an AWS Key Management Service (AWS KMS) key. The file system is mounted to an Amazon EC2 instance that runs proprietary software.\nThe company has enabled automatic backups for the file system. The automatic backups use the AWS Backup default backup plan.\nA solutions architect must ensure that deleted documents can be recovered within an RPO of 100 minutes.\nWhich solution will meet these requirements?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create a new IAM role. Create a new backup plan. Use the new IAM role to create backups. Update the KMS key policy to allow the new IAM role to use the key. Implement an hourly backup schedule for the file system."
+    },
+    {
+      "key": "B",
+      "text": "Create a new backup plan. Update the KMS key policy to allow the AWSServiceRoleForBackup IAM role to use the key. Implement a custom cron expression to run a backup of the file system every 30 minutes."
+    },
+    {
+      "key": "C",
+      "text": "reate a new IAM role. Use the existing backup plan. Update the KMS key policy to allow the new IAM role to use the key. Enable continuous backups for point-in-time recovery."
+    },
+    {
+      "key": "D",
+      "text": "Use the existing backup plan. Update the KMS key policy to allow the AWSServiceRoleForBackup IAM role to use the key. Enable Cross-Region Replication for the file system."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ]
+  }
+}

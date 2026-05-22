@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/112809-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-06-21T11:29:00",
+  "number": 274,
+  "topic": 1,
+  "question": "A company has an application that generates reports and stores them in an Amazon S3 bucket. When a user accesses their report, the application generates a signed URL to allow the user to download the report. The company's security team has discovered that the files are public and that anyone can download them without authentication. The company has suspended the generation of new reports until the problem is resolved.\nWhich set of actions will immediately remediate the security issue without impacting the application's normal workflow?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create an AWS Lambda function that applies a deny all policy for users who are not authenticated. Create a scheduled event to invoke the Lambda function."
+    },
+    {
+      "key": "B",
+      "text": "Review the AWS Trusted Advisor bucket permissions check and implement the recommended actions."
+    },
+    {
+      "key": "C",
+      "text": "Run a script that puts a private ACL on all of the objects in the bucket."
+    },
+    {
+      "key": "D",
+      "text": "Use the Block Public Access feature in Amazon S3 to set the IgnorePublicAcIs option to TRUE on the bucket."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "D"
+    ]
+  }
+}

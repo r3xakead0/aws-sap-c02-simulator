@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/127000-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-11-23T12:18:00",
+  "number": 350,
+  "topic": 1,
+  "question": "A solutions architect works for a government agency that has strict disaster recovery requirements. All Amazon Elastic Block Store (Amazon EBS) snapshots are required to be saved in at least two additional AWS Regions. The agency also is required to maintain the lowest possible operational overhead.\nWhich solution meets these requirements?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Configure a policy in Amazon Data Lifecycle Manager (Amazon DLM) to run once daily to copy the EBS snapshots to the additional Regions."
+    },
+    {
+      "key": "B",
+      "text": "Use Amazon EventBridge to schedule an AWS Lambda function to copy the EBS snapshots to the additional Regions."
+    },
+    {
+      "key": "C",
+      "text": "Setup AWS Backup to create the EBS snapshots. Configure Amazon S3 Cross-Region Replication to copy the EBS snapshots to the additional Regions."
+    },
+    {
+      "key": "D",
+      "text": "Schedule Amazon EC2 Image Builder to run once daily to create an AMI and copy the AMI to the additional Regions."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ]
+  }
+}

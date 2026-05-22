@@ -1,0 +1,35 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/142971-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2024-06-27T10:17:00",
+  "number": 502,
+  "topic": 1,
+  "question": "A company needs to migrate its on-premises database fleet to Amazon RDS. The company is currently using a mixture of Microsoft SQL Server, MySQL, and Oracle databases. Some of the databases have custom schemas and stored procedures.\nWhich combination of steps should the company take for the migration? (Choose two.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use Migration Evaluator Quick Insights to analyze the source databases and to identify the stored procedures that need to be migrated."
+    },
+    {
+      "key": "B",
+      "text": "Use AWS Application Migration Service to analyze the source databases and to identify the stored procedures that need to be migrated."
+    },
+    {
+      "key": "C",
+      "text": "Use the AWS Schema Conversion Tool (AWS SCT) to analyze the source databases for changes that are required"
+    },
+    {
+      "key": "D",
+      "text": "Use AWS Database Migration Service (AWS DMS) to migrate the source databases to Amazon RDS."
+    },
+    {
+      "key": "E",
+      "text": "Use AWS DataSync to migrate the data from the source databases to Amazon RDS."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C",
+      "D"
+    ]
+  }
+}

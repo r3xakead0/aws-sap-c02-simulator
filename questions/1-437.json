@@ -1,0 +1,40 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/132989-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2024-02-06T03:19:00",
+  "number": 437,
+  "topic": 1,
+  "question": "A company runs an application in the cloud that consists of a database and a website. Users can post data to the website, have the data processed, and have the data sent back to them in an email. Data is stored in a MySQL database running on an Amazon EC2 instance. The database is running in a VPC with two private subnets. The website is running on Apache Tomcat in a single EC2 instance in a different VPC with one public subnet. There is a single VPC peering connection between the database and website VPC.\nThe website has suffered several outages during the last month due to high traffic.\nWhich actions should a solutions architect take to increase the reliability of the application? (Choose three.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Place the Tomcat server in an Auto Scaling group with multiple EC2 instances behind an Application Load Balancer."
+    },
+    {
+      "key": "B",
+      "text": "Provision an additional VPC peering connection."
+    },
+    {
+      "key": "C",
+      "text": "Migrate the MySQL database to Amazon Aurora with one Aurora Replica."
+    },
+    {
+      "key": "D",
+      "text": "Provision two NAT gateways in the database VPC."
+    },
+    {
+      "key": "E",
+      "text": "Move the Tomcat server to the database VPC."
+    },
+    {
+      "key": "F",
+      "text": "Create an additional public subnet in a different Availability Zone in the website VPC."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "C",
+      "F"
+    ]
+  }
+}

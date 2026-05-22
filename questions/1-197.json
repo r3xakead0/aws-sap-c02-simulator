@@ -1,0 +1,40 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/110347-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-05-27T05:20:00",
+  "number": 197,
+  "topic": 1,
+  "question": "A company is storing sensitive data in an Amazon S3 bucket. The company must log all activities for objects in the S3 bucket and must keep the logs for 5 years. The company's security team also must receive an email notification every time there is an attempt to delete data in the S3 bucket.\nWhich combination of steps will meet these requirements MOST cost-effectively? (Choose three.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Configure AWS CloudTrail to log S3 data events."
+    },
+    {
+      "key": "B",
+      "text": "Configure S3 server access logging for the S3 bucket."
+    },
+    {
+      "key": "C",
+      "text": "onfigure Amazon S3 to send object deletion events to Amazon Simple Email Service (Amazon SES)."
+    },
+    {
+      "key": "D",
+      "text": "Configure Amazon S3 to send object deletion events to an Amazon EventBridge event bus that publishes to an Amazon Simple Notification Service (Amazon SNS) topic."
+    },
+    {
+      "key": "E",
+      "text": "Configure Amazon S3 to send the logs to Amazon Timestream with data storage tiering."
+    },
+    {
+      "key": "F",
+      "text": "Configure a new S3 bucket to store the logs with an S3 Lifecycle policy."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "D",
+      "F"
+    ]
+  }
+}

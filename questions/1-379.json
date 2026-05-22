@@ -1,0 +1,35 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/126841-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-11-22T07:53:00",
+  "number": 379,
+  "topic": 1,
+  "question": "A large company is migrating its entire IT portfolio to AWS. Each business unit in the company has a standalone AWS account that supports both development and test environments. New accounts to support production workloads will be needed soon.\nThe finance department requires a centralized method for payment but must maintain visibility into each group's spending to allocate costs.\nThe security team requires a centralized mechanism to control IAM usage in all the company’s accounts.\nWhat combination of the following options meets the company’s needs with the LEAST effort? (Choose two.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use a collection of parameterized AWS CloudFormation templates defining common IAM permissions that are launched into each account. Require all new and existing accounts to launch the appropriate stacks to enforce the least privilege model."
+    },
+    {
+      "key": "B",
+      "text": "Use AWS Organizations to create a new organization from a chosen payer account and define an organizational unit hierarchy. Invite the existing accounts to join the organization and create new accounts using Organizations."
+    },
+    {
+      "key": "C",
+      "text": "Require each business unit to use its own AWS accounts. Tag each AWS account appropriately and enable Cost Explorer to administer chargebacks."
+    },
+    {
+      "key": "D",
+      "text": "Enable all features of AWS Organizations and establish appropriate service control policies that filter IAM permissions for sub-accounts."
+    },
+    {
+      "key": "E",
+      "text": "Consolidate all of the company's AWS accounts into a single AWS account. Use tags for billing purposes and the IAM’s Access Advisor feature to enforce the least privilege model."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B",
+      "D"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/95308-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-01-14T18:55:00",
+  "number": 80,
+  "topic": 1,
+  "question": "A company runs an IoT platform on AWS. IoT sensors in various locations send data to the company’s Node.js API servers on Amazon EC2 instances running behind an Application Load Balancer. The data is stored in an Amazon RDS MySQL DB instance that uses a 4 TB General Purpose SSD volume.\nThe number of sensors the company has deployed in the field has increased over time, and is expected to grow significantly. The API servers are consistently overloaded and RDS metrics show high write latency.\nWhich of the following steps together will resolve the issues permanently and enable growth as new sensors are provisioned, while keeping this platform cost-efficient? (Choose two.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Resize the MySQL General Purpose SSD storage to 6 TB to improve the volume’s IOPS."
+    },
+    {
+      "key": "B",
+      "text": "Re-architect the database tier to use Amazon Aurora instead of an RDS MySQL DB instance and add read replicas."
+    },
+    {
+      "key": "C",
+      "text": "Leverage Amazon Kinesis Data Streams and AWS Lambda to ingest and process the raw data."
+    },
+    {
+      "key": "D",
+      "text": "Use AWS X-Ray to analyze and debug application issues and add more API servers to match the load."
+    },
+    {
+      "key": "E",
+      "text": "Re-architect the database tier to use Amazon DynamoDB instead of an RDS MySQL DB instance."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C",
+      "E"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/126769-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-11-21T22:12:00",
+  "number": 341,
+  "topic": 1,
+  "question": "A company needs to optimize the cost of its application on AWS. The application uses AWS Lambda functions and Amazon Elastic Container Service (Amazon ECS) containers that run on AWS Fargate. The application is write-heavy and stores data in an Amazon Aurora MySQL database.\nThe load on the application is not consistent. The application experiences long periods of no usage, followed by sudden and significant increases and decreases in traffic. The database runs on a memory optimized DB instance that cannot handle the load.\nA solutions architect must design a solution that can scale to handle the changes in traffic.\nWhich solution will meet these requirements MOST cost-effectively?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "dd additional read replicas to the database. Purchase Instance Savings Plans and RDS Reserved Instances."
+    },
+    {
+      "key": "B",
+      "text": "Migrate the database to an Aurora DB cluster that has multiple writer instances. Purchase Instance Savings Plans."
+    },
+    {
+      "key": "C",
+      "text": "Migrate the database to an Aurora global database. Purchase Compute Savings Plans and RDS Reserved instances."
+    },
+    {
+      "key": "D",
+      "text": "Migrate the database to Aurora Serverless v1. Purchase Compute Savings Plans."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "D"
+    ]
+  }
+}

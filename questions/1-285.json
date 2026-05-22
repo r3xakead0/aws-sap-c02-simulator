@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/112783-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-06-21T11:04:00",
+  "number": 285,
+  "topic": 1,
+  "question": "A company hosts a blog post application on AWS using Amazon API Gateway, Amazon DynamoDB, and AWS Lambda. The application currently does not use API keys to authorize requests. The API model is as follows:\nGET /posts/{postId}: to get post details\nGET /users/{userId}: to get user details\nGET /comments/{commentId}: to get comments details\nThe company has noticed users are actively discussing topics in the comments section, and the company wants to increase user engagement by making the comments appear in real time.\nWhich design should be used to reduce comment latency and improve user experience?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use edge-optimized API with Amazon CloudFront to cache API responses."
+    },
+    {
+      "key": "B",
+      "text": "Modify the blog application code to request GET/comments/{commentId} every 10 seconds."
+    },
+    {
+      "key": "C",
+      "text": "Use AWS AppSync and leverage WebSockets to deliver comments."
+    },
+    {
+      "key": "D",
+      "text": "Change the concurrency limit of the Lambda functions to lower the API response time."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ]
+  }
+}

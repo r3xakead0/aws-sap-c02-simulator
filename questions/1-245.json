@@ -1,0 +1,40 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/113142-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-06-24T03:08:00",
+  "number": 245,
+  "topic": 1,
+  "question": "A company has five development teams that have each created five AWS accounts to develop and host applications. To track spending, the development teams log in to each account every month, record the current cost from the AWS Billing and Cost Management console, and provide the information to the company's finance team.\nThe company has strict compliance requirements and needs to ensure that resources are created only in AWS Regions in the United States. However, some resources have been created in other Regions.\nA solutions architect needs to implement a solution that gives the finance team the ability to track and consolidate expenditures for all the accounts. The solution also must ensure that the company can create resources only in Regions in the United States.\nWhich combination of steps will meet these requirements in the MOST operationally efficient way? (Choose three.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create a new account to serve as a management account. Create an Amazon S3 bucket for the finance team. Use AWS Cost and Usage Reports to create monthly reports and to store the data in the finance team's S3 bucket."
+    },
+    {
+      "key": "B",
+      "text": "Create a new account to serve as a management account. Deploy an organization in AWS Organizations with all features enabled. Invite all the existing accounts to the organization. Ensure that each account accepts the invitation."
+    },
+    {
+      "key": "C",
+      "text": "reate an OU that includes all the development teams. Create an SCP that allows the creation of resources only in Regions that are in the United States. Apply the SCP to the OU."
+    },
+    {
+      "key": "D",
+      "text": "Create an OU that includes all the development teams. Create an SCP that denies the creation of resources in Regions that are outside the United States. Apply the SCP to the OU."
+    },
+    {
+      "key": "E",
+      "text": "Create an IAM role in the management account. Attach a policy that includes permissions to view the Billing and Cost Management console. Allow the finance team users to assume the role. Use AWS Cost Explorer and the Billing and Cost Management console to analyze cost."
+    },
+    {
+      "key": "F",
+      "text": "Create an IAM role in each AWS account. Attach a policy that includes permissions to view the Billing and Cost Management console. Allow the finance team users to assume the role."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B",
+      "D",
+      "E"
+    ]
+  }
+}

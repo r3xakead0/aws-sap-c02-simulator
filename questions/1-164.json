@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/97695-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-02-02T20:24:00",
+  "number": 164,
+  "topic": 1,
+  "question": "A company is running a compute workload by using Amazon EC2 Spot Instances that are in an Auto Scaling group. The launch template uses two placement groups and a single instance type.\nRecently, a monitoring system reported Auto Scaling instance launch failures that correlated with longer wait times for system users. The company needs to improve the overall reliability of the workload.\nWhich solution will meet this requirement?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Replace the launch template with a launch configuration to use an Auto Scaling group that uses attribute-based instance type selection."
+    },
+    {
+      "key": "B",
+      "text": "Create a new launch template version that uses attribute-based instance type selection. Configure the Auto Scaling group to use the new launch template version."
+    },
+    {
+      "key": "C",
+      "text": "Update the launch template Auto Scaling group to increase the number of placement groups."
+    },
+    {
+      "key": "D",
+      "text": "Update the launch template to use a larger instance type."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ]
+  }
+}

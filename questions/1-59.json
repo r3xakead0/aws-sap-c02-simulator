@@ -1,0 +1,40 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/95265-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-01-14T13:54:00",
+  "number": 59,
+  "topic": 1,
+  "question": "A solutions architect needs to copy data from an Amazon S3 bucket m an AWS account to a new S3 bucket in a new AWS account. The solutions architect must implement a solution that uses the AWS CLI.\nWhich combination of steps will successfully copy the data? (Choose three.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create a bucket policy to allow the source bucket to list its contents and to put objects and set object ACLs in the destination bucket. Attach the bucket policy to the destination bucket."
+    },
+    {
+      "key": "B",
+      "text": "Create a bucket policy to allow a user in the destination account to list the source bucket’s contents and read the source bucket’s objects. Attach the bucket policy to the source bucket."
+    },
+    {
+      "key": "C",
+      "text": "reate an IAM policy in the source account. Configure the policy to allow a user in the source account to list contents and get objects in the source bucket, and to list contents, put objects, and set object ACLs in the destination bucket. Attach the policy to the user."
+    },
+    {
+      "key": "D",
+      "text": "Create an IAM policy in the destination account. Configure the policy to allow a user in the destination account to list contents and get objects in the source bucket, and to list contents, put objects, and set objectACLs in the destination bucket. Attach the policy to the user."
+    },
+    {
+      "key": "E",
+      "text": "Run the aws s3 sync command as a user in the source account. Specify the source and destination buckets to copy the data."
+    },
+    {
+      "key": "F",
+      "text": "Run the aws s3 sync command as a user in the destination account. Specify the source and destination buckets to copy the data."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B",
+      "D",
+      "F"
+    ]
+  }
+}

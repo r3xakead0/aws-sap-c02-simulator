@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/91486-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2022-12-13T19:26:00",
+  "number": 38,
+  "topic": 1,
+  "question": "A company is using AWS Organizations to manage multiple AWS accounts. For security purposes, the company requires the creation of an Amazon Simple Notification Service (Amazon SNS) topic that enables integration with a third-party alerting system in all the Organizations member accounts.\nA solutions architect used an AWS CloudFormation template to create the SNS topic and stack sets to automate the deployment of CloudFormation stacks. Trusted access has been enabled in Organizations.\nWhat should the solutions architect do to deploy the CloudFormation StackSets in all AWS accounts?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create a stack set in the Organizations member accounts. Use service-managed permissions. Set deployment options to deploy to an organization. Use CloudFormation StackSets drift detection."
+    },
+    {
+      "key": "B",
+      "text": "Create stacks in the Organizations member accounts. Use self-service permissions. Set deployment options to deploy to an organization. Enable the CloudFormation StackSets automatic deployment."
+    },
+    {
+      "key": "C",
+      "text": "reate a stack set in the Organizations management account. Use service-managed permissions. Set deployment options to deploy to the organization. Enable CloudFormation StackSets automatic deployment."
+    },
+    {
+      "key": "D",
+      "text": "Create stacks in the Organizations management account. Use service-managed permissions. Set deployment options to deploy to the organization. Enable CloudFormation StackSets drift detection."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ]
+  }
+}

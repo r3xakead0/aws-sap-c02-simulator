@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/142969-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2024-06-27T08:49:00",
+  "number": 490,
+  "topic": 1,
+  "question": "A company requires that all internal application connectivity use private IP addresses. To facilitate this policy, a solutions architect has created interface endpoints to connect to AWS Public services. Upon testing, the solutions architect notices that the service names are resolving to public IP addresses, and that internal services cannot connect to the interface endpoints.\nWhich step should the solutions architect take to resolve this issue?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Update the subnet route table with a route to the interface endpoint."
+    },
+    {
+      "key": "B",
+      "text": "Enable the private DNS option on the VPC attributes."
+    },
+    {
+      "key": "C",
+      "text": "onfigure the security group on the interface endpoint to allow connectivity to the AWS services."
+    },
+    {
+      "key": "D",
+      "text": "Configure an Amazon Route 53 private hosted zone with a conditional forwarder for the internal application."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ]
+  }
+}

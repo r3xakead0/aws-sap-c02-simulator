@@ -1,0 +1,40 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/126939-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-11-22T18:35:00",
+  "number": 386,
+  "topic": 1,
+  "question": "An enterprise company is building an infrastructure services platform for its users. The company has the following requirements:\n•\tProvide least privilege access to users when launching AWS infrastructure so users cannot provision unapproved services.\n•\tUse a central account to manage the creation of infrastructure services.\n•\tProvide the ability to distribute infrastructure services to multiple accounts in AWS Organizations.\n•\tProvide the ability to enforce tags on any infrastructure that is started by users.\nWhich combination of actions using AWS services will meet these requirements? (Choose three.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Develop infrastructure services using AWS CloudFormation templates. Add the templates to a central Amazon S3 bucket and add the IAM roles or users that require access to the S3 bucket policy."
+    },
+    {
+      "key": "B",
+      "text": "Develop infrastructure services using AWS CloudFormation templates. Upload each template as an AWS Service Catalog product to portfolios created in a central AWS account. Share these portfolios with the Organizations structure created for the company."
+    },
+    {
+      "key": "C",
+      "text": "Allow user IAM roles to have AWSCloudFormationFullAccess and AmazonS3ReadOnlyAccess permissions. Add an Organizations SCP at the AWS account root user level to deny all services except AWS CloudFormation and Amazon S3."
+    },
+    {
+      "key": "D",
+      "text": "Allow user IAM roles to have ServiceCatalogEndUserAccess permissions only. Use an automation script to import the central portfolios to local AWS accounts, copy the TagOption, assign users access, and apply launch constraints."
+    },
+    {
+      "key": "E",
+      "text": "Use the AWS Service Catalog TagOption Library to maintain a list of tags required by the company. Apply the TagOption to AWS Service Catalog products or portfolios."
+    },
+    {
+      "key": "F",
+      "text": "Use the AWS CloudFormation Resource Tags property to enforce the application of tags to any CloudFormation templates that will be created for users."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B",
+      "D",
+      "E"
+    ]
+  }
+}

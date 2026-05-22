@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/113025-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-06-22T23:10:00",
+  "number": 254,
+  "topic": 1,
+  "question": "A financial services company loaded millions of historical stock trades into an Amazon DynamoDB table. The table uses on-demand capacity mode. Once each day at midnight, a few million new records are loaded into the table. Application read activity against the table happens in bursts throughout the day. and a limited set of keys are repeatedly looked up. The company needs to reduce costs associated with DynamoDB.\nWhich strategy should a solutions architect recommend to meet this requirement?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Deploy an Amazon ElastiCache cluster in front of the DynamoDB table"
+    },
+    {
+      "key": "B",
+      "text": "Deploy DynamoDB Accelerator (DAX). Configure DynamoDB auto scaling. Purchase Savings Plans in Cost Explorer."
+    },
+    {
+      "key": "C",
+      "text": "Use provisioned capacity mode. Purchase Savings Plans in Cost Explorer."
+    },
+    {
+      "key": "D",
+      "text": "eploy DynamoDB Accelerator (DAX). Use provisioned capacity mode. Configure DynamoDB auto scaling."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "D"
+    ]
+  }
+}

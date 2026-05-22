@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/110297-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-05-26T13:44:00",
+  "number": 208,
+  "topic": 1,
+  "question": "A software-as-a-service (SaaS) provider exposes APIs through an Application Load Balancer (ALB). The ALB connects to an Amazon Elastic Kubernetes Service (Amazon EKS) cluster that is deployed in the us-east-1 Region. The exposed APIs contain usage of a few non-standard REST methods: LINK, UNLINK, LOCK, and UNLOCK.\nUsers outside the United States are reporting long and inconsistent response times for these APIs. A solutions architect needs to resolve this problem with a solution that minimizes operational overhead.\nWhich solution meets these requirements?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "dd an Amazon CloudFront distribution. Configure the ALB as the origin."
+    },
+    {
+      "key": "B",
+      "text": "Add an Amazon API Gateway edge-optimized API endpoint to expose the APIs. Configure the ALB as the target."
+    },
+    {
+      "key": "C",
+      "text": "Add an accelerator in AWS Global Accelerator. Configure the ALB as the origin."
+    },
+    {
+      "key": "D",
+      "text": "eploy the APIs to two additional AWS Regions: eu-west-1 and ap-southeast-2. Add latency-based routing records in Amazon Route 53."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ]
+  }
+}

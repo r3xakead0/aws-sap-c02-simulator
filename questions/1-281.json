@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/112779-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-06-21T11:00:00",
+  "number": 281,
+  "topic": 1,
+  "question": "A company is collecting a large amount of data from a fleet of IoT devices. Data is stored as Optimized Row Columnar (ORC) files in the Hadoop Distributed File System (HDFS) on a persistent Amazon EMR cluster. The company's data analytics team queries the data by using SQL in Apache Presto deployed on the same EMR cluster. Queries scan large amounts of data, always run for less than 15 minutes, and run only between 5 PM and 10 PM.\nThe company is concerned about the high cost associated with the current solution. A solutions architect must propose the most cost-effective solution that will allow SQL data queries.\nWhich solution will meet these requirements?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Store data in Amazon S3. Use Amazon Redshift Spectrum to query data."
+    },
+    {
+      "key": "B",
+      "text": "Store data in Amazon S3. Use the AWS Glue Data Catalog and Amazon Athena to query data."
+    },
+    {
+      "key": "C",
+      "text": "Store data in EMR File System (EMRFS). Use Presto in Amazon EMR to query data."
+    },
+    {
+      "key": "D",
+      "text": "Store data in Amazon Redshift. Use Amazon Redshift to query data."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/97939-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-02-04T12:24:00",
+  "number": 168,
+  "topic": 1,
+  "question": "A company has a few AWS accounts for development and wants to move its production application to AWS. The company needs to enforce Amazon Elastic Block Store (Amazon EBS) encryption at rest current production accounts and future production accounts only. The company needs a solution that includes built-in blueprints and guardrails.\nWhich combination of steps will meet these requirements? (Choose three.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use AWS CloudFormation StackSets to deploy AWS Config rules on production accounts."
+    },
+    {
+      "key": "B",
+      "text": "Create a new AWS Control Tower landing zone in an existing developer account. Create OUs for accounts. Add production and development accounts to production and development OUs, respectively."
+    },
+    {
+      "key": "C",
+      "text": "reate a new AWS Control Tower landing zone in the company’s management account. Add production and development accounts to production and development OUs. respectively."
+    },
+    {
+      "key": "D",
+      "text": "Invite existing accounts to join the organization in AWS Organizations. Create SCPs to ensure compliance."
+    },
+    {
+      "key": "E",
+      "text": "Create a guardrail from the management account to detect EBS encryption."
+    },
+    {
+      "key": "F",
+      "text": "Create a guardrail for the production OU to detect EBS encryption."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C",
+      "D",
+      "F"
+    ]
+  }
+}

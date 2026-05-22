@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/142932-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2024-06-25T20:22:00",
+  "number": 496,
+  "topic": 1,
+  "question": "A company hosts an application that uses several Amazon EC2 instances in an Auto Scaling group behind an Application Load Balancer (ALB). During the initial startup of the EC2 instances, the EC2 instances run user data scripts to download critical content for the application from an Amazon S3 bucket.\nThe EC2 instances are launching correctly. However, after a period of time, the EC2 instances are terminated with the following error message: “An instance was taken out of service in response to an ELB system health check failure.” EC2 instances continue to launch and be terminated because of Auto Scaling events in an endless loop.\nThe only recent change to the deployment is that the company added a large amount of critical content to the S3 bucket. The company does not want to alter the user data scripts in production.\nWhat should a solutions architect do so that the production environment can deploy successfully?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Increase the size of the EC2 instances."
+    },
+    {
+      "key": "B",
+      "text": "Increase the health check timeout for the ALB."
+    },
+    {
+      "key": "C",
+      "text": "hange the health check path for the ALB."
+    },
+    {
+      "key": "D",
+      "text": "Increase the health check grace period for the Auto Scaling group."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "D"
+    ]
+  }
+}

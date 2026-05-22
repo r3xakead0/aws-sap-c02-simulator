@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/95465-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-01-15T18:27:00",
+  "number": 120,
+  "topic": 1,
+  "question": "A company is building a software-as-a-service (SaaS) solution on AWS. The company has deployed an Amazon API Gateway REST API with AWS Lambda integration in multiple AWS Regions and in the same production account.\nThe company offers tiered pricing that gives customers the ability to pay for the capacity to make a certain number of API calls per second. The premium tier offers up to 3,000 calls per second, and customers are identified by a unique API key. Several premium tier customers in various Regions report that they receive error responses of 429 Too Many Requests from multiple API methods during peak usage hours. Logs indicate that the Lambda function is never invoked.\nWhat could be the cause of the error messages for these customers?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "The Lambda function reached its concurrency limit."
+    },
+    {
+      "key": "B",
+      "text": "The Lambda function its Region limit for concurrency."
+    },
+    {
+      "key": "C",
+      "text": "The company reached its API Gateway account limit for calls per second."
+    },
+    {
+      "key": "D",
+      "text": "The company reached its API Gateway default per-method limit for calls per second."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ]
+  }
+}

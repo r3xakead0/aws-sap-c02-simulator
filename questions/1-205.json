@@ -1,0 +1,40 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/110300-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-05-26T14:04:00",
+  "number": 205,
+  "topic": 1,
+  "question": "A company is designing a new website that hosts static content. The website will give users the ability to upload and download large files. According to company requirements, all data must be encrypted in transit and at rest. A solutions architect is building the solution by using Amazon S3 and Amazon CloudFront.\nWhich combination of steps will meet the encryption requirements? (Choose three.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Turn on S3 server-side encryption for the S3 bucket that the web application uses."
+    },
+    {
+      "key": "B",
+      "text": "Add a policy attribute of \"aws:SecureTransport\": \"true\" for read and write operations in the S3 ACLs."
+    },
+    {
+      "key": "C",
+      "text": "reate a bucket policy that denies any unencrypted operations in the S3 bucket that the web application uses."
+    },
+    {
+      "key": "D",
+      "text": "Configure encryption at rest on CloudFront by using server-side encryption with AWS KMS keys (SSE-KMS)."
+    },
+    {
+      "key": "E",
+      "text": "Configure redirection of HTTP requests to HTTPS requests in CloudFront."
+    },
+    {
+      "key": "F",
+      "text": "Use the RequireSSL option in the creation of presigned URLs for the S3 bucket that the web application uses."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "C",
+      "E"
+    ]
+  }
+}

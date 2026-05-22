@@ -1,0 +1,40 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/95532-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-01-16T14:18:00",
+  "number": 123,
+  "topic": 1,
+  "question": "A company is migrating some of its applications to AWS. The company wants to migrate and modernize the applications quickly after it finalizes networking and security strategies. The company has set up an AWS Direct Connect connection in a central network account.\nThe company expects to have hundreds of AWS accounts and VPCs in the near future. The corporate network must be able to access the resources on AWS seamlessly and also must be able to communicate with all the VPCs. The company also wants to route its cloud resources to the internet through its on-premises data center.\nWhich combination of steps will meet these requirements? (Choose three.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create a Direct Connect gateway in the central account. In each of the accounts, create an association proposal by using the Direct Connect gateway and the account ID for every virtual private gateway."
+    },
+    {
+      "key": "B",
+      "text": "Create a Direct Connect gateway and a transit gateway in the central network account. Attach the transit gateway to the Direct Connect gateway by using a transit VIF."
+    },
+    {
+      "key": "C",
+      "text": "Provision an internet gateway. Attach the internet gateway to subnets. Allow internet traffic through the gateway."
+    },
+    {
+      "key": "D",
+      "text": "Share the transit gateway with other accounts. Attach VPCs to the transit gateway."
+    },
+    {
+      "key": "E",
+      "text": "Provision VPC peering as necessary."
+    },
+    {
+      "key": "F",
+      "text": "Provision only private subnets. Open the necessary route on the transit gateway and customer gateway to allow outbound internet traffic from AWS to flow through NAT services that run in the data center."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B",
+      "D",
+      "F"
+    ]
+  }
+}

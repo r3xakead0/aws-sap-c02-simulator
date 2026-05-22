@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/112794-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-06-21T11:13:00",
+  "number": 297,
+  "topic": 1,
+  "question": "A company has a complex web application that leverages Amazon CloudFront for global scalability and performance. Over time, users report that the web application is slowing down.\nThe company's operations team reports that the CloudFront cache hit ratio has been dropping steadily. The cache metrics report indicates that query strings on some URLs are inconsistently ordered and are specified sometimes in mixed-case letters and sometimes in lowercase letters.\nWhich set of actions should the solutions architect take to increase the cache hit ratio as quickly as possible?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Deploy a Lambda@Edge function to sort parameters by name and force them to be lowercase. Select the CloudFront viewer request trigger to invoke the function."
+    },
+    {
+      "key": "B",
+      "text": "Update the CloudFront distribution to disable caching based on query string parameters."
+    },
+    {
+      "key": "C",
+      "text": "Deploy a reverse proxy after the load balancer to post-process the emitted URLs in the application to force the URL strings to be lowercase."
+    },
+    {
+      "key": "D",
+      "text": "Update the CloudFront distribution to specify casing-insensitive query string processing."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/136658-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2024-03-19T16:30:00",
+  "number": 475,
+  "topic": 1,
+  "question": "A company is planning a migration from an on-premises data center to the AWS Cloud. The company plans to use multiple AWS accounts that are managed in an organization in AWS Organizations. The company will create a small number of accounts initially and will add accounts as needed. A solutions architect must design a solution that turns on AWS CloudTrail in all AWS accounts.\nWhat is the MOST operationally efficient solution that meets these requirements?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create an AWS Lambda function that creates a new CloudTrail trail in all AWS accounts in the organization. Invoke the Lambda function daily by using a scheduled action in Amazon EventBridge."
+    },
+    {
+      "key": "B",
+      "text": "Create a new CloudTrail trail in the organization's management account. Configure the trail to log all events for all AWS accounts in the organization."
+    },
+    {
+      "key": "C",
+      "text": "reate a new CloudTrail trail in all AWS accounts in the organization. Create new trails whenever a new account is created. Define an SCP that prevents deletion or modification of trails. Apply the SCP to the root OU."
+    },
+    {
+      "key": "D",
+      "text": "Create an AWS Systems Manager Automation runbook that creates a CloudTrail trail in all AWS accounts in the organization. Invoke the automation by using Systems Manager State Manager."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ]
+  }
+}

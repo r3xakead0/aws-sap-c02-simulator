@@ -1,0 +1,35 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/113131-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-06-23T20:53:00",
+  "number": 230,
+  "topic": 1,
+  "question": "A company's solutions architect is analyzing costs of a multi-application environment. The environment is deployed across multiple Availability Zones in a single AWS Region. After a recent acquisition, the company manages two organizations in AWS Organizations. The company has created multiple service provider applications as AWS PrivateLink-powered VPC endpoint services in one organization. The company has created multiple service consumer applications in the other organization.\nData transfer charges are much higher than the company expected, and the solutions architect needs to reduce the costs. The solutions architect must recommend guidelines for developers to follow when they deploy services. These guidelines must minimize data transfer charges for the whole environment.\nWhich guidelines meet these requirements? (Choose two.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use AWS Resource Access Manager to share the subnets that host the service provider applications with other accounts in the organization."
+    },
+    {
+      "key": "B",
+      "text": "Place the service provider applications and the service consumer applications in AWS accounts in the same organization."
+    },
+    {
+      "key": "C",
+      "text": "Turn off cross-zone load balancing for the Network Load Balancer in all service provider application deployments."
+    },
+    {
+      "key": "D",
+      "text": "Ensure that service consumer compute resources use the Availability Zone-specific endpoint service by using the endpoint's local DNS name."
+    },
+    {
+      "key": "E",
+      "text": "Create a Savings Plan that provides adequate coverage for the organization's planned inter-Availability Zone data transfer usage."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C",
+      "D"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/126765-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-11-21T22:03:00",
+  "number": 338,
+  "topic": 1,
+  "question": "A company needs to aggregate Amazon CloudWatch logs from its AWS accounts into one central logging account. The collected logs must remain in the AWS Region of creation. The central logging account will then process the logs, normalize the logs into standard output format, and stream the output logs to a security tool for more processing.\nA solutions architect must design a solution that can handle a large volume of logging data that needs to be ingested. Less logging will occur outside normal business hours than during normal business hours. The logging solution must scale with the anticipated load. The solutions architect has decided to use an AWS Control Tower design to handle the multi-account logging process.\nWhich combination of steps should the solutions architect take to meet the requirements? (Choose three.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create a destination Amazon Kinesis data stream in the central logging account."
+    },
+    {
+      "key": "B",
+      "text": "Create a destination Amazon Simple Queue Service (Amazon SQS) queue in the central logging account."
+    },
+    {
+      "key": "C",
+      "text": "reate an IAM role that grants Amazon CloudWatch Logs the permission to add data to the Amazon Kinesis data stream. Create a trust policy. Specify the trust policy in the IAM role. In each member account, create a subscription filter for each log group to send data to the Kinesis data stream."
+    },
+    {
+      "key": "D",
+      "text": "Create an IAM role that grants Amazon CloudWatch Logs the permission to add data to the Amazon Simple Queue Service (Amazon SQS) queue. Create a trust policy. Specify the trust policy in the IAM role. In each member account, create a single subscription filter for all log groups to send data to the SQS queue."
+    },
+    {
+      "key": "E",
+      "text": "Create an AWS Lambda function. Program the Lambda function to normalize the logs in the central logging account and to write the logs to the security tool."
+    },
+    {
+      "key": "F",
+      "text": "Create an AWS Lambda function. Program the Lambda function to normalize the logs in the member accounts and to write the logs to the security tool."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "C",
+      "E"
+    ]
+  }
+}

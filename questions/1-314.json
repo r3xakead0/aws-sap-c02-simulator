@@ -1,0 +1,35 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/124998-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-10-31T08:06:00",
+  "number": 314,
+  "topic": 1,
+  "question": "A solutions architect needs to migrate an on-premises legacy application to AWS. The application runs on two servers behind a load balancer. The application requires a license file that is associated with the MAC address of the server's network adapter It takes the software vendor 12 hours to send new license files. The application also uses configuration files with a static IP address to access a database server, host names are not supported.\nGiven these requirements, which combination of steps should be taken to implement highly available architecture for the application servers in AWS? (Choose two.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create a pool of ENIs. Request license files from the vendor for the pool, and store the license files in Amazon S3. Create a bootstrap automation script to download a license file and attach the corresponding ENI to an Amazon EC2 instance."
+    },
+    {
+      "key": "B",
+      "text": "Create a pool of ENIs. Request license files from the vendor for the pool, store the license files on an Amazon EC2 instance. Create an AMI from the instance and use this AMI for all future EC2 instances."
+    },
+    {
+      "key": "C",
+      "text": "reate a bootstrap automation script to request a new license file from the vendor .When the response is received, apply the license file to an Amazon EC2 instance."
+    },
+    {
+      "key": "D",
+      "text": "Edit the bootstrap automation script to read the database server IP address from the AWS Systems Manager Parameter Store, and inject the value into the local configuration files."
+    },
+    {
+      "key": "E",
+      "text": "dit an Amazon EC2 instance to include the database server IP address in the configuration files and re-create the AMI to use for all future EC2 stances."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "D"
+    ]
+  }
+}

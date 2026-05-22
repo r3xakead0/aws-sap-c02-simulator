@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/136611-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2024-03-19T13:02:00",
+  "number": 458,
+  "topic": 1,
+  "question": "A company wants to record key performance indicators (KPIs) from its application as part of a strategy to convert to a user-based licensing schema. The application is a multi-tier application with a web-based UI. The company saves all log files to Amazon CloudWatch by using the CloudWatch agent. All logins to the application are saved in a log file.\nAs part of the new license schema, the company needs to find out how many unique users each client has on a daily basis, weekly basis, and monthly basis.\nWhich solution will provide this information with the LEAST change to the application?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Configure an Amazon CloudWatch Logs metric filter that saves each successful login as a metric. Configure the user name and client name as dimensions for the metric."
+    },
+    {
+      "key": "B",
+      "text": "Change the application logic to make each successful login generate a call to the AWS SDK to increment a custom metric that records user name and client name dimensions in CloudWatch."
+    },
+    {
+      "key": "C",
+      "text": "onfigure the CloudWatch agent to extract successful login metrics from the logs. Additionally, configure the CloudWatch agent to save the successful login metrics as a custom metric that uses the user name and client name as dimensions for the metric."
+    },
+    {
+      "key": "D",
+      "text": "Configure an AWS Lambda function to consume an Amazon CloudWatch Logs stream of the application logs. Additionally, configure the Lambda function to increment a custom metric in CloudWatch that uses the user name and client name as dimensions for the metric."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ]
+  }
+}

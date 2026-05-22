@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/95442-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-01-15T16:08:00",
+  "number": 108,
+  "topic": 1,
+  "question": "A retail company has structured its AWS accounts to be part of an organization in AWS Organizations. The company has set up consolidated billing and has mapped its departments to the following OUs: Finance, Sales, Human Resources (HR), Marketing, and Operations. Each OU has multiple AWS accounts, one for each environment within a department. These environments are development, test, pre-production, and production.\nThe HR department is releasing a new system that will launch in 3 months. In preparation, the HR department has purchased several Reserved Instances (RIs) in its production AWS account. The HR department will install the new application on this account. The HR department wants to make sure that other departments cannot share the RI discounts.\nWhich solution will meet these requirements?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "In the AWS Billing and Cost Management console for the HR department's production account turn off RI sharing."
+    },
+    {
+      "key": "B",
+      "text": "Remove the HR department's production AWS account from the organization. Add the account 10 the consolidating billing configuration only."
+    },
+    {
+      "key": "C",
+      "text": "In the AWS Billing and Cost Management console. use the organization’s management account 10 turn off RI Sharing for the HR departments production AWS account."
+    },
+    {
+      "key": "D",
+      "text": "Create an SCP in the organization to restrict access to the RIs. Apply the SCP to the OUs of the other departments."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ]
+  }
+}

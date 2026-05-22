@@ -1,0 +1,34 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/90940-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2022-12-10T18:21:00",
+  "number": 6,
+  "topic": 1,
+  "question": "A retail company needs to provide a series of data files to another company, which is its business partner. These files are saved in an Amazon S3 bucket under Account A, which belongs to the retail company. The business partner company wants one of its IAM users, User_DataProcessor, to access the files from its own AWS account (Account B).\nWhich combination of steps must the companies take so that User_DataProcessor can access the S3 bucket successfully? (Choose two.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Turn on the cross-origin resource sharing (CORS) feature for the S3 bucket in Account A."
+    },
+    {
+      "key": "B",
+      "text": "[Imagen]: 6_assets/img_001.png"
+    },
+    {
+      "key": "C",
+      "text": "[Imagen]: 6_assets/img_002.png"
+    },
+    {
+      "key": "D",
+      "text": "[Imagen]: 6_assets/img_001.png"
+    },
+    {
+      "key": "E",
+      "text": "[Imagen]: 6_assets/img_003.png"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ]
+  }
+}

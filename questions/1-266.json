@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/112801-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-06-21T11:22:00",
+  "number": 266,
+  "topic": 1,
+  "question": "A company’s interactive web application uses an Amazon CloudFront distribution to serve images from an Amazon S3 bucket. Occasionally, third-party tools ingest corrupted images into the S3 bucket. This image corruption causes a poor user experience in the application later. The company has successfully implemented and tested Python logic to detect corrupt images.\nA solutions architect must recommend a solution to integrate the detection logic with minimal latency between the ingestion and serving.\nWhich solution will meet these requirements?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use a Lambda@Edge function that is invoked by a viewer-response event."
+    },
+    {
+      "key": "B",
+      "text": "Use a Lambda@Edge function that is invoked by an origin-response event."
+    },
+    {
+      "key": "C",
+      "text": "Use an S3 event notification that invokes an AWS Lambda function."
+    },
+    {
+      "key": "D",
+      "text": "Use an S3 event notification that invokes an AWS Step Functions state machine."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/110403-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-05-28T02:27:00",
+  "number": 186,
+  "topic": 1,
+  "question": "A solutions architect is creating an application that stores objects in an Amazon S3 bucket. The solutions architect must deploy the application in two AWS Regions that will be used simultaneously. The objects in the two S3 buckets must remain synchronized with each other.\nWhich combination of steps will meet these requirements with the LEAST operational overhead? (Choose three.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create an S3 Multi-Region Access Point Change the application to refer to the Multi-Region Access Point"
+    },
+    {
+      "key": "B",
+      "text": "Configure two-way S3 Cross-Region Replication (CRR) between the two S3 buckets"
+    },
+    {
+      "key": "C",
+      "text": "Modify the application to store objects in each S3 bucket"
+    },
+    {
+      "key": "D",
+      "text": "Create an S3 Lifecycle rule for each S3 bucket to copy objects from one S3 bucket to the other S3 bucket"
+    },
+    {
+      "key": "E",
+      "text": "nable S3 Versioning for each S3 bucket"
+    },
+    {
+      "key": "F",
+      "text": "Configure an event notification for each S3 bucket to invoke an AWS Lambda function to copy objects from one S3 bucket to the other S3 bucket"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "B",
+      "E"
+    ]
+  }
+}

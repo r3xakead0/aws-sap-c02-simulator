@@ -1,0 +1,35 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/95454-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-01-15T16:38:00",
+  "number": 114,
+  "topic": 1,
+  "question": "A company has an on-premises monitoring solution using a PostgreSQL database for persistence of events. The database is unable to scale due to heavy ingestion and it frequently runs out of storage.\nThe company wants to create a hybrid solution and has already set up a VPN connection between its network and AWS. The solution should include the following attributes:\n•\tManaged AWS services to minimize operational complexity.\n•\tA buffer that automatically scales to match the throughput of data and requires no ongoing administration.\n•\tA visualization tool to create dashboards to observe events in near-real time.\n•\tSupport for semi-structured JSON data and dynamic schemas.\nWhich combination of components will enable the company to create a monitoring solution that will satisfy these requirements? (Choose two.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use Amazon Kinesis Data Firehose to buffer events. Create an AWS Lambda function to process and transform events."
+    },
+    {
+      "key": "B",
+      "text": "Create an Amazon Kinesis data stream to buffer events. Create an AWS Lambda function to process and transform events."
+    },
+    {
+      "key": "C",
+      "text": "onfigure an Amazon Aurora PostgreSQL DB cluster to receive events. Use Amazon QuickSight to read from the database and create near-real-time visualizations and dashboards."
+    },
+    {
+      "key": "D",
+      "text": "Configure Amazon Elasticsearch Service (Amazon ES) to receive events. Use the Kibana endpoint deployed with Amazon ES to create near-real-time visualizations and dashboards."
+    },
+    {
+      "key": "E",
+      "text": "Configure an Amazon Neptune DB instance to receive events. Use Amazon QuickSight to read from the database and create near-real-time visualizations and dashboards."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "D"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/90837-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2022-12-09T19:52:00",
+  "number": 1,
+  "topic": 1,
+  "question": "A company needs to architect a hybrid DNS solution. This solution will use an Amazon Route 53 private hosted zone for the domain cloud.example.com for the resources stored within VPCs.\nThe company has the following DNS resolution requirements:\nOn-premises systems should be able to resolve and connect to cloud.example.com.\nAll VPCs should be able to resolve cloud.example.com.\nThere is already an AWS Direct Connect connection between the on-premises corporate network and AWS Transit Gateway.\nWhich architecture should the company use to meet these requirements with the HIGHEST performance?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "ssociate the private hosted zone to all the VPCs. Create a Route 53 inbound resolver in the shared services VPC. Attach all VPCs to the transit gateway and create forwarding rules in the on-premises DNS server for cloud.example.com that point to the inbound resolver."
+    },
+    {
+      "key": "B",
+      "text": "Associate the private hosted zone to all the VPCs. Deploy an Amazon EC2 conditional forwarder in the shared services VPC. Attach all VPCs to the transit gateway and create forwarding rules in the on-premises DNS server for cloud.example.com that point to the conditional forwarder."
+    },
+    {
+      "key": "C",
+      "text": "Associate the private hosted zone to the shared services VPCreate a Route 53 outbound resolver in the shared services VPAttach all VPCs to the transit gateway and create forwarding rules in the on-premises DNS server for cloud.example.com that point to the outbound resolver."
+    },
+    {
+      "key": "D",
+      "text": "Associate the private hosted zone to the shared services VPC. Create a Route 53 inbound resolver in the shared services VPC. Attach the shared services VPC to the transit gateway and create forwarding rules in the on-premises DNS server for cloud.example.com that point to the inbound resolver."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ]
+  }
+}

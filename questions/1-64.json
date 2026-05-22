@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/95276-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-01-14T15:19:00",
+  "number": 64,
+  "topic": 1,
+  "question": "A company has an organization in AWS Organizations. The company is using AWS Control Tower to deploy a landing zone for the organization. The company wants to implement governance and policy enforcement. The company must implement a policy that will detect Amazon RDS DB instances that are not encrypted at rest in the company’s production OU.\nWhich solution will meet this requirement?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Turn on mandatory guardrails in AWS Control Tower. Apply the mandatory guardrails to the production OU."
+    },
+    {
+      "key": "B",
+      "text": "Enable the appropriate guardrail from the list of strongly recommended guardrails in AWS Control Tower. Apply the guardrail to the production OU."
+    },
+    {
+      "key": "C",
+      "text": "Use AWS Config to create a new mandatory guardrail. Apply the rule to all accounts in the production OU."
+    },
+    {
+      "key": "D",
+      "text": "Create a custom SCP in AWS Control Tower. Apply the SCP to the production OU."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ]
+  }
+}

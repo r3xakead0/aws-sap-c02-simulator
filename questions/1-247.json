@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/113010-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-06-22T22:07:00",
+  "number": 247,
+  "topic": 1,
+  "question": "A large company runs workloads in VPCs that are deployed across hundreds of AWS accounts. Each VPC consists of public subnets and private subnets that span across multiple Availability Zones. NAT gateways are deployed in the public subnets and allow outbound connectivity to the internet from the private subnets.\nA solutions architect is working on a hub-and-spoke design. All private subnets in the spoke VPCs must route traffic to the internet through an egress VPC. The solutions architect already has deployed a NAT gateway in an egress VPC in a central AWS account.\nWhich set of additional steps should the solutions architect take to meet these requirements?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create peering connections between the egress VPC and the spoke VPCs. Configure the required routing to allow access to the internet."
+    },
+    {
+      "key": "B",
+      "text": "Create a transit gateway, and share it with the existing AWS accounts. Attach existing VPCs to the transit gateway. Configure the required routing to allow access to the internet."
+    },
+    {
+      "key": "C",
+      "text": "reate a transit gateway in every account. Attach the NAT gateway to the transit gateways. Configure the required routing to allow access to the internet."
+    },
+    {
+      "key": "D",
+      "text": "Create an AWS PrivateLink connection between the egress VPC and the spoke VPCs. Configure the required routing to allow access to the internet."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ]
+  }
+}

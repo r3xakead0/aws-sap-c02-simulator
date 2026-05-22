@@ -1,0 +1,40 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/126853-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-11-22T08:17:00",
+  "number": 397,
+  "topic": 1,
+  "question": "A company needs to store and process image data that will be uploaded from mobile devices using a custom mobile app. Usage peaks between 8 AM and 5 PM on weekdays, with thousands of uploads per minute. The app is rarely used at any other time. A user is notified when image processing is complete.\nWhich combination of actions should a solutions architect take to ensure image processing can scale to handle the load? (Choose three.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Upload files from the mobile software directly to Amazon S3. Use S3 event notifications to create a message in an Amazon MQ queue."
+    },
+    {
+      "key": "B",
+      "text": "Upload files from the mobile software directly to Amazon S3. Use S3 event notifications to create a message in an Amazon Simple Queue Service (Amazon SQS) standard queue."
+    },
+    {
+      "key": "C",
+      "text": "Invoke an AWS Lambda function to perform image processing when a message is available in the queue."
+    },
+    {
+      "key": "D",
+      "text": "Invoke an S3 Batch Operations job to perform image processing when a message is available in the queue."
+    },
+    {
+      "key": "E",
+      "text": "Send a push notification to the mobile app by using Amazon Simple Notification Service (Amazon SNS) when processing is complete."
+    },
+    {
+      "key": "F",
+      "text": "Send a push notification to the mobile app by using Amazon Simple Email Service (Amazon SES) when processing is complete."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B",
+      "C",
+      "E"
+    ]
+  }
+}

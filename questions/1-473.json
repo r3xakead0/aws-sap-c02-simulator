@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/136655-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2024-03-19T16:19:00",
+  "number": 473,
+  "topic": 1,
+  "question": "An ecommerce company runs an application on AWS. The application has an Amazon API Gateway API that invokes an AWS Lambda function. The data is stored in an Amazon RDS for PostgreSQL DB instance.\nDuring the company’s most recent flash sale, a sudden increase in API calls negatively affected the application's performance. A solutions architect reviewed the Amazon CloudWatch metrics during that time and noticed a significant increase in Lambda invocations and database connections. The CPU utilization also was high on the DB instance.\nWhat should the solutions architect recommend to optimize the application's performance?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Increase the memory of the Lambda function. Modify the Lambda function to close the database connections when the data is retrieved."
+    },
+    {
+      "key": "B",
+      "text": "Add an Amazon ElastiCache for Redis cluster to store the frequently accessed data from the RDS database."
+    },
+    {
+      "key": "C",
+      "text": "reate an RDS proxy by using the Lambda console. Modify the Lambda function to use the proxy endpoint."
+    },
+    {
+      "key": "D",
+      "text": "Modify the Lambda function to connect to the database outside of the function's handler. Check for an existing database connection before creating a new connection."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ]
+  }
+}

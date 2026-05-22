@@ -1,0 +1,40 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/95573-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-01-16T16:43:00",
+  "number": 153,
+  "topic": 1,
+  "question": "A company has deployed an application on AWS Elastic Beanstalk. The application uses Amazon Aurora for the database layer. An Amazon CloudFront distribution serves web requests and includes the Elastic Beanstalk domain name as the origin server. The distribution is configured with an alternate domain name that visitors use when they access the application.\nEach week, the company takes the application out of service for routine maintenance. During the time that the application is unavailable, the company wants visitors to receive an informational message instead of a CloudFront error message.\nA solutions architect creates an Amazon S3 bucket as the first step in the process.\nWhich combination of steps should the solutions architect take next to meet the requirements? (Choose three.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Upload static informational content to the S3 bucket."
+    },
+    {
+      "key": "B",
+      "text": "Create a new CloudFront distribution. Set the S3 bucket as the origin."
+    },
+    {
+      "key": "C",
+      "text": "Set the S3 bucket as a second origin in the original CloudFront distribution. Configure the distribution and the S3 bucket to use an origin access identity (OAI)."
+    },
+    {
+      "key": "D",
+      "text": "uring the weekly maintenance, edit the default cache behavior to use the S3 origin. Revert the change when the maintenance is complete."
+    },
+    {
+      "key": "E",
+      "text": "During the weekly maintenance, create a cache behavior for the S3 origin on the new distribution. Set the path pattern to \\ Set the precedence to 0. Delete the cache behavior when the maintenance is complete."
+    },
+    {
+      "key": "F",
+      "text": "During the weekly maintenance, configure Elastic Beanstalk to serve traffic from the S3 bucket."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "C",
+      "D"
+    ]
+  }
+}

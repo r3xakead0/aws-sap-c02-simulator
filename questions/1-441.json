@@ -1,0 +1,35 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/132869-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2024-02-05T17:07:00",
+  "number": 441,
+  "topic": 1,
+  "question": "A company has multiple lines of business (LOBs) that roll up to the parent company. The company has asked its solutions architect to develop a solution with the following requirements:\n•\tProduce a single AWS invoice for all of the AWS accounts used by its LOBs.\n•\tThe costs for each LOB account should be broken out on the invoice.\n•\tProvide the ability to restrict services and features in the LOB accounts, as defined by the company's governance policy.\n•\tEach LOB account should be delegated full administrator permissions, regardless of the governance policy.\nWhich combination of steps should the solutions architect take to meet these requirements? (Choose two.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use AWS Organizations to create an organization in the parent account for each LOB. Then invite each LOB account to the appropriate organization."
+    },
+    {
+      "key": "B",
+      "text": "Use AWS Organizations to create a single organization in the parent account. Then, invite each LOB's AWS account to join the organization."
+    },
+    {
+      "key": "C",
+      "text": "Implement service quotas to define the services and features that are permitted and apply the quotas to each LOB. as appropriate."
+    },
+    {
+      "key": "D",
+      "text": "Create an SCP that allows only approved services and features, then apply the policy to the LOB accounts."
+    },
+    {
+      "key": "E",
+      "text": "nable consolidated billing in the parent account's billing console and link the LOB accounts."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B",
+      "D"
+    ]
+  }
+}

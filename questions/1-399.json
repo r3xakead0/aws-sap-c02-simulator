@@ -1,0 +1,35 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/126855-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-11-22T08:18:00",
+  "number": 399,
+  "topic": 1,
+  "question": "A company wants to migrate its website from an on-premises data center onto AWS. At the same time, it wants to migrate the website to a containerized microservice-based architecture to improve the availability and cost efficiency. The company’s security policy states that privileges and network permissions must be configured according to best practice, using least privilege.\nA solutions architect must create a containerized architecture that meets the security requirements and has deployed the application to an Amazon ECS cluster.\nWhat steps are required after the deployment to meet the requirements? (Choose two.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create tasks using the bridge network mode."
+    },
+    {
+      "key": "B",
+      "text": "Create tasks using the awsvpc network mode."
+    },
+    {
+      "key": "C",
+      "text": "Apply security groups to Amazon EC2 instances, and use IAM roles for EC2 instances to access other resources."
+    },
+    {
+      "key": "D",
+      "text": "Apply security groups to the tasks, and pass IAM credentials into the container at launch time to access other resources."
+    },
+    {
+      "key": "E",
+      "text": "Apply security groups to the tasks, and use IAM roles for tasks to access other resources."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B",
+      "E"
+    ]
+  }
+}

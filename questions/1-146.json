@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/95565-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-01-16T16:08:00",
+  "number": 146,
+  "topic": 1,
+  "question": "A company is running an application in the AWS Cloud. The application runs on containers m an Amazon Elastic Container Service (Amazon ECS) cluster. The ECS tasks use the Fargate launch type. The application's data is relational and is stored in Amazon Aurora MySQL. To meet regulatory requirements, the application must be able to recover to a separate AWS Region in the event of an application failure. In case of a failure, no data can be lost.\nWhich solution will meet these requirements with the LEAST amount of operational overhead?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Provision an Aurora Replica in a different Region."
+    },
+    {
+      "key": "B",
+      "text": "Set up AWS DataSync for continuous replication of the data to a different Region."
+    },
+    {
+      "key": "C",
+      "text": "Set up AWS Database Migration Service (AWS DMS) to perform a continuous replication of the data to a different Region."
+    },
+    {
+      "key": "D",
+      "text": "Use Amazon Data Lifecycle Manager (Amazon DLM) to schedule a snapshot every 5 minutes."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ]
+  }
+}

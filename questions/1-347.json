@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/126815-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-11-22T07:23:00",
+  "number": 347,
+  "topic": 1,
+  "question": "A solutions architect has launched multiple Amazon EC2 instances in a placement group within a single Availability Zone. Because of additional load on the system, the solutions architect attempts to add new instances to the placement group. However, the solutions architect receives an insufficient capacity error.\nWhat should the solutions architect do to troubleshoot this issue?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use a spread placement group. Set a minimum of eight instances for each Availability Zone."
+    },
+    {
+      "key": "B",
+      "text": "Stop and start all the instances in the placement group. Try the launch again."
+    },
+    {
+      "key": "C",
+      "text": "reate a new placement group. Merge the new placement group with the original placement group."
+    },
+    {
+      "key": "D",
+      "text": "Launch the additional instances as Dedicated Hosts in the placement groups."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/126844-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-11-22T08:00:00",
+  "number": 382,
+  "topic": 1,
+  "question": "A company that provisions job boards for a seasonal workforce is seeing an increase in traffic and usage. The backend services run on a pair of Amazon EC2 instances behind an Application Load Balancer with Amazon DynamoDB as the datastore. Application read and write traffic is slow during peak seasons.\nWhich option provides a scalable application architecture to handle peak seasons with the LEAST development effort?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Migrate the backend services to AWS Lambda. Increase the read and write capacity of DynamoDB."
+    },
+    {
+      "key": "B",
+      "text": "Migrate the backend services to AWS Lambda. Configure DynamoDB to use global tables."
+    },
+    {
+      "key": "C",
+      "text": "Use Auto Scaling groups for the backend services. Use DynamoDB auto scaling."
+    },
+    {
+      "key": "D",
+      "text": "Use Auto Scaling groups for the backend services. Use Amazon Simple Queue Service (Amazon SQS) and an AWS Lambda function to write to DynamoDB."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ]
+  }
+}

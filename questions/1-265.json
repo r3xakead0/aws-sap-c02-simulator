@@ -1,0 +1,40 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/112800-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-06-21T11:21:00",
+  "number": 265,
+  "topic": 1,
+  "question": "A company uses AWS Organizations to manage more than 1,000 AWS accounts. The company has created a new developer organization. There are 540 developer member accounts that must be moved to the new developer organization. All accounts are set up with all the required information so that each account can be operated as a standalone account.\nWhich combination of steps should a solutions architect take to move all of the developer accounts to the new developer organization? (Choose three.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Call the MoveAccount operation in the Organizations API from the old organization's management account to migrate the developer accounts to the new developer organization."
+    },
+    {
+      "key": "B",
+      "text": "From the management account, remove each developer account from the old organization using the RemoveAccountFromOrganization operation in the Organizations API."
+    },
+    {
+      "key": "C",
+      "text": "From each developer account, remove the account from the old organization using the RemoveAccountFromOrganization operation in the Organizations API."
+    },
+    {
+      "key": "D",
+      "text": "Sign in to the new developer organization's management account and create a placeholder member account that acts as a target for the developer account migration."
+    },
+    {
+      "key": "E",
+      "text": "Call the InviteAccountToOrganization operation in the Organizations API from the new developer organization's management account to send invitations to the developer accounts."
+    },
+    {
+      "key": "F",
+      "text": "Have each developer sign in to their account and confirm to join the new developer organization."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B",
+      "E",
+      "F"
+    ]
+  }
+}

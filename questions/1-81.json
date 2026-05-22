@@ -1,0 +1,35 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/95309-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-01-14T19:00:00",
+  "number": 81,
+  "topic": 1,
+  "question": "A company is building an electronic document management system in which users upload their documents. The application stack is entirely serverless and runs on AWS in the eu-central-1 Region. The system includes a web application that uses an Amazon CloudFront distribution for delivery with Amazon S3 as the origin. The web application communicates with Amazon API Gateway Regional endpoints. The API Gateway APIs call AWS Lambda functions that store metadata in an Amazon Aurora Serverless database and put the documents into an S3 bucket.\nThe company is growing steadily and has completed a proof of concept with its largest customer. The company must improve latency outside of Europe.\nWhich combination of actions will meet these requirements? (Choose two.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Enable S3 Transfer Acceleration on the S3 bucket. Ensure that the web application uses the Transfer Acceleration signed URLs."
+    },
+    {
+      "key": "B",
+      "text": "Create an accelerator in AWS Global Accelerator. Attach the accelerator to the CloudFront distribution."
+    },
+    {
+      "key": "C",
+      "text": "hange the API Gateway Regional endpoints to edge-optimized endpoints."
+    },
+    {
+      "key": "D",
+      "text": "Provision the entire stack in two other locations that are spread across the world. Use global databases on the Aurora Serverless cluster."
+    },
+    {
+      "key": "E",
+      "text": "Add an Amazon RDS proxy between the Lambda functions and the Aurora Serverless database."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "C"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/95383-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-01-15T09:36:00",
+  "number": 89,
+  "topic": 1,
+  "question": "A company is using AWS CloudFormation to deploy its infrastructure. The company is concerned that, if a production CloudFormation stack is deleted, important data stored in Amazon RDS databases or Amazon EBS volumes might also be deleted.\nHow can the company prevent users from accidentally deleting data in this way?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Modify the CloudFormation templates to add a DeletionPolicy attribute to RDS and EBS resources."
+    },
+    {
+      "key": "B",
+      "text": "Configure a stack policy that disallows the deletion of RDS and EBS resources."
+    },
+    {
+      "key": "C",
+      "text": "Modify IAM policies lo deny deleting RDS and EBS resources that are tagged with an \"aws:cloudformation:stack-name\" tag."
+    },
+    {
+      "key": "D",
+      "text": "Use AWS Config rules to prevent deleting RDS and EBS resources."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ]
+  }
+}

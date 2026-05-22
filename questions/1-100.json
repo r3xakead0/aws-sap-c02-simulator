@@ -1,0 +1,30 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/95399-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2023-01-15T10:31:00",
+  "number": 100,
+  "topic": 1,
+  "question": "A company is running an application in the AWS Cloud. Recent application metrics show inconsistent response times and a significant increase in error rates. Calls to third-party services are causing the delays. Currently, the application calls third-party services synchronously by directly invoking an AWS Lambda function.\nA solutions architect needs to decouple the third-party service calls and ensure that all the calls are eventually completed.\nWhich solution will meet these requirements?\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use an Amazon Simple Queue Service (Amazon SQS) queue to store events and invoke the Lambda function."
+    },
+    {
+      "key": "B",
+      "text": "Use an AWS Step Functions state machine to pass events to the Lambda function."
+    },
+    {
+      "key": "C",
+      "text": "Use an Amazon EventBridge rule to pass events to the Lambda function."
+    },
+    {
+      "key": "D",
+      "text": "Use an Amazon Simple Notification Service (Amazon SNS) topic to store events and Invoke the Lambda function."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ]
+  }
+}

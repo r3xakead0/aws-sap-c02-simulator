@@ -1,0 +1,40 @@
+{
+  "url": "https://www.examtopics.com/discussions/amazon/view/138593-exam-aws-certified-solutions-architect-professional-sap-c02/",
+  "published_iso": "2024-04-13T12:35:00",
+  "number": 477,
+  "topic": 1,
+  "question": "A company is running a three-tier web application in an on-premises data center. The frontend is served by an Apache web server, the middle tier is a monolithic Java application, and the storage tier is a PostgreSQL database.\nDuring a recent marketing promotion, customers could not place orders through the application because the application crashed. An analysis showed that all three tiers were overloaded. The application became unresponsive, and the database reached its capacity limit because of read operations. The company already has several similar promotions scheduled in the near future.\nA solutions architect must develop a plan for migration to AWS to resolve these issues. The solution must maximize scalability and must minimize operational effort\nWhich combination of steps will meet these requirements? (Choose three.)\n\n",
+  "options": [
+    {
+      "key": "A",
+      "text": "Refactor the frontend so that static assets can be hosted on Amazon S3. Use Amazon CloudFront to serve the frontend to customers. Connect the frontend to the Java application."
+    },
+    {
+      "key": "B",
+      "text": "Rehost the Apache web server of the frontend on Amazon EC2 instances that are in an Auto Scaling group. Use a load balancer in front of the Auto Scaling group. Use Amazon Elastic File System (Amazon EFS) to host the static assets that the Apache web server needs."
+    },
+    {
+      "key": "C",
+      "text": "Rehost the Java application in an AWS Elastic Beanstalk environment that includes auto scaling."
+    },
+    {
+      "key": "D",
+      "text": "Refactor the Java application, Develop a Docker container to run the Java application. Use AWS Fargate to host the container."
+    },
+    {
+      "key": "E",
+      "text": "Use AWS Database Migration Service (AWS DMS) to replatform the PostgreSQL database to an Amazon Aurora PostgreSQL database. Use Aurora Auto Scaling for read replicas."
+    },
+    {
+      "key": "F",
+      "text": "Rehost the PostgreSQL database on an Amazon EC2 instance that has twice as much memory as the on-premises server."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "C",
+      "E"
+    ]
+  }
+}
