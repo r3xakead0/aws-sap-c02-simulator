@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate two Amazon DynamoDB global tables. Use one global table to host the product data. Use the other global table to host the user session data. Use DynamoDB Accelerator (DAX) for caching."
+      "text": "Create two Amazon DynamoDB global tables. Use one global table to host the product data. Use the other global table to host the user session data. Use DynamoDB Accelerator (DAX) for caching."
     },
     {
       "key": "D",

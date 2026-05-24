@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate a custom parameter group. Increase the value of the max_connections parameter. Associate the custom parameter group with the RDS DB instance and schedule a reboot. Increase the reserved concurrency for the Lambda functions."
+      "text": "Create a custom parameter group. Increase the value of the max_connections parameter. Associate the custom parameter group with the RDS DB instance and schedule a reboot. Increase the reserved concurrency for the Lambda functions."
     },
     {
       "key": "D",

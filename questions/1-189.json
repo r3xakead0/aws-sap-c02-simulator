@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "onfigure auto scaling for Amazon ECS tasks Create a DynamoDB Accelerator (DAX) cluster."
+      "text": "Configure auto scaling for Amazon ECS tasks Create a DynamoDB Accelerator (DAX) cluster."
     },
     {
       "key": "D",

@@ -7,7 +7,7 @@
   "options": [
     {
       "key": "A",
-      "text": "ssociate a block of customer-owned public IP addresses to the VPC. Enable public IP addressing for public subnets in the VPC."
+      "text": "Associate a block of customer-owned public IP addresses to the VPC. Enable public IP addressing for public subnets in the VPC."
     },
     {
       "key": "B",
@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate Elastic IP addresses from the block of customer-owned IP addresses. Assign the static Elastic IP addresses to the ALB."
+      "text": "Create Elastic IP addresses from the block of customer-owned IP addresses. Assign the static Elastic IP addresses to the ALB."
     },
     {
       "key": "D",

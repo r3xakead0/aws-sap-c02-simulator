@@ -19,7 +19,7 @@
     },
     {
       "key": "D",
-      "text": "eploy an Amazon FSx for OpenZFS file system in both the production Region and the DR Region. Create an AWS DataSync scheduled task to replicate the data from the production file system to the DR file system every 10 minutes."
+      "text": "Deploy an Amazon FSx for OpenZFS file system in both the production Region and the DR Region. Create an AWS DataSync scheduled task to replicate the data from the production file system to the DR file system every 10 minutes."
     }
   ],
   "answers": {

@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "onfigure Amazon Route 53 and an Amazon S3 bucket for website hosting. Upload the game files to the S3 bucket. Use Amazon CloudFront for the website. Publish the game download URL for users to download the package."
+      "text": "Configure Amazon Route 53 and an Amazon S3 bucket for website hosting. Upload the game files to the S3 bucket. Use Amazon CloudFront for the website. Publish the game download URL for users to download the package."
     },
     {
       "key": "D",

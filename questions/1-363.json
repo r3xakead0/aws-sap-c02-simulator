@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "onfigure CodePipeline with a deploy stage using AWS CloudFormation to create a pipeline for test and production stacks. Monitor the newly deployed code, and, if there are any issues, push another code update."
+      "text": "Configure CodePipeline with a deploy stage using AWS CloudFormation to create a pipeline for test and production stacks. Monitor the newly deployed code, and, if there are any issues, push another code update."
     },
     {
       "key": "D",

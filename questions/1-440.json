@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate a Network Load Balancer (NLB) that points to the compute resource for license validation. Create an AWS PrivateLink endpoint service that is available to each customer's VPAssociate the endpoint service with the NLB."
+      "text": "Create a Network Load Balancer (NLB) that points to the compute resource for license validation. Create an AWS PrivateLink endpoint service that is available to each customer's VPAssociate the endpoint service with the NLB."
     },
     {
       "key": "D",

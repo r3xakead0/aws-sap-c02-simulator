@@ -19,7 +19,7 @@
     },
     {
       "key": "D",
-      "text": "eploy an Amazon S3 File Gateway. Configure the S3 File Gateway to use Amazon S3 Standard-Infrequent Access (S3 Standard-IA) for the metadata files and image files."
+      "text": "Deploy an Amazon S3 File Gateway. Configure the S3 File Gateway to use Amazon S3 Standard-Infrequent Access (S3 Standard-IA) for the metadata files and image files."
     }
   ],
   "answers": {

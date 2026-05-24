@@ -19,7 +19,7 @@
     },
     {
       "key": "D",
-      "text": "eploy the Lambda function and an API Gateway endpoint to the us-west-2 Region. Configure Amazon Route 53 to use a failover routing policy to route traffic for the two API Gateway endpoints."
+      "text": "Deploy the Lambda function and an API Gateway endpoint to the us-west-2 Region. Configure Amazon Route 53 to use a failover routing policy to route traffic for the two API Gateway endpoints."
     }
   ],
   "answers": {

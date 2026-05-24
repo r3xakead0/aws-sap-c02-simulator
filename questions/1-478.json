@@ -7,7 +7,7 @@
   "options": [
     {
       "key": "A",
-      "text": "ctivate AWS Security Hub. Configure Security Hub to scan the EKS nodes and the ECR repository."
+      "text": "Activate AWS Security Hub. Configure Security Hub to scan the EKS nodes and the ECR repository."
     },
     {
       "key": "B",

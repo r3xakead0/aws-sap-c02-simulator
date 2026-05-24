@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate an Elastic Load Balancer in front of the Auto Scaling group. Configure monitoring to ensure that target group health checks return healthy after the Auto Scaling group replaces the terminated instances."
+      "text": "Create an Elastic Load Balancer in front of the Auto Scaling group. Configure monitoring to ensure that target group health checks return healthy after the Auto Scaling group replaces the terminated instances."
     },
     {
       "key": "D",

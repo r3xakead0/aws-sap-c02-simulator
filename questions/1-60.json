@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate a version for every new deployed Lambda function. Use the AWS CLI update-function-configuration command with the routing-config parameter to distribute the load."
+      "text": "Create a version for every new deployed Lambda function. Use the AWS CLI update-function-configuration command with the routing-config parameter to distribute the load."
     },
     {
       "key": "D",

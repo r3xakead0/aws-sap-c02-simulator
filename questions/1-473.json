@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate an RDS proxy by using the Lambda console. Modify the Lambda function to use the proxy endpoint."
+      "text": "Create an RDS proxy by using the Lambda console. Modify the Lambda function to use the proxy endpoint."
     },
     {
       "key": "D",

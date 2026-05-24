@@ -7,7 +7,7 @@
   "options": [
     {
       "key": "A",
-      "text": "ssess the existing applications by installing AWS Application Discovery Agent on the physical machines and VMs."
+      "text": "Assess the existing applications by installing AWS Application Discovery Agent on the physical machines and VMs."
     },
     {
       "key": "B",

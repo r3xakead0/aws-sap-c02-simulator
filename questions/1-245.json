@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate an OU that includes all the development teams. Create an SCP that allows the creation of resources only in Regions that are in the United States. Apply the SCP to the OU."
+      "text": "Create an OU that includes all the development teams. Create an SCP that allows the creation of resources only in Regions that are in the United States. Apply the SCP to the OU."
     },
     {
       "key": "D",

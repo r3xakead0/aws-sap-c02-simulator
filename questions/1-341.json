@@ -7,7 +7,7 @@
   "options": [
     {
       "key": "A",
-      "text": "dd additional read replicas to the database. Purchase Instance Savings Plans and RDS Reserved Instances."
+      "text": "Add additional read replicas to the database. Purchase Instance Savings Plans and RDS Reserved Instances."
     },
     {
       "key": "B",

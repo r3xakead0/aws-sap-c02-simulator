@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "onfigure AWS Shield to block any requests that do not originate from the specified country. Associate AWS Shield with the ALB."
+      "text": "Configure AWS Shield to block any requests that do not originate from the specified country. Associate AWS Shield with the ALB."
     },
     {
       "key": "D",

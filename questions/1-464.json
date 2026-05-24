@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate an SCP that applies to all the AWS accounts to deny IAM actions for all users except for those with administrator roles. Apply the SCP to the root OU."
+      "text": "Create an SCP that applies to all the AWS accounts to deny IAM actions for all users except for those with administrator roles. Apply the SCP to the root OU."
     },
     {
       "key": "D",

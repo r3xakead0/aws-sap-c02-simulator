@@ -7,7 +7,7 @@
   "options": [
     {
       "key": "A",
-      "text": "dd another Region to the Aurora MySQL DB cluster"
+      "text": "Add another Region to the Aurora MySQL DB cluster"
     },
     {
       "key": "B",

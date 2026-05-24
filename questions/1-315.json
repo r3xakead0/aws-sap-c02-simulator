@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "onfigure a cross-Region read replica for the RDS database in the new Region Change the Route 53 record to latency-based routing to connect to the API Gateway API."
+      "text": "Configure a cross-Region read replica for the RDS database in the new Region Change the Route 53 record to latency-based routing to connect to the API Gateway API."
     },
     {
       "key": "D",

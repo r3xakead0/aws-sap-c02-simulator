@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate an AWS Lambda function that uses the JSON document in combination with the event message to look up and respond with a redirect URL."
+      "text": "Create an AWS Lambda function that uses the JSON document in combination with the event message to look up and respond with a redirect URL."
     },
     {
       "key": "D",

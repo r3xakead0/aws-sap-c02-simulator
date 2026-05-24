@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate a Network Load Balancer (NLB) and a VPC link. Configure private integration between API Gateway and the NLB. Use the API endpoint’s DNS names to access the API."
+      "text": "Create a Network Load Balancer (NLB) and a VPC link. Configure private integration between API Gateway and the NLB. Use the API endpoint’s DNS names to access the API."
     },
     {
       "key": "D",

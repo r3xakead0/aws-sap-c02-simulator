@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate a new CloudTrail trail in all AWS accounts in the organization. Create new trails whenever a new account is created. Define an SCP that prevents deletion or modification of trails. Apply the SCP to the root OU."
+      "text": "Create a new CloudTrail trail in all AWS accounts in the organization. Create new trails whenever a new account is created. Define an SCP that prevents deletion or modification of trails. Apply the SCP to the root OU."
     },
     {
       "key": "D",

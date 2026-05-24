@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "onfigure the application to use the SES API to send email messages. Create an IAM role that has ses:SendEmail and ses:SendRawEmail permissions. Use the IAM role as a service role for Amazon SES."
+      "text": "Configure the application to use the SES API to send email messages. Create an IAM role that has ses:SendEmail and ses:SendRawEmail permissions. Use the IAM role as a service role for Amazon SES."
     },
     {
       "key": "D",

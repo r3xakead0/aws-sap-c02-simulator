@@ -7,7 +7,7 @@
   "options": [
     {
       "key": "A",
-      "text": "dd s3:CreateBucket with “Allow” effect to the SCP."
+      "text": "Add s3:CreateBucket with “Allow” effect to the SCP."
     },
     {
       "key": "B",

@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate and purchase a t3.small EC2 Reserved Instance for each developer in us-east-2. Assign each developer a specific EC2 instance with their name as the tag."
+      "text": "Create and purchase a t3.small EC2 Reserved Instance for each developer in us-east-2. Assign each developer a specific EC2 instance with their name as the tag."
     },
     {
       "key": "D",

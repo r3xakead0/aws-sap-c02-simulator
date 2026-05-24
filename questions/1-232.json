@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate an AWS Site-to-Site VPN connection between the on-premises data center and a new central VPUse a transit gateway with dynamic routing. Connect the transit gateway to all other VPCs."
+      "text": "Create an AWS Site-to-Site VPN connection between the on-premises data center and a new central VPUse a transit gateway with dynamic routing. Connect the transit gateway to all other VPCs."
     },
     {
       "key": "D",

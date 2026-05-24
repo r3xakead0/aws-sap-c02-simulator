@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "onfigure the Auto Scaling group to deploy r6g.4xlarge (memory optimized) instances. Configure a minimum capacity of 3, a desired capacity of 3, and a maximum capacity of 12."
+      "text": "Configure the Auto Scaling group to deploy r6g.4xlarge (memory optimized) instances. Configure a minimum capacity of 3, a desired capacity of 3, and a maximum capacity of 12."
     },
     {
       "key": "D",

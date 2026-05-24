@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "onfigure the Aurora MySQL DB cluster to stream slow query and error logs to Amazon Kinesis."
+      "text": "Configure the Aurora MySQL DB cluster to stream slow query and error logs to Amazon Kinesis."
     },
     {
       "key": "D",

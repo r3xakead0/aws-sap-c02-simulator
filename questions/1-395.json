@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate an Aurora Serverless v1 DB cluster that has multiple writer instances in the target Region. Launch the solution in the target Region. Configure the two Regional solutions to work in an active-passive configuration."
+      "text": "Create an Aurora Serverless v1 DB cluster that has multiple writer instances in the target Region. Launch the solution in the target Region. Configure the two Regional solutions to work in an active-passive configuration."
     },
     {
       "key": "D",

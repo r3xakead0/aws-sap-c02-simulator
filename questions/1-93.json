@@ -15,11 +15,11 @@
     },
     {
       "key": "C",
-      "text": "reate a VPN connection between the on-premises network attached storage and the nearest AWS Region. Transfer the data over the VPN connection."
+      "text": "Create a VPN connection between the on-premises network attached storage and the nearest AWS Region. Transfer the data over the VPN connection."
     },
     {
       "key": "D",
-      "text": "eploy an AWS Storage Gateway file gateway on premises. Configure the file gateway with a destination S3 bucket. Copy the data to the file gateway."
+      "text": "Deploy an AWS Storage Gateway file gateway on premises. Configure the file gateway with a destination S3 bucket. Copy the data to the file gateway."
     }
   ],
   "answers": {

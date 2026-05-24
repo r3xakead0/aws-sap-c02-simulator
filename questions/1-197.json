@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "onfigure Amazon S3 to send object deletion events to Amazon Simple Email Service (Amazon SES)."
+      "text": "Configure Amazon S3 to send object deletion events to Amazon Simple Email Service (Amazon SES)."
     },
     {
       "key": "D",

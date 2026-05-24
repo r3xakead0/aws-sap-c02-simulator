@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate the OrganizationAccountAccessRole IAM role in each member account. Grant permission to the management account to assume the IAM role."
+      "text": "Create the OrganizationAccountAccessRole IAM role in each member account. Grant permission to the management account to assume the IAM role."
     },
     {
       "key": "D",

@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "onfigure Amazon Macie to scan for credentials in CodeCommit repositories. If credentials are found, trigger an AWS Lambda function to disable the credentials and notify the user."
+      "text": "Configure Amazon Macie to scan for credentials in CodeCommit repositories. If credentials are found, trigger an AWS Lambda function to disable the credentials and notify the user."
     },
     {
       "key": "D",

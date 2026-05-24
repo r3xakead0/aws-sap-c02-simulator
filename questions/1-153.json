@@ -19,7 +19,7 @@
     },
     {
       "key": "D",
-      "text": "uring the weekly maintenance, edit the default cache behavior to use the S3 origin. Revert the change when the maintenance is complete."
+      "text": "During the weekly maintenance, edit the default cache behavior to use the S3 origin. Revert the change when the maintenance is complete."
     },
     {
       "key": "E",

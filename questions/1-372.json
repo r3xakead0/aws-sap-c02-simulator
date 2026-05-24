@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate new record sets for the backend services by using a latency routing policy. Use the record sets as an origin in the CloudFront distribution."
+      "text": "Create new record sets for the backend services by using a latency routing policy. Use the record sets as an origin in the CloudFront distribution."
     },
     {
       "key": "D",

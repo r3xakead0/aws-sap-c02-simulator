@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate a stack set in the Organizations management account. Use service-managed permissions. Set deployment options to deploy to the organization. Enable CloudFormation StackSets automatic deployment."
+      "text": "Create a stack set in the Organizations management account. Use service-managed permissions. Set deployment options to deploy to the organization. Enable CloudFormation StackSets automatic deployment."
     },
     {
       "key": "D",

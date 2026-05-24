@@ -7,7 +7,7 @@
   "options": [
     {
       "key": "A",
-      "text": "dd a dynamic private IP AWS Site-to-Site VPN as a secondary path to secure data in transit and provide resilience for the Direct Connect connection. Configure MACsec to encrypt traffic inside the Direct Connect connection."
+      "text": "Add a dynamic private IP AWS Site-to-Site VPN as a secondary path to secure data in transit and provide resilience for the Direct Connect connection. Configure MACsec to encrypt traffic inside the Direct Connect connection."
     },
     {
       "key": "B",
@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "onfigure multiple private VIFs. Load balance data across the VIFs between the on-premises data center and AWS to provide resilience."
+      "text": "Configure multiple private VIFs. Load balance data across the VIFs between the on-premises data center and AWS to provide resilience."
     },
     {
       "key": "D",

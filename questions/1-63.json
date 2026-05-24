@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate an AWS Step Functions state machine with a Parallel state to invoke the Lambda function. Increase the provisioned concurrency of the Lambda function."
+      "text": "Create an AWS Step Functions state machine with a Parallel state to invoke the Lambda function. Increase the provisioned concurrency of the Lambda function."
     },
     {
       "key": "D",

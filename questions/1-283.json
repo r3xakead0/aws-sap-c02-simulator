@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate an Amazon S3 interface endpoint in the networking account."
+      "text": "Create an Amazon S3 interface endpoint in the networking account."
     },
     {
       "key": "D",
@@ -23,7 +23,7 @@
     },
     {
       "key": "E",
-      "text": "stablish a networking account in the AWS Cloud. Create a private VPC in the networking account. Peer VPCs from the accounts that host the S3 buckets with the VPC in the network account."
+      "text": "Establish a networking account in the AWS Cloud. Create a private VPC in the networking account. Peer VPCs from the accounts that host the S3 buckets with the VPC in the network account."
     }
   ],
   "answers": {

@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate an AWS Network Firewall firewall for rule-based filtering in each AWS account. Modify all default routes to point to the Network Firewall firewalls in each account."
+      "text": "Create an AWS Network Firewall firewall for rule-based filtering in each AWS account. Modify all default routes to point to the Network Firewall firewalls in each account."
     },
     {
       "key": "D",

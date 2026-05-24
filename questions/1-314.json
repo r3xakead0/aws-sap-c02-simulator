@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate a bootstrap automation script to request a new license file from the vendor .When the response is received, apply the license file to an Amazon EC2 instance."
+      "text": "Create a bootstrap automation script to request a new license file from the vendor .When the response is received, apply the license file to an Amazon EC2 instance."
     },
     {
       "key": "D",
@@ -23,7 +23,7 @@
     },
     {
       "key": "E",
-      "text": "dit an Amazon EC2 instance to include the database server IP address in the configuration files and re-create the AMI to use for all future EC2 stances."
+      "text": "Edit an Amazon EC2 instance to include the database server IP address in the configuration files and re-create the AMI to use for all future EC2 stances."
     }
   ],
   "answers": {

@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate an Auto Scaling group of c5.large Amazon EC2 On-Demand Instances behind an Application Load Balancer. Use an Amazon ElastiCache for Redis cluster to maintain the leaderboard."
+      "text": "Create an Auto Scaling group of c5.large Amazon EC2 On-Demand Instances behind an Application Load Balancer. Use an Amazon ElastiCache for Redis cluster to maintain the leaderboard."
     },
     {
       "key": "D",

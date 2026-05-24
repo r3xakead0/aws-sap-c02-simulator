@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate a bucket policy that denies any unencrypted operations in the S3 bucket that the web application uses."
+      "text": "Create a bucket policy that denies any unencrypted operations in the S3 bucket that the web application uses."
     },
     {
       "key": "D",

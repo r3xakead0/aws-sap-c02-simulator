@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate a new Gateway Load Balancer in the shared services VPCreate a new target group, and attach it to the new Gateway Load Balancer Add each of the firewall appliance instances to the target group."
+      "text": "Create a new Gateway Load Balancer in the shared services VPCreate a new target group, and attach it to the new Gateway Load Balancer Add each of the firewall appliance instances to the target group."
     },
     {
       "key": "D",

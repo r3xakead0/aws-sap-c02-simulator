@@ -7,7 +7,7 @@
   "options": [
     {
       "key": "A",
-      "text": "ttach a role to the instance with permission to write to Amazon S3. Use the AWS Systems Manager Session Manager option to gain access to the instance and run commands to copy data into Amazon S3."
+      "text": "Attach a role to the instance with permission to write to Amazon S3. Use the AWS Systems Manager Session Manager option to gain access to the instance and run commands to copy data into Amazon S3."
     },
     {
       "key": "B",

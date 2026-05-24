@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "onfigure the CloudWatch agent to extract successful login metrics from the logs. Additionally, configure the CloudWatch agent to save the successful login metrics as a custom metric that uses the user name and client name as dimensions for the metric."
+      "text": "Configure the CloudWatch agent to extract successful login metrics from the logs. Additionally, configure the CloudWatch agent to save the successful login metrics as a custom metric that uses the user name and client name as dimensions for the metric."
     },
     {
       "key": "D",

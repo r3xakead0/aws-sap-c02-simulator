@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate a snapshot of each unencrypted volume. Create a new encrypted volume from the unencrypted snapshot. Detach the existing volume, and replace it with the encrypted volume."
+      "text": "Create a snapshot of each unencrypted volume. Create a new encrypted volume from the unencrypted snapshot. Detach the existing volume, and replace it with the encrypted volume."
     },
     {
       "key": "D",

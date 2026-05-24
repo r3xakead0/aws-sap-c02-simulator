@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "onfigure a new SQS FIFO queue as a dead-letter queue to isolate the faulty messages."
+      "text": "Configure a new SQS FIFO queue as a dead-letter queue to isolate the faulty messages."
     },
     {
       "key": "D",

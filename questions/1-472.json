@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate an AWS Lambda function to copy the latest automated backup to the secondary Region every 2 hours."
+      "text": "Create an AWS Lambda function to copy the latest automated backup to the secondary Region every 2 hours."
     },
     {
       "key": "D",

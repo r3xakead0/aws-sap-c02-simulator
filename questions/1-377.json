@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "onfigure AWS Organizations to use consolidated billing. Implement a tagging strategy that identifies departments. Use Tag Editor to apply tags to appropriate resources. Purchase Compute Savings Plans."
+      "text": "Configure AWS Organizations to use consolidated billing. Implement a tagging strategy that identifies departments. Use Tag Editor to apply tags to appropriate resources. Purchase Compute Savings Plans."
     },
     {
       "key": "D",

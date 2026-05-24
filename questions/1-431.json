@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate a VPC peering connection from each business unit VPC to the shared VPAccept the VPC peering connections from the shared VPC console. Configure VPC routing tables to send traffic to the VPC peering connection."
+      "text": "Create a VPC peering connection from each business unit VPC to the shared VPAccept the VPC peering connections from the shared VPC console. Configure VPC routing tables to send traffic to the VPC peering connection."
     },
     {
       "key": "D",

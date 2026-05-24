@@ -7,7 +7,7 @@
   "options": [
     {
       "key": "A",
-      "text": "ctivate the user-define cost allocation tags that represent the application and the team."
+      "text": "Activate the user-define cost allocation tags that represent the application and the team."
     },
     {
       "key": "B",
@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate a cost category for each application in Billing and Cost Management."
+      "text": "Create a cost category for each application in Billing and Cost Management."
     },
     {
       "key": "D",

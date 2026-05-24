@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "onfigure an Amazon CloudFront distribution. Point the distribution to an S3 bucket, and migrate the videos from EFS to Amazon S3."
+      "text": "Configure an Amazon CloudFront distribution. Point the distribution to an S3 bucket, and migrate the videos from EFS to Amazon S3."
     },
     {
       "key": "D",

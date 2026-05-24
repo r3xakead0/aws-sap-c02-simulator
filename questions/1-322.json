@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate DNS endpoints by using Amazon Route 53 Resolver. Add conditional forwarding rules to resolve DNS namespaces between the on-premises data center and the VPC."
+      "text": "Create DNS endpoints by using Amazon Route 53 Resolver. Add conditional forwarding rules to resolve DNS namespaces between the on-premises data center and the VPC."
     },
     {
       "key": "D",

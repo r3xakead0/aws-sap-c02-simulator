@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate a full mesh VPC peering connection configuration between all the VPCs. Create the necessary route entries in each VPC so that the traffic is routed through the VPC peering connection."
+      "text": "Create a full mesh VPC peering connection configuration between all the VPCs. Create the necessary route entries in each VPC so that the traffic is routed through the VPC peering connection."
     },
     {
       "key": "D",

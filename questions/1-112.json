@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate a new IAM policy. Specify the instance types that are allowed. Attach the policy to an IAM group that contains the IAM accounts for the developers"
+      "text": "Create a new IAM policy. Specify the instance types that are allowed. Attach the policy to an IAM group that contains the IAM accounts for the developers"
     },
     {
       "key": "D",

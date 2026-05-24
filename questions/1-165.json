@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "onfigure Amazon FSx for Lustre with an import and export policy. Link the new file system to an S3 bucket. Install the Lustre client and mount the document store to an Amazon EC2 instance by using NFS."
+      "text": "Configure Amazon FSx for Lustre with an import and export policy. Link the new file system to an S3 bucket. Install the Lustre client and mount the document store to an Amazon EC2 instance by using NFS."
     },
     {
       "key": "D",

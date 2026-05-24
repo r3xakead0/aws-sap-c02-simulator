@@ -7,7 +7,7 @@
   "options": [
     {
       "key": "A",
-      "text": "ctivate Amazon Inspector. Start automated CVE scans."
+      "text": "Activate Amazon Inspector. Start automated CVE scans."
     },
     {
       "key": "B",

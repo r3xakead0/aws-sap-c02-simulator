@@ -7,7 +7,7 @@
   "options": [
     {
       "key": "A",
-      "text": "dapt the deployment scripts to detect and report CloudFormation error conditions when performing deployments. Write test plans for a testing team to run in a non-production environment before approving the change for production."
+      "text": "Adapt the deployment scripts to detect and report CloudFormation error conditions when performing deployments. Write test plans for a testing team to run in a non-production environment before approving the change for production."
     },
     {
       "key": "B",

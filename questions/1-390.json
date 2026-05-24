@@ -19,7 +19,7 @@
     },
     {
       "key": "D",
-      "text": "eploy an Amazon RDS instance with a read replica in the same Region. In the event of a failure, promote the read replica to become the primary."
+      "text": "Deploy an Amazon RDS instance with a read replica in the same Region. In the event of a failure, promote the read replica to become the primary."
     }
   ],
   "answers": {

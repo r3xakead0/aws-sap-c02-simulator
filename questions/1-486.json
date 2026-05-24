@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate a connection alias in the primary Region. Associate the connection alias with a directory in the primary Region. Create a Route 53 weighted routing policy."
+      "text": "Create a connection alias in the primary Region. Associate the connection alias with a directory in the primary Region. Create a Route 53 weighted routing policy."
     },
     {
       "key": "D",

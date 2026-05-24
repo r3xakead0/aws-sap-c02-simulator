@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate a three-node DynamoDB Accelerator (DAX) cluster. Configure an application to read data directly from the DynamoDB table and to write data by using DAX."
+      "text": "Create a three-node DynamoDB Accelerator (DAX) cluster. Configure an application to read data directly from the DynamoDB table and to write data by using DAX."
     },
     {
       "key": "D",

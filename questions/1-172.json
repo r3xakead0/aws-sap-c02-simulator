@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate an AWS PrivateLink endpoint service to share the marketing application. Grant permission to specific AWS accounts to connect to the service. Create interface VPC endpoints in other accounts to access the application by using private IP addresses."
+      "text": "Create an AWS PrivateLink endpoint service to share the marketing application. Grant permission to specific AWS accounts to connect to the service. Create interface VPC endpoints in other accounts to access the application by using private IP addresses."
     },
     {
       "key": "D",

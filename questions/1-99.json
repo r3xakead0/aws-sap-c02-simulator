@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate a Client VPN endpoint in the main AWS account. Provision a transit gateway that is connected to each AWS account. Configure required routing that allows access to internal applications."
+      "text": "Create a Client VPN endpoint in the main AWS account. Provision a transit gateway that is connected to each AWS account. Configure required routing that allows access to internal applications."
     },
     {
       "key": "D",

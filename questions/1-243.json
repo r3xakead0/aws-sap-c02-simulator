@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate a gateway endpoint for Amazon S3 in each application's VPConfigure the endpoint policy to allow access to an S3 access point. Specify the route table that is used to access the access point."
+      "text": "Create a gateway endpoint for Amazon S3 in each application's VPConfigure the endpoint policy to allow access to an S3 access point. Specify the route table that is used to access the access point."
     },
     {
       "key": "D",

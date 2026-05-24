@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate a dedicated transit gateway route table for each VPC attachment. Route traffic only to the authorized VPCs."
+      "text": "Create a dedicated transit gateway route table for each VPC attachment. Route traffic only to the authorized VPCs."
     },
     {
       "key": "D",

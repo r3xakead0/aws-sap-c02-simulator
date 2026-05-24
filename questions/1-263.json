@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "ontinue to launch all nodes on On-Demand Instances. Terminate the cluster, including all instances, when the processing is completed. Purchase Compute Savings Plans to cover the On-Demand Instance usage."
+      "text": "Continue to launch all nodes on On-Demand Instances. Terminate the cluster, including all instances, when the processing is completed. Purchase Compute Savings Plans to cover the On-Demand Instance usage."
     },
     {
       "key": "D",

@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "onvert the organization’s root SCPs from deny list SCPs to allow list SCPs to allow the required services only. Temporarily apply an SCP to the organization’s root that allows AWS Config actions for principals only in the new account."
+      "text": "Convert the organization’s root SCPs from deny list SCPs to allow list SCPs to allow the required services only. Temporarily apply an SCP to the organization’s root that allows AWS Config actions for principals only in the new account."
     },
     {
       "key": "D",

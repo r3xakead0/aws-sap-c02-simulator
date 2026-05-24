@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate an AWS Global Accelerator standard accelerator. Specify the ALB as the accelerator's endpoint. Provide the accelerator's IP addresses to the customer."
+      "text": "Create an AWS Global Accelerator standard accelerator. Specify the ALB as the accelerator's endpoint. Provide the accelerator's IP addresses to the customer."
     },
     {
       "key": "D",

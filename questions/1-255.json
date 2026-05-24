@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "heck the security group for the logging service running on the EC2 instances to ensure it allows ingress from the NLB subnets."
+      "text": "Check the security group for the logging service running on the EC2 instances to ensure it allows ingress from the NLB subnets."
     },
     {
       "key": "D",

@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate a new IAM role. Use the existing backup plan. Update the KMS key policy to allow the new IAM role to use the key. Enable continuous backups for point-in-time recovery."
+      "text": "Create a new IAM role. Use the existing backup plan. Update the KMS key policy to allow the new IAM role to use the key. Enable continuous backups for point-in-time recovery."
     },
     {
       "key": "D",

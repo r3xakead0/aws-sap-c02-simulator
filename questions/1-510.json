@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "onfigure AWS CloudTrail to log S3 data events and deliver the logs to an S3 bucket. Use Amazon Athena to run queries on the CloudTrail logs in Amazon S3 and generate reports."
+      "text": "Configure AWS CloudTrail to log S3 data events and deliver the logs to an S3 bucket. Use Amazon Athena to run queries on the CloudTrail logs in Amazon S3 and generate reports."
     },
     {
       "key": "D",

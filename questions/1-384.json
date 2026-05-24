@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate an Amazon CloudFront distribution. Create a custom origin for the NLB in each additional Region. Provide customers with the IP address ranges of the distribution’s edge locations."
+      "text": "Create an Amazon CloudFront distribution. Create a custom origin for the NLB in each additional Region. Provide customers with the IP address ranges of the distribution’s edge locations."
     },
     {
       "key": "D",

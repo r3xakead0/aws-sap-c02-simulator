@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "onfigure an Amazon Aurora PostgreSQL DB cluster to receive events. Use Amazon QuickSight to read from the database and create near-real-time visualizations and dashboards."
+      "text": "Configure an Amazon Aurora PostgreSQL DB cluster to receive events. Use Amazon QuickSight to read from the database and create near-real-time visualizations and dashboards."
     },
     {
       "key": "D",

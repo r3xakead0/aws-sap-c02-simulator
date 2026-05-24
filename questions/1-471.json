@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate an Auto Scaling group and a launch template that uses the new script as user data to configure the firewall appliances. Create a target group that uses the instance target type."
+      "text": "Create an Auto Scaling group and a launch template that uses the new script as user data to configure the firewall appliances. Create a target group that uses the instance target type."
     },
     {
       "key": "D",

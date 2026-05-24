@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate an AWS Directory Service Simple AD implementation. Launch an EC2 instance. Connect to and use the EC2 instance for domain security configuration tasks."
+      "text": "Create an AWS Directory Service Simple AD implementation. Launch an EC2 instance. Connect to and use the EC2 instance for domain security configuration tasks."
     },
     {
       "key": "D",

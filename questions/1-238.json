@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate an AWS Lambda function to replicate backups to another Region and send notification if a failure occurs."
+      "text": "Create an AWS Lambda function to replicate backups to another Region and send notification if a failure occurs."
     },
     {
       "key": "D",

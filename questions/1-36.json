@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "onfigure replication on the S3 bucket in us-east-1 to replicate objects to the S3 bucket in the second Region. Set up an Amazon CloudFront distribution with an origin group that contains the two S3 buckets as origins."
+      "text": "Configure replication on the S3 bucket in us-east-1 to replicate objects to the S3 bucket in the second Region. Set up an Amazon CloudFront distribution with an origin group that contains the two S3 buckets as origins."
     },
     {
       "key": "D",

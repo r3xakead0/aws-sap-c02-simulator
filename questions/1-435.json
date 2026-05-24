@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate a new CloudFormation template that strictly provisions the existing VPC resources and configuration. From the CloudFormation console, create a new stack by importing the Existing resources."
+      "text": "Create a new CloudFormation template that strictly provisions the existing VPC resources and configuration. From the CloudFormation console, create a new stack by importing the Existing resources."
     },
     {
       "key": "D",

@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate an S3 Lifecycle configuration o expire incomplete multipart uploads 7 days after initiation."
+      "text": "Create an S3 Lifecycle configuration o expire incomplete multipart uploads 7 days after initiation."
     },
     {
       "key": "D",

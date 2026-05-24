@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "onfigure global tables and automated backups on Amazon RDS. In the case of disruption, use AWS Lambda to copy the read replicas from one Region to another Region."
+      "text": "Configure global tables and automated backups on Amazon RDS. In the case of disruption, use AWS Lambda to copy the read replicas from one Region to another Region."
     },
     {
       "key": "D",

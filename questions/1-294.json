@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate a tag policy that contains the allowed project tag values in the AWS management account. Create an IAM policy that denies the cloudformation:CreateStack API operation unless a project tag is added. Assign the policy to each user."
+      "text": "Create a tag policy that contains the allowed project tag values in the AWS management account. Create an IAM policy that denies the cloudformation:CreateStack API operation unless a project tag is added. Assign the policy to each user."
     },
     {
       "key": "D",

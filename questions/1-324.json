@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate new Amazon DynamoDB tables for the application with on-demand capacity. Use an interface VPC endpoint for DynamoDB to connect to the DynamoDB tables."
+      "text": "Create new Amazon DynamoDB tables for the application with on-demand capacity. Use an interface VPC endpoint for DynamoDB to connect to the DynamoDB tables."
     },
     {
       "key": "D",

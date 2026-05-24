@@ -19,7 +19,7 @@
     },
     {
       "key": "D",
-      "text": "eploy instances with Amazon EBS volumes attached to store this data. Use EBS volume encryption using an AWS KMS key to encrypt the data."
+      "text": "Deploy instances with Amazon EBS volumes attached to store this data. Use EBS volume encryption using an AWS KMS key to encrypt the data."
     }
   ],
   "answers": {

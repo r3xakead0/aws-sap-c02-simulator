@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "onfigure DynamoDB Accelerator (DAX) in front of the table. Reduce the provisioned read capacity to match the new peak load on the table."
+      "text": "Configure DynamoDB Accelerator (DAX) in front of the table. Reduce the provisioned read capacity to match the new peak load on the table."
     },
     {
       "key": "D",

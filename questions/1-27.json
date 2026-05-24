@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate an Amazon API Gateway HTTP API. Configure this API with integrations to AWS Lambda functions that return data from the DynamoDB tables."
+      "text": "Create an Amazon API Gateway HTTP API. Configure this API with integrations to AWS Lambda functions that return data from the DynamoDB tables."
     },
     {
       "key": "D",

@@ -7,7 +7,7 @@
   "options": [
     {
       "key": "A",
-      "text": "dd an inbound rule to the EC2 instances' security group. Specify the DB cluster's security group as the source over the default Aurora port."
+      "text": "Add an inbound rule to the EC2 instances' security group. Specify the DB cluster's security group as the source over the default Aurora port."
     },
     {
       "key": "B",

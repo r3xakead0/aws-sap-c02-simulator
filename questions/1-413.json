@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "onfigure instance scaling for the DB cluster to occur when the DatabaseConnections metric is close to the max connections setting. Update the Lambda function to connect to the Aurora reader endpoint."
+      "text": "Configure instance scaling for the DB cluster to occur when the DatabaseConnections metric is close to the max connections setting. Update the Lambda function to connect to the Aurora reader endpoint."
     },
     {
       "key": "D",

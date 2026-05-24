@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate an AWS Global Accelerator accelerator with multiple endpoint groups that target endpoints in appropriate AWS Regions. Use the accelerator’s static IP address to create a record in public DNS for the apex domain."
+      "text": "Create an AWS Global Accelerator accelerator with multiple endpoint groups that target endpoints in appropriate AWS Regions. Use the accelerator’s static IP address to create a record in public DNS for the apex domain."
     },
     {
       "key": "D",

@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate a data migration pipeline by using AWS Data Pipeline. Define data nodes for the on-premises MongoDB database and the Amazon DocumentDB database. Create a scheduled task to run the data pipeline."
+      "text": "Create a data migration pipeline by using AWS Data Pipeline. Define data nodes for the on-premises MongoDB database and the Amazon DocumentDB database. Create a scheduled task to run the data pipeline."
     },
     {
       "key": "D",

@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "hange the VPCs DHCP options set. Set the DNS server options to point to the addresses of the proxy EC2 instances."
+      "text": "Change the VPCs DHCP options set. Set the DNS server options to point to the addresses of the proxy EC2 instances."
     },
     {
       "key": "D",

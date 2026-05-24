@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate a com.amazonaws.region.elasticloadbalancing VPC interface endpoint for Elastic Load Balancing. Update the ALB scheme from internet-facing to internal."
+      "text": "Create a com.amazonaws.region.elasticloadbalancing VPC interface endpoint for Elastic Load Balancing. Update the ALB scheme from internet-facing to internal."
     },
     {
       "key": "D",

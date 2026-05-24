@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "opy the most recent snapshot from the RDS for MySQL DB instance to eu-west-1. Create a new RDS for MySQL DB instance in eu-west-1 from the snapshot. Configure MySQL logical replication from us-east-1 to eu-west-1. Enable write forwarding on the DB cluster. Deploy the application in eu-wes&1. Configure the application to use the RDS for MySQL endpoint in eu-west-1."
+      "text": "Copy the most recent snapshot from the RDS for MySQL DB instance to eu-west-1. Create a new RDS for MySQL DB instance in eu-west-1 from the snapshot. Configure MySQL logical replication from us-east-1 to eu-west-1. Enable write forwarding on the DB cluster. Deploy the application in eu-wes&1. Configure the application to use the RDS for MySQL endpoint in eu-west-1."
     },
     {
       "key": "D",

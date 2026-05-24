@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "onfigure the Kubernetes Cluster Autoscaler to ensure that the compute capacity of the workload node groups stays underprovisioned."
+      "text": "Configure the Kubernetes Cluster Autoscaler to ensure that the compute capacity of the workload node groups stays underprovisioned."
     },
     {
       "key": "D",

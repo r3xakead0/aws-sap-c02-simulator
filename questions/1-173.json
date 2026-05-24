@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate an Amazon EventBridge rule for the event type “Bucket-Level API Call via CloudTrail” with a filter for “PutBucketPolicy.” Select the SNS topic as the EventBridge rule target."
+      "text": "Create an Amazon EventBridge rule for the event type “Bucket-Level API Call via CloudTrail” with a filter for “PutBucketPolicy.” Select the SNS topic as the EventBridge rule target."
     },
     {
       "key": "D",

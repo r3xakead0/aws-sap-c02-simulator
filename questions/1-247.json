@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate a transit gateway in every account. Attach the NAT gateway to the transit gateways. Configure the required routing to allow access to the internet."
+      "text": "Create a transit gateway in every account. Attach the NAT gateway to the transit gateways. Configure the required routing to allow access to the internet."
     },
     {
       "key": "D",

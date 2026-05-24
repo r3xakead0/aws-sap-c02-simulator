@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate an AWS Cost and Usage Report (CUR) in each AWS Organizations member account. Allow each team to visualize the CUR through an Amazon QuickSight dashboard."
+      "text": "Create an AWS Cost and Usage Report (CUR) in each AWS Organizations member account. Allow each team to visualize the CUR through an Amazon QuickSight dashboard."
     },
     {
       "key": "D",

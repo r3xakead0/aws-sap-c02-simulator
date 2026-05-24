@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate a new AWS Control Tower landing zone in the company’s management account. Add production and development accounts to production and development OUs. respectively."
+      "text": "Create a new AWS Control Tower landing zone in the company’s management account. Add production and development accounts to production and development OUs. respectively."
     },
     {
       "key": "D",

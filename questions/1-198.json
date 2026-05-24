@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate a private VIF. Establish an AWS Site-to-Site VPN connection over the private VIF to the VPCs in the other two Regions."
+      "text": "Create a private VIF. Establish an AWS Site-to-Site VPN connection over the private VIF to the VPCs in the other two Regions."
     },
     {
       "key": "D",

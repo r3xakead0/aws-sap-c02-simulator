@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate a NAT instance in the VPConfigure VPC routes to allow access to the internet. Configure SageMaker notebook instance firewall rules that allow access to only the PyPI repository endpoint."
+      "text": "Create a NAT instance in the VPConfigure VPC routes to allow access to the internet. Configure SageMaker notebook instance firewall rules that allow access to only the PyPI repository endpoint."
     },
     {
       "key": "D",

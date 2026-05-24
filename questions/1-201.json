@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate an Aurora Replica. Store the connection credentials as a secret in AWS Secrets Manager"
+      "text": "Create an Aurora Replica. Store the connection credentials as a secret in AWS Secrets Manager"
     },
     {
       "key": "D",

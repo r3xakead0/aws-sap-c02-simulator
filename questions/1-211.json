@@ -19,7 +19,7 @@
     },
     {
       "key": "D",
-      "text": "eploy the AWS Application Migration Service Agent to each VM. When the data is collected, use Amazon Redshift to import and analyze the data. Use Amazon QuickSight for data visualization."
+      "text": "Deploy the AWS Application Migration Service Agent to each VM. When the data is collected, use Amazon Redshift to import and analyze the data. Use Amazon QuickSight for data visualization."
     }
   ],
   "answers": {

@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate a Lambda function alias for each customer. Include a concurrency limit with an appropriate request quota. Create a Lambda function URL for each function alias. Share the Lambda function URL for each alias with the relevant customer."
+      "text": "Create a Lambda function alias for each customer. Include a concurrency limit with an appropriate request quota. Create a Lambda function URL for each function alias. Share the Lambda function URL for each alias with the relevant customer."
     },
     {
       "key": "D",

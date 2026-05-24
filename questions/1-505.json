@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "onfigure an Amazon Elastic Kubernetes Service (Amazon EKS) cluster with Amazon EC2 instances to prepare the reports. Create an ingress controller on the EKS cluster to serve the reports."
+      "text": "Configure an Amazon Elastic Kubernetes Service (Amazon EKS) cluster with Amazon EC2 instances to prepare the reports. Create an ingress controller on the EKS cluster to serve the reports."
     },
     {
       "key": "D",

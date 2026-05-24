@@ -19,7 +19,7 @@
     },
     {
       "key": "D",
-      "text": "eploy DynamoDB Accelerator (DAX). Use provisioned capacity mode. Configure DynamoDB auto scaling."
+      "text": "Deploy DynamoDB Accelerator (DAX). Use provisioned capacity mode. Configure DynamoDB auto scaling."
     }
   ],
   "answers": {

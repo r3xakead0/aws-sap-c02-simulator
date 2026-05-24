@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate a new VPC with the same IPv4 address space and define three subnets, with one for each AZ. Update the existing Auto Scaling group to target the new subnets in the new VPC."
+      "text": "Create a new VPC with the same IPv4 address space and define three subnets, with one for each AZ. Update the existing Auto Scaling group to target the new subnets in the new VPC."
     },
     {
       "key": "D",

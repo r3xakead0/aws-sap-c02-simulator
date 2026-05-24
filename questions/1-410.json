@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate an SCP that prevents the launch of instances that have a public IP address. Additionally, configure the SCP to prevent the attachment of a public IP address to existing instances. Attach the SCP to the OU."
+      "text": "Create an SCP that prevents the launch of instances that have a public IP address. Additionally, configure the SCP to prevent the attachment of a public IP address to existing instances. Attach the SCP to the OU."
     },
     {
       "key": "D",

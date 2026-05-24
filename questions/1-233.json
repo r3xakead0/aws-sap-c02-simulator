@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate an IAM user in the management account. In the member accounts, create an IAM group that has least privilege access. Add the IAM user from the management account to each IAM group in the member accounts."
+      "text": "Create an IAM user in the management account. In the member accounts, create an IAM group that has least privilege access. Add the IAM user from the management account to each IAM group in the member accounts."
     },
     {
       "key": "D",

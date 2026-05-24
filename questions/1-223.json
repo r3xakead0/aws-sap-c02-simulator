@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "onfigure the ECS services to use the blue/green deployment type and an Application Load Balancer. Implement an Auto Scaling group for each ECS service by using the Cluster Autoscaler."
+      "text": "Configure the ECS services to use the blue/green deployment type and an Application Load Balancer. Implement an Auto Scaling group for each ECS service by using the Cluster Autoscaler."
     },
     {
       "key": "D",

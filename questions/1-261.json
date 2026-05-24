@@ -19,7 +19,7 @@
     },
     {
       "key": "D",
-      "text": "eploy an AWS Managed Microsoft AD directory in the management account. Share the directory with all other accounts in the organization by using AWS Resource Access Manager (AWS RAM)."
+      "text": "Deploy an AWS Managed Microsoft AD directory in the management account. Share the directory with all other accounts in the organization by using AWS Resource Access Manager (AWS RAM)."
     },
     {
       "key": "E",

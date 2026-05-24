@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate an Amazon MemoryDB for Redis cluster in Muit-AZ mode Configure the application to interact with the primary node."
+      "text": "Create an Amazon MemoryDB for Redis cluster in Muit-AZ mode Configure the application to interact with the primary node."
     },
     {
       "key": "D",

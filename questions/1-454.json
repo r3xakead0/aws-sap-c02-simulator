@@ -7,7 +7,7 @@
   "options": [
     {
       "key": "A",
-      "text": "ttach a policy to the S3 bucket to prompt the IAM user for an MFA code when the IAM user performs actions on the S3 bucket. Use IAM access keys with the AWS CLI to call Amazon S3."
+      "text": "Attach a policy to the S3 bucket to prompt the IAM user for an MFA code when the IAM user performs actions on the S3 bucket. Use IAM access keys with the AWS CLI to call Amazon S3."
     },
     {
       "key": "B",

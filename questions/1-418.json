@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate an AWS WAF web ACL that filters out unauthenticated requests at the ALB level. Allow only authenticated traffic to reach the backend services."
+      "text": "Create an AWS WAF web ACL that filters out unauthenticated requests at the ALB level. Allow only authenticated traffic to reach the backend services."
     },
     {
       "key": "D",

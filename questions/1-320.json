@@ -15,7 +15,7 @@
     },
     {
       "key": "C",
-      "text": "reate an AWS Config rule to detect the creation of a new EBS volume. Encrypt the volume by using AWS Systems Manager Automation."
+      "text": "Create an AWS Config rule to detect the creation of a new EBS volume. Encrypt the volume by using AWS Systems Manager Automation."
     },
     {
       "key": "D",
